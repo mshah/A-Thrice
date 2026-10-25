@@ -1,0 +1,6 @@
+# Exclude repository metadata and development-only files from Cloudflare Workers static assets.
+.git/
+.github/
+node_modules/
+.DS_Store
+*.zip
