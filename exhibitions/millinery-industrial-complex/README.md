@@ -1,41 +1,61 @@
 # The Millinery–Industrial Complex
 
-**Standalone virtual exhibition · A-Thrice · initial working build**
+Standalone exhibition by A-Thrice — Gallery II full-hat context update, 25 October 2026.
 
-This is a complete, static, self-contained exhibition website. It contains the homepage, fictional foyer, Gallery I (thirteen couture works), Gallery II (thirteen detail studies with curatorial notes and source links), Gallery III (Victory Merch editorials paired with cap photographs in virtual cases), a **separate** gift shop, and an about page.
+## Open the website
 
-### Opening the site
+Extract the ZIP and double-click `index.html`. Keep the files and `assets` folder together. No installation or command-line server is required. Exhibition content and images are included locally; Google Fonts load when internet access is available, with system-font fallbacks.
 
-- Open `index.html` in a web browser, or (recommended for testing) start a local server in this directory with `python -m http.server 8080` and go to `http://localhost:8080/`.
-- No build system, API keys, framework installation or account is needed.
-- The package is ready to host as a static website on Cloudflare Pages, Netlify, GitHub Pages or similar services. No domain or hosting has been connected.
+This archive contains the complete exhibition, with `index.html` at the ZIP root for your existing static hosting project. Saving this archive does not change the live Cloudflare deployment; upload it as the next deployment when ready.
 
-### Key routes
+## Gallery II: full-hat context
 
-- `#/` — Landing page, led by **Collateral Style**
-- `#/foyer` — Imagined museum entrance and three Victory Merch glass cases
-- `#/gallery-1` — All thirteen final couture portraits
-- `#/artwork/09` — Individual artwork viewer (01–13)
-- `#/gallery-2` — All thirteen close-up details
-- `#/study/09` — Individual detail view, evidence discussion and sources (01–13)
-- `#/gallery-3` — Editorial wall prints and display-case caps, separate from shop
-- `#/merch/09` — Individual merch exhibition view (01–13)
-- `#/shop` — Gift shop catalogue, all thirteen items **Out of Stock**
-- `#/product/09` — Product detail (01–13), disabled purchase action
-- `#/about` — Curatorial statement, fictional-institution disclaimer
+Every Details Revealed study (`#/study/01` through `#/study/13`) now pairs its existing close-up with the matching complete couture hat beneath it. These thirteen supplied hat-only images are shown without their veils, at a smaller size, with the complete image visible rather than cropped. Selecting the context image opens the full-resolution WebP in a new tab.
 
-### Exhibition assets and content
+The close-up stays first, followed immediately by the context figure. On narrower screens the two images remain together above the curatorial analysis. Each image has an artwork-specific description and a clearly labelled full-image link.
 
-- Images were prepared from the user's provided files and compressed as `.webp` for web display. 13 portrait artworks, 13 cap product images, 13 detail photographs and the available Victory Merch editorial photographs are integrated.
-- `data.js` is the offline exhibition data consumed by the website. `data.json` is an equivalent source for future CMS or framework migration.
-- Gallery II historical statements and source links follow the supplied curatorial annotation packet. The Christmas Strike merchandise slogan is overridden to **PEACE ON EARTH / TERMS MAY APPLY**, per the user's newer decision.
-- The logo uses the divided gold-and-black laurel wreath with crossed missile and millinery needle from the supplied exhibition identity artwork. No British royal seals are used.
-- These are **digital artwork concepts**; neither a real museum installation nor physical inventory is represented. The imagined V&A context is clearly disclosed.
+The new `hatContextImage` field is added to each work in `data.json` and `data.js`; the artwork images are in `assets/hat-context/`. Existing close-ups, portraits, annotations, sources, the book-cover homepage hero, and all 26 gift shop listings are preserved.
 
-### Shop policy in this version
+## Gift shop collections
 
-Every Victory Merch listing is labelled **OUT OF STOCK**. No prices, cart, payments, checkout, stock counts, order requests, shipping claims, or mailing-list forms are implemented. When physical products or editions are defined, these pages can be wired to a separate commerce platform.
+| Order | Collection | Listings |
+| --- | --- | --- |
+| I | Exhibition book | 1 |
+| II | Limited-edition Victory Merch caps | 13 |
+| III | Exhibition pins and cockades | 4 |
+| IV | Tote-and-pouch sets | 2 |
+| V | Everyday streetwear caps | 3 |
+| VI | Boxed exhibition postcards | 3 |
 
-### Future finishing work
+The book section leads the shop, with the supplied cover and a Safe Passage sample interior spread. Both can be enlarged, and the book detail viewer offers Cover and Inside look photographs. The book is Out of Stock and no price, page count, binding, format or ISBN is invented.
 
-Check all final image selections and attribution, complete any missing campaign/editorial pairs, refine factual source review, add final image alt text, confirm whether to use the real V&A name in marketing, select a domain, and connect hosting. Bodoni Moda and IBM Plex font files are loaded from Google Fonts when online; system-font fallbacks are defined.
+The collector section follows with Collateral Style, its exhibition presentation box, certificate of artwork and receipt. A clearly labelled expandable catalogue contains all thirteen original ornate Victory Merch caps. Product photographs, certificate imagery and the cockade reverse can be inspected in enlarged image viewers with fit/zoom controls.
+
+The everyday caps are separate listings from the limited-edition collection. The three boxed postcard sets are Couture Portraits (13 cards), Beneath the Ornament (6 cards), and Victory Merch (4 cards). The Christmas Strike retains **PEACE ON EARTH / TERMS MAY APPLY**.
+
+Every listing is **Out of Stock**. No new prices, edition limits, inventory figures or fulfilment details have been invented. Prices and edition numbers visible within supplied artwork photographs remain part of those images; they are not checkout values. There is no cart, checkout, payment collection or order form.
+
+The certificate example belongs to Collateral Style. It is shown as that work’s documentation, rather than as a certificate for the other twelve designs.
+
+## Preserved exhibition
+
+The homepage hero now shows the full exhibition book cover, including its title and A-Thrice credit, and links to the book section in the shop. The foyer, Gallery I portraits, Gallery II studies and research, Gallery III displays, and About page remain in the package. Existing `#/product/01` through `#/product/13` links still work and now point visitors toward the collector section for certificates. The homepage’s gift shop description reflects the expanded range. Gallery image assets and curatorial data are unchanged.
+
+The website retains the established Imperial Oxblood, Victory Red, Antique Gold, Pearl Ivory, Mourning Onyx and American Navy palette, with Bodoni Moda and IBM Plex typography. The fictional museum setting and A-Thrice attribution are preserved.
+
+## Useful routes
+
+- `#/shop` — gift shop entrance
+- `#/shop/book` — exhibition book and inside look
+- `#/shop/collector-editions` — limited-edition caps and certificates
+- `#/shop/insignia` — pins and cockades
+- `#/shop/totes` — tote sets
+- `#/shop/everyday-caps` — streetwear caps
+- `#/shop/postcards` — boxed postcard sets
+- `#/gallery-1`, `#/gallery-2`, `#/gallery-3` — exhibition galleries
+
+`data.js` / `data.json` contain the original exhibition data. `shop-catalogue.json` contains the expanded shop catalogue; `shop-data.js` provides the same data and shop markup without requiring a network fetch. `shop.js` owns shop interactions and `shop.css` scopes the shop design.
+
+## Validation
+
+JavaScript syntax, all 26 catalogue entries, shop section links, and local image references were checked. All 13 original caps, 17 merchandise photographs, the two book images, and all 13 new full-hat context images are included. Existing gallery image assets were preserved byte for byte. Existing curatorial data is unchanged apart from adding the `hatContextImage` field. All thirteen study routes and their matching context images were checked. The available preview service was unavailable, so live desktop/mobile layout and native-dialog interaction checks remain unverified.

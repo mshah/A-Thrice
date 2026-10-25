@@ -1,0 +1,725 @@
+{
+  "collections": [
+    {
+      "id": "book",
+      "title": "Exhibition book"
+    },
+    {
+      "id": "collector-editions",
+      "title": "Collector editions"
+    },
+    {
+      "id": "insignia",
+      "title": "Pins & cockades"
+    },
+    {
+      "id": "totes",
+      "title": "Totes"
+    },
+    {
+      "id": "everyday-caps",
+      "title": "Everyday caps"
+    },
+    {
+      "id": "postcards",
+      "title": "Postcard sets"
+    }
+  ],
+  "products": [
+    {
+      "id": "exhibition-book",
+      "collection": "book",
+      "name": "The Millinery–Industrial Complex",
+      "type": "Exhibition book · À la Victoire",
+      "description": "The exhibition book by A-Thrice, presenting the visual world of À la Victoire in book form. Explore the cover and an interior spread featuring Safe Passage.",
+      "details": [
+        "The Millinery–Industrial Complex · À la Victoire",
+        "By A-Thrice · An imagined exhibition",
+        "Inside look: the Safe Passage couture portrait spread"
+      ],
+      "images": [
+        {
+          "file": "shop/exhibition-book-cover.webp",
+          "label": "Cover",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Exhibition book cover reading The Millinery–Industrial Complex / À la Victoire / A-Thrice / An Imagined Exhibition, with the Collateral Style couture portrait, red velvet, pearls, gold ornament and a miniature warship."
+        },
+        {
+          "file": "shop/exhibition-book-inside.webp",
+          "label": "Inside look · Safe Passage",
+          "width": 2048,
+          "height": 1279,
+          "alt": "An interior book spread for Safe Passage. The ivory left page carries its title, the line Security, dressed for ceremony, and accompanying text; the right page shows the couture portrait with an aircraft carrier, a miniature port and black lace."
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-01",
+      "collection": "collector-editions",
+      "name": "Fifty-Nine Salutes",
+      "type": "Victory Merch · Limited edition",
+      "description": "Fifty-Nine Salutes from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "FIFTY-NINE SALUTES / WHO DECIDES WHAT FOLLOWS?",
+      "details": [
+        "Victory Merch work 01 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-01.webp",
+          "label": "Cap study",
+          "alt": "Fifty-Nine Salutes ornate Victory Merch cap. Slogan: FIFTY-NINE SALUTES / WHO DECIDES WHAT FOLLOWS?."
+        }
+      ],
+      "workId": 1,
+      "related": [
+        {
+          "href": "#/merch/01",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/01",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-02",
+      "collection": "collector-editions",
+      "name": "Mother of All Victories",
+      "type": "Victory Merch · Limited edition",
+      "description": "Mother of All Victories from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "MOTHER OF ALL BOMBS / SCALE IS NOT STRATEGY",
+      "details": [
+        "Victory Merch work 02 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-02.webp",
+          "label": "Cap study",
+          "alt": "Mother of All Victories ornate Victory Merch cap. Slogan: MOTHER OF ALL BOMBS / SCALE IS NOT STRATEGY."
+        }
+      ],
+      "workId": 2,
+      "related": [
+        {
+          "href": "#/merch/02",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/02",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-03",
+      "collection": "collector-editions",
+      "name": "The Allied Collection",
+      "type": "Victory Merch · Limited edition",
+      "description": "The Allied Collection from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "UNITED IN PRECISION / ACCOUNTABILITY NOT INCLUDED",
+      "details": [
+        "Victory Merch work 03 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-03.webp",
+          "label": "Cap study",
+          "alt": "The Allied Collection ornate Victory Merch cap. Slogan: UNITED IN PRECISION / ACCOUNTABILITY NOT INCLUDED."
+        }
+      ],
+      "workId": 3,
+      "related": [
+        {
+          "href": "#/merch/03",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/03",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-04",
+      "collection": "collector-editions",
+      "name": "The Hunt",
+      "type": "Victory Merch · Limited edition",
+      "description": "The Hunt from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "TARGET ELIMINATED / END OF STORY?",
+      "details": [
+        "Victory Merch work 04 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-04.webp",
+          "label": "Cap study",
+          "alt": "The Hunt ornate Victory Merch cap. Slogan: TARGET ELIMINATED / END OF STORY?."
+        }
+      ],
+      "workId": 4,
+      "related": [
+        {
+          "href": "#/merch/04",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/04",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-05",
+      "collection": "collector-editions",
+      "name": "Terminal Authority",
+      "type": "Victory Merch · Limited edition",
+      "description": "Terminal Authority from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "TARGET REMOVED / RISK EXPORTED",
+      "details": [
+        "Victory Merch work 05 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-05.webp",
+          "label": "Cap study",
+          "alt": "Terminal Authority ornate Victory Merch cap. Slogan: TARGET REMOVED / RISK EXPORTED."
+        }
+      ],
+      "workId": 5,
+      "related": [
+        {
+          "href": "#/merch/05",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/05",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-06",
+      "collection": "collector-editions",
+      "name": "Over the Horizon",
+      "type": "Victory Merch · Limited edition",
+      "description": "Over the Horizon from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "OVER THE HORIZON / OUT OF SIGHT",
+      "details": [
+        "Victory Merch work 06 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-06.webp",
+          "label": "Cap study",
+          "alt": "Over the Horizon ornate Victory Merch cap. Slogan: OVER THE HORIZON / OUT OF SIGHT."
+        }
+      ],
+      "workId": 6,
+      "related": [
+        {
+          "href": "#/merch/06",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/06",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-07",
+      "collection": "collector-editions",
+      "name": "Safe Passage",
+      "type": "Victory Merch · Limited edition",
+      "description": "Safe Passage from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "SAFE PASSAGE / HUMAN COST SOLD SEPARATELY",
+      "details": [
+        "Victory Merch work 07 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-07.webp",
+          "label": "Cap study",
+          "alt": "Safe Passage ornate Victory Merch cap. Slogan: SAFE PASSAGE / HUMAN COST SOLD SEPARATELY."
+        }
+      ],
+      "workId": 7,
+      "related": [
+        {
+          "href": "#/merch/07",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/07",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-08",
+      "collection": "collector-editions",
+      "name": "Midnight Hammer",
+      "type": "Victory Merch · Limited edition",
+      "description": "Midnight Hammer from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "MIDNIGHT HAMMER / AUTHORIZATION SOLD SEPARATELY",
+      "details": [
+        "Victory Merch work 08 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-08.webp",
+          "label": "Cap study",
+          "alt": "Midnight Hammer ornate Victory Merch cap. Slogan: MIDNIGHT HAMMER / AUTHORIZATION SOLD SEPARATELY."
+        }
+      ],
+      "workId": 8,
+      "related": [
+        {
+          "href": "#/merch/08",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/08",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "collateral-style-display",
+      "collection": "collector-editions",
+      "name": "Collateral Style",
+      "type": "Victory Merch · Limited edition",
+      "description": "An ornate Victory Merch cap, presented with its certificate of artwork and exhibition packaging. Crimson velvet, gold ornament, pearlwork and miniature boats turn the language of celebration into a question about human cost.",
+      "slogan": "HUMAN COST SOLD SEPARATELY",
+      "details": [
+        "Limited-edition Victory Merch cap",
+        "Certificate of artwork and edition record",
+        "Exhibition presentation box and accompanying paperwork"
+      ],
+      "images": [
+        {
+          "file": "shop/collector-cap.webp",
+          "source": "Crimson velvet cap, display edition-1.png",
+          "label": "Cap & presentation",
+          "alt": "Ornate Collateral Style cap with miniature destroyer and boats, an oxblood presentation box, certificate, label and receipt."
+        },
+        {
+          "file": "shop/certificate.webp",
+          "source": "Victory Merch Certificate and Receipt-2.png",
+          "label": "Certificate & receipt",
+          "alt": "Collateral Style certificate of artwork beside its exhibition receipt. The certificate states that it authenticates the artwork, not the legitimacy of the operation represented."
+        },
+        {
+          "file": "shop/collector-display.webp",
+          "source": "Museum shop display with ornate cap-3.png",
+          "label": "In the shop",
+          "alt": "Collateral Style limited-edition cap arranged on a museum shop counter with its box, certificate and printed documentation."
+        },
+        {
+          "file": "cap-09.webp",
+          "label": "Cap study",
+          "alt": "Collateral Style ornate Victory Merch cap in the original product study."
+        }
+      ],
+      "workId": 9,
+      "related": [
+        {
+          "href": "#/merch/09",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/09",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-10",
+      "collection": "collector-editions",
+      "name": "Hawkeye",
+      "type": "Victory Merch · Limited edition",
+      "description": "Hawkeye from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "HAWKEYE STRIKE / RETALIATION, TAILORED",
+      "details": [
+        "Victory Merch work 10 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-10.webp",
+          "label": "Cap study",
+          "alt": "Hawkeye ornate Victory Merch cap. Slogan: HAWKEYE STRIKE / RETALIATION, TAILORED."
+        }
+      ],
+      "workId": 10,
+      "related": [
+        {
+          "href": "#/merch/10",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/10",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-11",
+      "collection": "collector-editions",
+      "name": "The Christmas Strike",
+      "type": "Victory Merch · Limited edition",
+      "description": "The Christmas Strike from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "PEACE ON EARTH / TERMS MAY APPLY",
+      "details": [
+        "Victory Merch work 11 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-11.webp",
+          "label": "Cap study",
+          "alt": "The Christmas Strike ornate Victory Merch cap. Slogan: PEACE ON EARTH / TERMS MAY APPLY."
+        }
+      ],
+      "workId": 11,
+      "related": [
+        {
+          "href": "#/merch/11",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/11",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-12",
+      "collection": "collector-editions",
+      "name": "The Extraction",
+      "type": "Victory Merch · Limited edition",
+      "description": "The Extraction from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "ABSOLUTE RESOLVE / SOVEREIGNTY SOLD SEPARATELY",
+      "details": [
+        "Victory Merch work 12 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-12.webp",
+          "label": "Cap study",
+          "alt": "The Extraction ornate Victory Merch cap. Slogan: ABSOLUTE RESOLVE / SOVEREIGNTY SOLD SEPARATELY."
+        }
+      ],
+      "workId": 12,
+      "related": [
+        {
+          "href": "#/merch/12",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/12",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "victory-merch-13",
+      "collection": "collector-editions",
+      "name": "Epic Fury",
+      "type": "Victory Merch · Limited edition",
+      "description": "Epic Fury from the thirteen-work Victory Merch collection. The limited-edition caps are accompanied by certificates of artwork. The collection’s certificate and packaging presentation is illustrated by Collateral Style.",
+      "slogan": "EPIC FURY / PEACE SOLD SEPARATELY",
+      "details": [
+        "Victory Merch work 13 of 13",
+        "Limited-edition cap with certificate of artwork",
+        "Part of The Millinery–Industrial Complex by A-Thrice"
+      ],
+      "images": [
+        {
+          "file": "cap-13.webp",
+          "label": "Cap study",
+          "alt": "Epic Fury ornate Victory Merch cap. Slogan: EPIC FURY / PEACE SOLD SEPARATELY."
+        }
+      ],
+      "workId": 13,
+      "related": [
+        {
+          "href": "#/merch/13",
+          "label": "View the Gallery III exhibit ↗"
+        },
+        {
+          "href": "#/study/13",
+          "label": "Read the historical study ↗"
+        }
+      ]
+    },
+    {
+      "id": "eagle-pin",
+      "collection": "insignia",
+      "name": "Couture Eagle",
+      "type": "Exhibition lapel pin",
+      "description": "The exhibition’s eagle insignia rendered in antique-gold colour, with an American shield, military and millinery references, and a suspended pearl.",
+      "details": [
+        "Eagle exhibition emblem",
+        "Pearl ornament and red jewel details"
+      ],
+      "images": [
+        {
+          "file": "shop/eagle-pin.webp",
+          "source": "Antique-Gold Couture Eagle Lapel Pin-2(1).png",
+          "label": "Front",
+          "alt": "Antique-gold eagle lapel pin with red cap, American shield, laurel leaves, missile and sewing-needle motifs, and a hanging ivory pearl."
+        }
+      ]
+    },
+    {
+      "id": "laurel-pin",
+      "collection": "insignia",
+      "name": "Divided Victory Wreath",
+      "type": "Exhibition lapel pin",
+      "description": "A divided laurel wreath, one side golden and the other blackened, frames a crossed millinery needle and missile. A single pearl hangs beneath their intersection.",
+      "details": [
+        "Divided golden and blackened laurel",
+        "Crossed needle and missile with pearl drop"
+      ],
+      "images": [
+        {
+          "file": "shop/laurel-pin.webp",
+          "source": "Antique Gold Needle-Missile Laurel Pin-1(1).png",
+          "label": "Front",
+          "alt": "Divided laurel pin with golden leaves on the left and dark leaves on the right, a crossed gold sewing needle and black missile, red stones and an ivory pearl."
+        }
+      ]
+    },
+    {
+      "id": "cockade-pin",
+      "collection": "insignia",
+      "name": "Victory Cockade",
+      "type": "Exhibition pin",
+      "description": "Red, ivory and navy ribbons form an invented decoration around the exhibition’s missile-and-laurel medallion and pearl ornament.",
+      "details": [
+        "American tricolour ribbon motif",
+        "Central medallion and pearl drop"
+      ],
+      "images": [
+        {
+          "file": "shop/cockade-pin.webp",
+          "source": "Antique-gold Victory Cockade Pin-3.png",
+          "label": "Front",
+          "alt": "Victory cockade pin in red, ivory and navy with gold stars, a missile medallion, laurel leaves and a pearl drop."
+        }
+      ]
+    },
+    {
+      "id": "detachable-cockade",
+      "collection": "insignia",
+      "name": "Couture Victory Cockade",
+      "type": "Detachable exhibition accessory",
+      "description": "A ribbon cockade with a gold-coloured central medallion, pearl ornament and navy felt reverse. Inspect both sides to see the front design and rear fastenings.",
+      "details": [
+        "Red, ivory and navy ribbon",
+        "Navy felt reverse with rear fastenings"
+      ],
+      "images": [
+        {
+          "file": "shop/couture-cockade.webp",
+          "source": "Couture Victory Cockade with Gold Medallion-1(1).png",
+          "label": "Front",
+          "alt": "Couture victory cockade with pleated red, ivory and navy ribbon, gold-edged tails, a central missile medallion and pearl ornament."
+        },
+        {
+          "file": "shop/cockade-reverse.webp",
+          "source": "Navy-felt rear of detachable victory cockade-2(1).png",
+          "label": "Reverse & fastenings",
+          "alt": "Reverse of the detachable victory cockade showing navy felt, a horizontal pin and a vertical clip."
+        }
+      ]
+    },
+    {
+      "id": "eagle-tote",
+      "collection": "totes",
+      "name": "Couture Eagle Tote Set",
+      "type": "Exhibition tote & pouch",
+      "description": "The exhibition’s eagle emblem on a navy tote, accompanied by a matching navy drawstring pouch.",
+      "details": [
+        "Navy tote with ivory-coloured handles",
+        "Matching eagle-emblem drawstring pouch"
+      ],
+      "images": [
+        {
+          "file": "shop/eagle-tote.webp",
+          "source": "Navy millinery eagle tote set-4.png",
+          "label": "Tote & pouch",
+          "alt": "Navy Victory Merch tote with ivory handles and an embroidered eagle insignia, beside a matching navy drawstring pouch."
+        }
+      ]
+    },
+    {
+      "id": "cockade-tote",
+      "collection": "totes",
+      "name": "Victory Cockade Tote Set",
+      "type": "Exhibition tote & pouch",
+      "description": "An ivory-coloured tote bearing the red, ivory and navy victory cockade, accompanied by a crimson drawstring pouch.",
+      "details": [
+        "Ivory-coloured tote with navy handles",
+        "Crimson cockade-emblem drawstring pouch"
+      ],
+      "images": [
+        {
+          "file": "shop/cockade-tote.webp",
+          "source": "Victory Cockade tote and velvet pouch-3.png",
+          "label": "Tote & pouch",
+          "alt": "Ivory Victory Merch tote with navy handles and a ribbon cockade emblem, beside a crimson drawstring pouch with the same emblem."
+        }
+      ]
+    },
+    {
+      "id": "collateral-streetwear",
+      "collection": "everyday-caps",
+      "name": "Collateral Style",
+      "type": "Everyday baseball cap",
+      "description": "An everyday crimson baseball cap carrying the Collateral Style slogan, with an exhibition emblem at the side.",
+      "slogan": "HUMAN COST SOLD SEPARATELY",
+      "details": [
+        "Crimson baseball-cap silhouette",
+        "Bold ivory-coloured campaign-style lettering"
+      ],
+      "images": [
+        {
+          "file": "shop/collateral-cap.webp",
+          "source": "Crimson Collateral Style Cap-1(1).png",
+          "label": "Cap",
+          "alt": "Crimson baseball cap embroidered COLLATERAL STYLE / HUMAN COST SOLD SEPARATELY, with a small naval laurel emblem at the side."
+        }
+      ]
+    },
+    {
+      "id": "midnight-streetwear",
+      "collection": "everyday-caps",
+      "name": "Midnight Hammer",
+      "type": "Everyday baseball cap",
+      "description": "An everyday crimson baseball cap carrying the Midnight Hammer slogan and its military-inspired side emblem.",
+      "slogan": "AUTHORIZATION SOLD SEPARATELY",
+      "details": [
+        "Crimson baseball-cap silhouette",
+        "Bold ivory-coloured campaign-style lettering"
+      ],
+      "images": [
+        {
+          "file": "shop/midnight-cap.webp",
+          "source": "Midnight Hammer embroidered crimson cap-2(1).png",
+          "label": "Cap",
+          "alt": "Crimson baseball cap embroidered MIDNIGHT HAMMER / AUTHORIZATION SOLD SEPARATELY, with a bomber-and-laurel emblem at the side."
+        }
+      ]
+    },
+    {
+      "id": "fifty-nine-streetwear",
+      "collection": "everyday-caps",
+      "name": "Fifty-Nine Salutes",
+      "type": "Everyday baseball cap",
+      "description": "An everyday crimson baseball cap carrying the Fifty-Nine Salutes slogan, with a destroyer-and-laurel emblem at the side.",
+      "slogan": "WHO DECIDES WHAT FOLLOWS?",
+      "details": [
+        "Crimson baseball-cap silhouette",
+        "Bold ivory-coloured campaign-style lettering"
+      ],
+      "images": [
+        {
+          "file": "shop/fifty-nine-cap.webp",
+          "source": "Fifty-Nine Salutes Crimson Cap-3(1).png",
+          "label": "Cap",
+          "alt": "Crimson baseball cap embroidered FIFTY-NINE SALUTES / WHO DECIDES WHAT FOLLOWS?, with a destroyer-and-laurel emblem at the side."
+        }
+      ]
+    },
+    {
+      "id": "couture-postcards",
+      "collection": "postcards",
+      "name": "Couture Portraits",
+      "type": "Gallery I · 13 postcards",
+      "description": "All thirteen couture portraits from À la Victoire in one boxed postcard collection, from Fifty-Nine Salutes to Epic Fury.",
+      "details": [
+        "13 portrait postcards",
+        "Oxblood presentation box",
+        "Includes The Hunt, Collateral Style and The Christmas Strike"
+      ],
+      "images": [
+        {
+          "file": "shop/couture-postcards.webp",
+          "source": "The Hunt Postcard Collection-2.png",
+          "label": "Complete set",
+          "alt": "Thirteen couture portrait postcards arranged beside an oxblood box labelled Couture Portraits / 13 Postcards."
+        },
+        {
+          "file": "shop/postcard-display.webp",
+          "source": "Museum shop postcard pack display-6.png",
+          "label": "Shop display",
+          "alt": "Exhibition postcard collections displayed on a museum shop counter, with portrait, detail and Victory Merch cards."
+        }
+      ]
+    },
+    {
+      "id": "detail-postcards",
+      "collection": "postcards",
+      "name": "Beneath the Ornament",
+      "type": "Gallery II · 6 postcards",
+      "description": "Six close studies of the ornament: The Allied Collection, Terminal Authority, Midnight Hammer, Collateral Style, The Christmas Strike and Epic Fury.",
+      "details": [
+        "6 detail postcards",
+        "Ivory-coloured presentation box",
+        "Pearlwork, miniatures, velvet and the histories beneath the surface"
+      ],
+      "images": [
+        {
+          "file": "shop/detail-postcards.webp",
+          "source": "Six Museum Postcards and Ivory Box-5.png",
+          "label": "Complete set",
+          "alt": "Six close-up artwork postcards beside an ivory box labelled Beneath the Ornament / 6 Postcards."
+        }
+      ]
+    },
+    {
+      "id": "merch-postcards",
+      "collection": "postcards",
+      "name": "Victory Merch",
+      "type": "Gallery III · 4 postcards",
+      "description": "Four ornate cap designs in a boxed postcard set: Midnight Hammer, Collateral Style, The Christmas Strike and Epic Fury. The Christmas Strike reads PEACE ON EARTH / TERMS MAY APPLY.",
+      "details": [
+        "4 Victory Merch postcards",
+        "Oxblood presentation box",
+        "Includes the updated Christmas Strike slogan"
+      ],
+      "images": [
+        {
+          "file": "shop/merch-postcards.webp",
+          "source": "Victory Merch postcards and collector box-3.png",
+          "label": "Complete set",
+          "alt": "Four ornate Victory Merch cap postcards beside an oxblood box. The Christmas Strike postcard reads PEACE ON EARTH / TERMS MAY APPLY."
+        }
+      ]
+    }
+  ]
+}

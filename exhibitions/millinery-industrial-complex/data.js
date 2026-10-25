@@ -32,7 +32,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-01.webp",
       "editorial": "assets/editorial-01.webp",
       "slogan": "FIFTY-NINE SALUTES",
-      "qualifier": "WHO DECIDES WHAT FOLLOWS?"
+      "qualifier": "WHO DECIDES WHAT FOLLOWS?",
+      "hatContextImage": "assets/hat-context/01-fifty-nine-salutes.webp"
     },
     {
       "id": 2,
@@ -70,7 +71,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-02.webp",
       "editorial": "assets/editorial-02.webp",
       "slogan": "MOTHER OF ALL BOMBS",
-      "qualifier": "SCALE IS NOT STRATEGY"
+      "qualifier": "SCALE IS NOT STRATEGY",
+      "hatContextImage": "assets/hat-context/02-mother-of-all-victories.webp"
     },
     {
       "id": 3,
@@ -112,7 +114,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-03.webp",
       "editorial": "assets/editorial-03.webp",
       "slogan": "UNITED IN PRECISION",
-      "qualifier": "ACCOUNTABILITY NOT INCLUDED"
+      "qualifier": "ACCOUNTABILITY NOT INCLUDED",
+      "hatContextImage": "assets/hat-context/03-the-allied-collection.webp"
     },
     {
       "id": 4,
@@ -150,7 +153,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-04.webp",
       "editorial": "assets/editorial-04.webp",
       "slogan": "TARGET ELIMINATED",
-      "qualifier": "END OF STORY?"
+      "qualifier": "END OF STORY?",
+      "hatContextImage": "assets/hat-context/04-the-hunt.webp"
     },
     {
       "id": 5,
@@ -188,7 +192,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-05.webp",
       "editorial": null,
       "slogan": "TARGET REMOVED",
-      "qualifier": "RISK EXPORTED"
+      "qualifier": "RISK EXPORTED",
+      "hatContextImage": "assets/hat-context/05-terminal-authority.webp"
     },
     {
       "id": 6,
@@ -226,7 +231,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-06.webp",
       "editorial": null,
       "slogan": "OVER THE HORIZON",
-      "qualifier": "OUT OF SIGHT"
+      "qualifier": "OUT OF SIGHT",
+      "hatContextImage": "assets/hat-context/06-over-the-horizon.webp"
     },
     {
       "id": 7,
@@ -268,7 +274,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-07.webp",
       "editorial": "assets/editorial-07.webp",
       "slogan": "SAFE PASSAGE",
-      "qualifier": "HUMAN COST SOLD SEPARATELY"
+      "qualifier": "HUMAN COST SOLD SEPARATELY",
+      "hatContextImage": "assets/hat-context/07-safe-passage.webp"
     },
     {
       "id": 8,
@@ -306,7 +313,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-08.webp",
       "editorial": "assets/editorial-08.webp",
       "slogan": "MIDNIGHT HAMMER",
-      "qualifier": "AUTHORIZATION SOLD SEPARATELY"
+      "qualifier": "AUTHORIZATION SOLD SEPARATELY",
+      "hatContextImage": "assets/hat-context/08-midnight-hammer.webp"
     },
     {
       "id": 9,
@@ -344,7 +352,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-09.webp",
       "editorial": "assets/editorial-09.webp",
       "slogan": "COLLATERAL STYLE",
-      "qualifier": "HUMAN COST SOLD SEPARATELY"
+      "qualifier": "HUMAN COST SOLD SEPARATELY",
+      "hatContextImage": "assets/hat-context/09-collateral-style.webp"
     },
     {
       "id": 10,
@@ -382,7 +391,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-10.webp",
       "editorial": "assets/editorial-10.webp",
       "slogan": "HAWKEYE STRIKE",
-      "qualifier": "RETALIATION, TAILORED"
+      "qualifier": "RETALIATION, TAILORED",
+      "hatContextImage": "assets/hat-context/10-hawkeye.webp"
     },
     {
       "id": 11,
@@ -424,7 +434,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-11.webp",
       "editorial": null,
       "slogan": "PEACE ON EARTH",
-      "qualifier": "TERMS MAY APPLY"
+      "qualifier": "TERMS MAY APPLY",
+      "hatContextImage": "assets/hat-context/11-the-christmas-strike.webp"
     },
     {
       "id": 12,
@@ -466,7 +477,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-12.webp",
       "editorial": "assets/editorial-12.webp",
       "slogan": "ABSOLUTE RESOLVE",
-      "qualifier": "SOVEREIGNTY SOLD SEPARATELY"
+      "qualifier": "SOVEREIGNTY SOLD SEPARATELY",
+      "hatContextImage": "assets/hat-context/12-the-extraction.webp"
     },
     {
       "id": 13,
@@ -508,7 +520,8 @@ window.EXHIBITION_DATA = {
       "detailImage": "assets/detail-13.webp",
       "editorial": "assets/editorial-13.webp",
       "slogan": "EPIC FURY",
-      "qualifier": "PEACE SOLD SEPARATELY"
+      "qualifier": "PEACE SOLD SEPARATELY",
+      "hatContextImage": "assets/hat-context/13-epic-fury.webp"
     }
   ],
   "statement": [

@@ -22,3 +22,26 @@
 /* Preserve a genuinely narrow mobile header: long exhibition names must wrap. */
 @media(max-width:700px){.site-header{gap:9px}.brand{flex:1;min-width:0}.brand-type{max-width:195px;min-width:0}.brand-type strong{display:block;max-width:195px;font-size:11px;line-height:1.15;overflow-wrap:anywhere}.menu-toggle{flex:0 0 auto;gap:9px}}
 @media(max-width:380px){.brand-mark{width:35px;height:35px}.brand-type strong{font-size:10px;max-width:156px}.menu-toggle{gap:7px;padding:5px;font-size:10px}}
+
+.product-edition-note{margin:28px 0;border:1px solid var(--border);padding:24px}.product-edition-note .eyebrow{font-size:9px;margin-bottom:12px}.product-edition-note>p:not(.eyebrow){font-size:13px;color:#d5c8c2}.product-edition-note .text-link{font-size:9px}
+
+/* Exhibition book cover: preserve the full title and artist credit in the homepage hero. */
+.hero-image.hero-book-cover{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:30px 34px 26px;min-height:0;background:radial-gradient(ellipse at center,#3a1016,#160609 80%);overflow:hidden}
+.hero-image.hero-book-cover img{position:static;inset:auto;display:block;width:100%;height:auto;max-width:600px;max-height:calc(100svh - 205px);object-fit:contain;object-position:center;transform:none;transition:none;box-shadow:0 12px 45px #0007}
+.hero-image.hero-book-cover:hover img{transform:none}
+.hero-book-label{display:flex;align-items:center;justify-content:space-between;gap:28px;max-width:600px;width:100%;font:9px/1.6 var(--mono);letter-spacing:.1em;color:var(--gold)}
+.hero-book-label>span{white-space:nowrap}
+@media(max-width:900px){.hero-image.hero-book-cover{padding:30px 22px;min-height:0}.hero-book-label{font-size:8px;gap:10px}}
+@media(max-width:700px){.hero-image.hero-book-cover{height:auto;min-height:0;max-height:none;padding:26px 22px 22px;gap:15px}.hero-image.hero-book-cover img{width:100%;max-width:400px;height:auto;max-height:70svh}.hero-book-label{max-width:400px;font-size:8px}}
+
+/* Gallery II: pair each close-up with a smaller, uncropped full-hat context image. */
+.study-visuals{min-width:0;align-self:start}
+.study-main .study-context{margin-top:22px;padding:22px;border:1px solid var(--border);background:#1e1b1e}
+.study-main .study-context figcaption{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:0 0 20px;font:9px/1.7 var(--mono);letter-spacing:.07em}
+.study-context figcaption>span:first-child{color:var(--gold)}
+.study-context figcaption>span:last-child{font:11px/1.5 var(--sans);letter-spacing:0;color:#c4b3a9}
+.study-context-link{display:block;width:min(75%,360px);margin-inline:auto}
+.study-main .study-context .study-hat-image{display:block;width:100%;height:auto;max-height:360px;aspect-ratio:1/1;object-fit:contain;object-position:center;background:#262324;transition:none}
+.study-context-open{display:flex;justify-content:space-between;gap:16px;color:var(--gold);font:10px/1.6 var(--mono);letter-spacing:.03em;margin-top:13px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.study-context-link:hover .study-context-open{color:var(--ivory);border-color:var(--gold)}
+@media(max-width:700px){.study-main .study-context{padding:18px;margin-top:18px}.study-main .study-context figcaption{align-items:flex-start;gap:8px;font-size:8px;letter-spacing:.035em;padding-bottom:18px}.study-context figcaption>span:last-child{font-size:10px}.study-context-link{width:min(78%,300px)}.study-main .study-context .study-hat-image{max-height:300px}.study-context-open{font-size:9px}}

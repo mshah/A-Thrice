@@ -1,5 +1,5 @@
 {
-  "version": "5",
+  "version": "6",
   "albums": [
     {
       "slug": "citizen-of-empire",
@@ -47,5 +47,21 @@
   "exhibitions": [
     "millinery-industrial-complex",
     "return-to-sender"
+  ],
+  "exhibition_bundles": [
+    {
+      "slug": "millinery-industrial-complex",
+      "source_file": "millinery-industrial-complex-publish-ready.v.7.zip",
+      "source_sha256": "16bca41ace099f9592ace7171b020066712ac948d070df3e7077c4c71db8314f",
+      "version": "v.7",
+      "files": 97
+    },
+    {
+      "slug": "return-to-sender",
+      "source_file": "Return_to_Sender_Website_v3.zip",
+      "source_sha256": "ae6ad0c9e6086d5766b4e145e2a6af2f8629f5e470a36267030aa98bddc9b143",
+      "version": "v3",
+      "files": 24
+    }
   ]
 }

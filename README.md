@@ -1,4 +1,4 @@
-# A-Thrice Artist Site — V5 (album & archive expansion)
+# A-Thrice Artist Site — V6 (complete exhibition integration)
 
 **Open `index.html`** or publish all files as the root of a static hosting site (e.g. Cloudflare Pages). No Python server required.
 
@@ -11,17 +11,18 @@
 - The Experiment Continues Companion Guide V3 link; archival resources card removed.
 - Prior Editorial Signal mark / Deep Winter site design preserved.
 
-## Important integration notes
-**Two specific website revisions not located in connected Google Drive:**
-1. `Return_to_Sender_Website_v3` — this package contains a new **catalogue-based interim Return to Sender exhibition overview** at `/exhibitions/return-to-sender/index.html`, **not** the user-named existing V3 build.
-2. `millinery-industrial-complex-publish-ready.v.7` — this package includes the latest available local `millinery-industrial-complex-publish-ready.zip` build, **not verified as V7**. Replace contents of `/exhibitions/millinery-industrial-complex/` with V7 whenever it is available.
+## Exact exhibition websites integrated from Google Drive
+- **The Millinery–Industrial Complex:** `millinery-industrial-complex-publish-ready.v.7.zip` at `exhibitions/millinery-industrial-complex/index.html` (13 Gallery II context hats; updated 26-item out-of-stock gift shop, exhibition book, source notes).
+- **Return to Sender:** `Return_to_Sender_Website_v3.zip` at `exhibitions/return-to-sender/index.html` (full sculpture, textile and archive presentation with historical context and interactive image viewer).
 
-The catalogue source, album and annotation packets were read to populate pages. Research URLs are curated editorial pointers; no unpublished annotation-packet text or private Google Drive drafts are hosted on the site.
+Both archives were retrieved from their respective A-Thrice Google Drive exhibition folders and extracted into the parent site without a nested ZIP folder. Each site retains its original styling, scripts, images and interactions. A small portfolio-return link was added to each exhibition footer. The parent site now links to these real exhibition homepages; the Return to Sender card no longer says “preview.” The research index provides direct entry into both exhibitions.
+
+The source ZIPs have not been included *as nested ZIPs*; the complete, uncompressed exhibition website files are already inside this deployable package. The source filenames and SHA-256 checksums are recorded in `site-manifest.json`.
 
 ## Editorial cautions
 - Album tracklists follow the cited concept documents. `Company Town` is explicitly a **15-track working sequence**. Afterlives tracks follow its **16-entry posting/streaming discography**; another passage proposes two unnumbered companion songs, which are not represented as confirmed album tracks.
 - `Citizen of Empire` original 8-track concept plus optional bonus follows the concept draft; confirm against final distributor tracklists before going public.
 - The Experiment Continues Companion Guide currently links to an artist-controlled Drive PDF, and may require Google account permission. Check its sharing or replace with a public URL before launch.
 - Soft releases: **Controlled Burn** and **The Experiment Continues**. Three other albums widely distributed. **Company Town** is in production.
-- Return to Sender and Millinery are fictional/conceptual exhibitions; do not present them as real museum programming.
+- Return to Sender is a conceptual digital presentation of an artistic installation. Millinery is an expressly imagined museum exhibition, with no V&A affiliation; do not present either website as proof of a physical museum installation.
 - This is a static site, so no checkout, database or analytics is installed.
