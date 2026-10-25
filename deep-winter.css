@@ -1,0 +1,125 @@
+/* A—THRICE / DEEP WINTER 03 — 25 October 2026
+   The parent identity is deliberately distinct from each exhibition's own brand. */
+:root{
+  --bg:#080F1C;--panel:#101D2D;--panel2:#122638;
+  --line:rgba(184,216,235,.23);--cream:#F2F7FD;--sub:#A8C1CF;
+  --gold:#92D2E0;--lime:#00AFB7;--orange:#C30E70;--navy:#0C2D51;
+  --teal:#00AFB7;--icy:#E6F4FF;--cobalt:#1160B4;--purple:#63208F;--raspberry:#C30E70;
+}
+body.deep-winter-v3{background:#080F1C;color:var(--cream);background-image:radial-gradient(ellipse at 87% 1%,rgba(3,74,110,.16),transparent 31%)}
+.deep-winter-v3 .site-header{border-color:rgba(122,199,220,.32)}
+.deep-winter-v3 .site-header:before{content:'';height:3px;position:absolute;left:0;right:0;bottom:-2px;background:linear-gradient(90deg,#00AFB7 0 24%,#09569E 24% 45%,#3C2594 45% 62%,#A60978 62% 83%,#DB1451 83% 100%);opacity:.87}
+.deep-winter-v3 .wordmark-symbol{background:var(--teal);color:#001824;box-shadow:4px 4px 0 #07526D}
+.deep-winter-v3 .site-nav{gap:25px}
+.deep-winter-v3 .site-nav>a{font-size:10px}
+.deep-winter-v3 .site-nav>a:hover{color:#4DDFE5}
+.deep-winter-v3 .nav-listen{color:#52DAE3!important;border-color:#039BA4}
+.deep-winter-v3 .nav-listen:hover{background:#063E52}
+.deep-winter-v3 .live-dot{background:#00AFB7;box-shadow:0 0 0 4px #00AFB722}
+.deep-winter-v3 .eyebrow{color:#56CEDC}
+.deep-winter-v3 .squiggle{color:#00AFB7}
+.deep-winter-v3 .hero-grid{border-color:#9EC7D337}
+.deep-winter-v3 .hero h1 em,.deep-winter-v3 .section h2 em,.deep-winter-v3 .last-word h2 em{color:#00C3CA}
+.deep-winter-v3 .hero-copy>p{color:#C6D8E7}
+.deep-winter-v3 .action-primary{background:#00AFB7;color:#031C29}
+.deep-winter-v3 .action-primary:hover{background:#49E1E7}
+.deep-winter-v3 .action-quiet{border-color:#5C86A5}
+.deep-winter-v3 .hero-art{background:radial-gradient(ellipse at 48% 46%,#135E70 0%,#0B344D 32%,#0B1B31 67%,#080F1C 90%)}
+.deep-winter-v3 .hero-art:before{background:repeating-radial-gradient(circle at center,transparent 0 13px,#99EAF422 14px,#99EAF422 15px,transparent 16px 22px)}
+.deep-winter-v3 .hero-art:after{background:#82D3EA80}
+.deep-winter-v3 .signal-orbit{border-color:#AAE8F37A}
+.deep-winter-v3 .ring-b{border-color:#C438CD80}
+.deep-winter-v3 .ring-c{border-color:#38A4CEB0}
+.deep-winter-v3 .hero-art-center{background:radial-gradient(circle at 47% 32%,#116A86 0,#0A3F65 30%,#0A203B 68%,#061322 93%);box-shadow:0 0 0 2px #8CC9DB75,0 0 0 26px #081B3344,0 0 100px #103B56;border-color:#07182DCC}
+.deep-winter-v3 .hero-art-center strong{text-shadow:6px 6px 0 #031321;color:#E6FAFF}
+.deep-winter-v3 .hero-art-center .mono{color:#6DE7EC}
+.deep-winter-v3 .hero-art-center>span:last-child{color:#B5D9E5}
+.deep-winter-v3 .hero-sticker{background:#C30E70;color:#FFF0FC;box-shadow:5px 9px 0 #0E1538B2}
+.deep-winter-v3 .hero-sticker em{font-size:36px;color:white}
+.deep-winter-v3 .hero-dash{background:#00AFB7}
+.deep-winter-v3 .hero-bottomline b{color:#00AFB7}
+.deep-winter-v3 .statement-stripe{background:#00AFB7;color:#04202F;border-color:#00AFB7}
+.deep-winter-v3 .ticker span{color:#07536A}
+.deep-winter-v3 .section-line{color:#41CBD7}
+.deep-winter-v3 .section-heading p{color:#BED0DF}
+.deep-winter-v3 .collection-divider{border-color:#8DCBD74A;color:#C1D6E2}
+.deep-winter-v3 .album-card h3{color:#F2F7FD}
+.deep-winter-v3 .album-card p{color:#B3C8D7}
+.deep-winter-v3 .card-actions a{color:#46E1E8}
+.deep-winter-v3 .text-navigation{color:#42CBD2}
+.deep-winter-v3 .interlude{border-color:#9DCAD33D}
+.deep-winter-v3 .interlude-symbol{color:#4AC6D6}
+.deep-winter-v3 .interlude blockquote em{color:#50CFE0}
+.deep-winter-v3 .interlude-foot{color:#A4C6D4}
+/* Gallery cards have a deliberately cool-paper treatment; the art remains its own colour. */
+.deep-winter-v3 .exhibitions-v2{background:#E6F1F7;color:#10213A}
+.deep-winter-v3 .exhibitions-v2 .section-line{border-color:#426C8B55;color:#0F5271}
+.deep-winter-v3 .exhibitions-v2 .section-line span:last-child{color:#587284}
+.deep-winter-v3 .exhibitions-v2 .section-heading h2 em{color:#087F90}
+.deep-winter-v3 .exhibitions-v2 .section-heading p{color:#3C586A}
+.deep-winter-v3 .exhibit-card{background:#FBFDFF;box-shadow:12px 14px 0 #42758A1F;border-color:#59798C52}
+.deep-winter-v3 .exhibit-number{background:#E5F5F9;color:#10243D}
+.deep-winter-v3 .exhibit-kicker{color:#087D94}
+.deep-winter-v3 .exhibit-details p{color:#385065}
+.deep-winter-v3 .exhibit-link{color:#007A89;border-color:#4E859B44}
+.deep-winter-v3 .exhibit-link--pending{color:#68758E}
+.deep-winter-v3 .prints-v2{background:linear-gradient(137deg,#063B54,#0B2643 60%,#161743);color:#EDF8FF}
+.deep-winter-v3 .prints-text .section-line{color:#64DAE0}
+.deep-winter-v3 .prints-text .eyebrow{color:#65D9DF}
+.deep-winter-v3 .prints-text h2 em{color:#B8DCFF}
+.deep-winter-v3 .prints-text p{color:#CCDFED}
+.deep-winter-v3 .prints-foot{color:#A9D4DF}
+.deep-winter-v3 .print-display{background:#DBEAF2;box-shadow:18px 19px 0 #020E20A3}
+/* Reading room */
+.deep-winter-v3 .resources-section{padding:114px 0 122px;background:radial-gradient(ellipse at 15% 15%,#123B56 0%,transparent 38%),linear-gradient(125deg,#0F2036,#0B1424);position:relative;overflow:hidden}
+.deep-winter-v3 .resources-section:after{content:'';position:absolute;right:-5%;top:10%;height:470px;width:470px;border:1px solid #57BDD22C;border-radius:50%;box-shadow:0 0 0 38px #57BDD209,0 0 0 85px #57BDD209;pointer-events:none}
+.deep-winter-v3 .resources-section>.container{position:relative;z-index:1}
+.deep-winter-v3 .resource-head{display:grid;grid-template-columns:1.35fr .75fr;gap:8%;align-items:end;margin:49px 0 59px}
+.deep-winter-v3 .resource-head h2{font:600 clamp(52px,5.6vw,92px)/.98 var(--display);letter-spacing:-.077em;margin:18px 0 0}
+.deep-winter-v3 .resource-head h2 em{font:italic .98em var(--serif);color:#50DDE4;letter-spacing:-.014em}
+.deep-winter-v3 .resource-head p{font:17px/1.8 var(--body);color:#BED4E4;margin:0}
+.deep-winter-v3 .resource-grid{display:grid;grid-template-columns:1.14fr 1fr 1fr;gap:17px}
+.deep-winter-v3 .resource-card{min-width:0;background:#15273B;border:1px solid #83CDE042;padding:29px;min-height:410px;display:flex;flex-direction:column;transition:background .2s,transform .2s}
+.deep-winter-v3 .resource-card:hover{background:#1A334A;transform:translateY(-3px)}
+.deep-winter-v3 .resource-feature{background:linear-gradient(145deg,#064C63,#103755 66%,#0D2741);border-color:#48A5B99C}
+.deep-winter-v3 .resource-number{font:10px var(--mono);color:#94DFE9;letter-spacing:.10em;display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #AEDBE43B;padding-bottom:19px}
+.deep-winter-v3 .resource-number span{color:#AFC3D2;text-align:right}
+.deep-winter-v3 .resource-icon{color:#21D2DB;font-size:70px;margin:33px 0 22px;line-height:.8}
+.deep-winter-v3 .resource-quotation{font:100px var(--serif);line-height:.7;margin-bottom:22px}
+.deep-winter-v3 .resource-routes{font:100px var(--serif);line-height:.7;margin-bottom:22px}
+.deep-winter-v3 .resource-card h3{font:600 clamp(31px,2.9vw,51px)/1.01 var(--display);letter-spacing:-.055em;margin:0 0 17px}
+.deep-winter-v3 .resource-card h3 em{font:.96em var(--serif);color:#8EE9EB}
+.deep-winter-v3 .resource-card p{font:14px/1.73 var(--body);color:#D1E1ED;flex:1}
+.deep-winter-v3 .resource-tags{display:flex;gap:7px;flex-wrap:wrap;margin:15px 0 21px}
+.deep-winter-v3 .resource-tags span{font:9px var(--mono);letter-spacing:.055em;color:#B3D7E5;padding:7px 8px;border:1px solid #81C2D244}
+.deep-winter-v3 .resource-bottom{font:10px var(--mono);letter-spacing:.04em;display:flex;align-items:center;justify-content:space-between;gap:10px;color:#47DCE4;padding-top:15px;border-top:1px solid #8CC0D14D}
+.deep-winter-v3 .resources-note{font:12px/1.7 var(--body);color:#8FAEC1;margin:21px 0 0;max-width:830px}
+/* Artist / influences */
+.deep-winter-v3 .about-section{padding-top:108px;padding-bottom:122px}
+.deep-winter-v3 .about-asterisk{color:#00AFB7}
+.deep-winter-v3 .about-caption{font:10px var(--mono);letter-spacing:.13em;color:#58C9DA;margin-bottom:20px;border-bottom:1px solid var(--line);padding-bottom:16px}
+.deep-winter-v3 .about-text p{color:#C6D5E3}
+.deep-winter-v3 .about-links a{color:#5CDBE5}
+.deep-winter-v3 .influences-wrap{border-top:1px solid #89C1D94D;margin-top:75px;padding-top:57px}
+.deep-winter-v3 .influences-intro{max-width:930px}
+.deep-winter-v3 .influences-intro h3{font:600 clamp(41px,4.7vw,71px)/1.04 var(--display);letter-spacing:-.07em;margin:17px 0 19px}
+.deep-winter-v3 .influences-intro h3 em{font:.97em var(--serif);color:#63D9E4}
+.deep-winter-v3 .influences-intro>p{font:16px/1.72 var(--body);color:#A6C1D0;max-width:790px}
+.deep-winter-v3 .influence-panels{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:35px}
+.deep-winter-v3 .influence-panel{border:1px solid #A2CED746;padding:28px;min-height:223px;background:linear-gradient(153deg,#11283B,#0B1624)}
+.deep-winter-v3 .influence-code{font:10px var(--mono);color:#38D0D8;letter-spacing:.1em}
+.deep-winter-v3 .influence-panel strong{display:block;font:600 clamp(29px,2.9vw,44px)/1.07 var(--display);letter-spacing:-.04em;margin-top:24px;color:#F2F7FD}
+.deep-winter-v3 .influence-panel p{font:14px/1.6 var(--body);color:#B2CBDB;margin:14px 0 0}
+.deep-winter-v3 .influence-footnote{font:10px/1.9 var(--mono);letter-spacing:.05em;color:#8EB3C5;margin-top:22px}
+.deep-winter-v3 .last-word{background:linear-gradient(120deg,#065065 0%,#0A355B 60%,#211348 100%);color:#F3FAFF}
+.deep-winter-v3 .last-word .eyebrow{color:#64DCE6}
+.deep-winter-v3 .last-word h2 em{color:#70E9EF}
+.deep-winter-v3 .last-word p{color:#D3E6F1}
+.deep-winter-v3 .site-footer{background:#070F1C}
+.deep-winter-v3 .footer-brand span{color:#40DDE5}
+.deep-winter-v3 .footer-bottom{border-color:#7BA6C24D}
+@media(max-width:1150px){.deep-winter-v3 .site-nav{gap:15px}.deep-winter-v3 .site-nav>a{font-size:9px}.deep-winter-v3 .resource-head{grid-template-columns:1fr 1fr;gap:35px}.deep-winter-v3 .resource-card{padding:21px}.deep-winter-v3 .resource-card h3{font-size:clamp(27px,3.3vw,43px)}}
+@media(max-width:850px){.deep-winter-v3 .resource-head{grid-template-columns:1fr}.deep-winter-v3 .resource-head p{max-width:620px}.deep-winter-v3 .resource-grid{grid-template-columns:1fr 1fr}.deep-winter-v3 .resource-card:last-child{grid-column:span 2}.deep-winter-v3 .resource-card{min-height:360px}.deep-winter-v3 .influence-panels{grid-template-columns:1fr 1fr}.deep-winter-v3 .influence-panel:last-child{grid-column:span 2}.deep-winter-v3 .site-nav{gap:28px}}
+@media(max-width:800px){.deep-winter-v3 .site-nav>a{font-size:11px}.deep-winter-v3 .menu-toggle{display:flex}.deep-winter-v3 .resources-section{padding:82px 0 92px}}
+@media(max-width:550px){.deep-winter-v3 .hero-art{min-height:390px}.deep-winter-v3 .hero-art-center strong{font-size:clamp(65px,13vw,85px)}.deep-winter-v3 .hero-sticker{width:96px;height:96px;font-size:12px;top:12%}.deep-winter-v3 .hero-sticker em{font-size:25px}.deep-winter-v3 .resource-head{margin:37px 0 35px}.deep-winter-v3 .resource-head h2{font-size:clamp(45px,10.8vw,62px)}.deep-winter-v3 .resource-grid,.deep-winter-v3 .influence-panels{grid-template-columns:1fr}.deep-winter-v3 .resource-card:last-child,.deep-winter-v3 .influence-panel:last-child{grid-column:auto}.deep-winter-v3 .resource-card{min-height:0}.deep-winter-v3 .resource-card h3{font-size:41px}.deep-winter-v3 .influences-wrap{margin-top:55px;padding-top:42px}.deep-winter-v3 .influences-intro h3{font-size:clamp(38px,9vw,55px)}.deep-winter-v3 .influence-panel{min-height:0}}
+@media(prefers-reduced-motion:reduce){.deep-winter-v3 .resource-card{transition:none}}
