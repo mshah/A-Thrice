@@ -1,0 +1,32 @@
+/* A-THRICE — EDITORIAL SIGNAL LOGO SYSTEM / SITE V4 */
+/* Header: real vector master brand replaces temporary A³ / A—THRICE text. */
+.deep-winter-v3 .site-header .brand-lockup{display:flex;align-items:center;flex:0 0 auto;min-width:0;line-height:1}
+.deep-winter-v3 .site-header .site-logo{display:block;width:clamp(204px,20.5vw,279px);height:auto;max-height:74px;object-fit:contain;object-position:left center}
+.deep-winter-v3 .brand-lockup:focus-visible{outline:2px solid #57E1E9;outline-offset:5px;border-radius:3px}
+/* The standalone A sign becomes the central motif of the hero composition. */
+.deep-winter-v3 .hero-art-center{gap:0;align-items:center}
+.deep-winter-v3 .hero-art-center .hero-insignia{display:block;width:79%;height:auto;max-height:74%;aspect-ratio:1;object-fit:contain;filter:drop-shadow(0 10px 16px rgba(0,0,0,.35))}
+.deep-winter-v3 .hero-art-center>.mono{margin:0 0 4px;font-size:10px;letter-spacing:.14em}
+.deep-winter-v3 .hero-art-center>span:last-child{margin:4px 0 0;font-size:9px;letter-spacing:.075em;max-width:88%;line-height:1.5}
+/* Use vector wordmark in artist / footer while preserving hierarchy. */
+.deep-winter-v3 .about-logo-title{margin:22px 0 16px;line-height:1;display:block}
+.deep-winter-v3 .about-logo{display:block;width:min(100%,560px);height:auto;filter:drop-shadow(0 10px 12px #00122544)}
+.deep-winter-v3 .footer-logo{display:block;width:clamp(195px,22vw,300px);height:auto}
+.deep-winter-v3 .footer-brand{line-height:1}
+@media (max-width: 1160px){
+  .deep-winter-v3 .site-header .site-logo{width:clamp(190px,21vw,242px)}
+  .deep-winter-v3 .site-header .site-nav{gap:17px}
+}
+@media (max-width:800px){
+  .deep-winter-v3 .site-header .site-logo{width:clamp(190px,37vw,255px);max-height:60px}
+  .deep-winter-v3 .site-header .brand-lockup{flex:0 1 auto}
+}
+@media (max-width:550px){
+  .deep-winter-v3 .site-header .site-logo{width:clamp(174px,53vw,225px)}
+  .deep-winter-v3 .hero-art-center .hero-insignia{width:84%;max-height:74%}
+  .deep-winter-v3 .hero-art-center>.mono{font-size:8px;margin-bottom:1px}
+  .deep-winter-v3 .hero-art-center>span:last-child{font-size:8px;letter-spacing:.03em;margin-top:2px}
+  .deep-winter-v3 .about-logo{width:min(100%,440px)}
+  .deep-winter-v3 .footer-logo{width:220px}
+}
+@media (prefers-reduced-motion: reduce){.deep-winter-v3 .brand-lockup img{transition:none}}
