@@ -1,29 +1,27 @@
-# A-Thrice — Editorial Signal Website V4
+# A-Thrice Artist Site — V5 (album & archive expansion)
 
-Standalone static site. Open `index.html` locally or deploy this whole directory to Cloudflare Pages. This is a work-in-progress **design review**, not an approved public artist biography.
+**Open `index.html`** or publish all files as the root of a static hosting site (e.g. Cloudflare Pages). No Python server required.
 
-## Changes
-- New Deep Winter parent palette anchored by `#00AFB7` teal, onyx navy, ice, sapphire and berry accents.
-- Both exhibitions and their independent visual identities preserved; The Millinery–Industrial Complex is bundled at `exhibitions/millinery-industrial-complex/`.
-- Six music projects (three marked released, three in development).
-- Resource reading room scaffold for democracy workbook / The Experiment Continues companion guide, lyrics and exhibition catalogues.
-- Expanded About draft and influence-method section, with confirmation needed before public release.
+## New
+- Six supplied original album covers, six dedicated album pages with concept essays, full concept-document tracklists, status and links.
+- SoundCloud, Bandcamp, Apple Music, Spotify, YouTube Music, Deezer profiles and Genius album links.
+- Shared public research index `references.html`, with contextual links for albums and both exhibition projects.
+- Return to Sender catalogue-based preview page and original large/small paisley textile tiles.
+- Artist portrait in biography section.
+- The Experiment Continues Companion Guide V3 link; archival resources card removed.
+- Prior Editorial Signal mark / Deep Winter site design preserved.
 
-## Before publishing
-- Obtain permission for public artist bio and personal details; replace provisional materials, album-art design studies, and Return to Sender art.
-- Upload public-edition resources; no private Drive documents are exposed or linked from this preview.
-- Configure public links / custom domain later.
+## Important integration notes
+**Two specific website revisions not located in connected Google Drive:**
+1. `Return_to_Sender_Website_v3` — this package contains a new **catalogue-based interim Return to Sender exhibition overview** at `/exhibitions/return-to-sender/index.html`, **not** the user-named existing V3 build.
+2. `millinery-industrial-complex-publish-ready.v.7` — this package includes the latest available local `millinery-industrial-complex-publish-ready.zip` build, **not verified as V7**. Replace contents of `/exhibitions/millinery-industrial-complex/` with V7 whenever it is available.
 
-## V4: installed approved logo identity
-- Replaces the navigation's temporary A³ mark and text with the Editorial Signal primary SVG logo.
-- Replaces the hero's typographic circle with the custom Signal A insignia.
-- Uses the approved vector wordmark in the artist area and footer.
-- Adds the custom SVG favicon plus Apple touch icon; ships vector and PNG brand files in `assets/`.
-- Adds responsive sizing so logos work in both desktop and mobile headers.
-- Leaves the existing six-album catalogue, two exhibitions, Reading Room, and gift-shop out-of-stock states unchanged.
+The catalogue source, album and annotation packets were read to populate pages. Research URLs are curated editorial pointers; no unpublished annotation-packet text or private Google Drive drafts are hosted on the site.
 
-To deploy: upload the contents of this site directory to Cloudflare Pages, with `index.html` at the top level. You can also upload the ZIP via Cloudflare's direct-upload workflow. No Python installation is required to view this site locally.
-
-The exact logo SVGs are bundled so no external fonts are needed to display the A-Thrice wordmark. Google Fonts are still used for other site typography when online.
-
-The custom `athrice-insignia-on-dark.svg` is a white/teal/raspberry colourway of the supplied insignia, optimised for the dark-blue hero background.
+## Editorial cautions
+- Album tracklists follow the cited concept documents. `Company Town` is explicitly a **15-track working sequence**. Afterlives tracks follow its **16-entry posting/streaming discography**; another passage proposes two unnumbered companion songs, which are not represented as confirmed album tracks.
+- `Citizen of Empire` original 8-track concept plus optional bonus follows the concept draft; confirm against final distributor tracklists before going public.
+- The Experiment Continues Companion Guide currently links to an artist-controlled Drive PDF, and may require Google account permission. Check its sharing or replace with a public URL before launch.
+- Soft releases: **Controlled Burn** and **The Experiment Continues**. Three other albums widely distributed. **Company Town** is in production.
+- Return to Sender and Millinery are fictional/conceptual exhibitions; do not present them as real museum programming.
+- This is a static site, so no checkout, database or analytics is installed.

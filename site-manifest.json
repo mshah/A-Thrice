@@ -1,0 +1,51 @@
+{
+  "version": "5",
+  "albums": [
+    {
+      "slug": "citizen-of-empire",
+      "tracks": 8,
+      "status": "Widely distributed"
+    },
+    {
+      "slug": "panic-by-design",
+      "tracks": 10,
+      "status": "Widely distributed"
+    },
+    {
+      "slug": "citizen-of-empire-afterlives",
+      "tracks": 14,
+      "status": "Widely distributed"
+    },
+    {
+      "slug": "controlled-burn",
+      "tracks": 12,
+      "status": "Soft release"
+    },
+    {
+      "slug": "the-experiment-continues",
+      "tracks": 11,
+      "status": "Soft release"
+    },
+    {
+      "slug": "company-town",
+      "tracks": 15,
+      "status": "In production"
+    }
+  ],
+  "assets": {
+    "citizen": "citizen-of-empire.webp",
+    "panic": "panic-by-design.webp",
+    "afterlives": "citizen-of-empire-afterlives.webp",
+    "burn": "controlled-burn.webp",
+    "experiment": "the-experiment-continues.webp",
+    "company": "company-town.webp",
+    "return": "return-to-sender.webp",
+    "large": "nautical-paisley-portwork.webp",
+    "small": "small-paisley-seamless.webp",
+    "bio": "artist-portrait.webp"
+  },
+  "exhibitions": [
+    "millinery-industrial-complex",
+    "return-to-sender"
+  ]
+}
