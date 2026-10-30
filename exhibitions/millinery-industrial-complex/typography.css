@@ -1,0 +1,227 @@
+/*
+ * The Millinery–Industrial Complex — approved typography roles.
+ * Load after styles.css and shop.css. Fonts are provided by fonts.css.
+ * Display titles: Bodoni Moda. Curatorial prose / navigation: IBM Plex Sans.
+ * Dates / locations / equipment fields / references: IBM Plex Mono.
+ * Longer historical descriptions remain IBM Plex Sans.
+ */
+:root,
+.mic-shop {
+  --serif: "Bodoni Moda", serif;
+  --sans: "IBM Plex Sans", sans-serif;
+  --mono: "IBM Plex Mono", monospace;
+}
+
+body,
+.mic-shop {
+  font-family: var(--sans);
+  font-synthesis: none;
+}
+
+/* Exhibition, gallery, artwork and collection titles retain the display face. */
+h1,
+h2,
+h3,
+.brand-type strong,
+.work-name,
+.case-name,
+.door-title,
+.study-title strong,
+.viewer-pagination strong,
+.footer-title,
+.shop-cap-index summary strong,
+.shop-postcard-display figcaption,
+.shop-footer-statement {
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+}
+
+.hero-deck,
+.shop-book-subtitle {
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-style: italic;
+}
+
+/* Curatorial writing is contemporary sans-serif, including the Gallery I label. */
+.hero-lede,
+.essay-text,
+.room-info p,
+.foyer-text p,
+.section-split p,
+.leading-copy p,
+.research-banner p,
+.viewer-essay p,
+.viewer-excerpt p,
+.study-block p,
+.study-subtitle,
+.merch-explainer p,
+.product-disclosure,
+.product-edition-note p,
+.long-essay p,
+.footer-note,
+.shop-hero-description,
+.shop-section-heading > p,
+.shop-collector-copy > p,
+.shop-card-description,
+.shop-book-copy > p,
+.shop-dialog-description > p,
+.shop-dialog-description li {
+  font-family: var(--sans);
+}
+
+.shop-certificate blockquote {
+  font-family: var(--sans);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+/* Section labels, visitor instructions, controls and navigation are not records. */
+.announcement,
+.brand-type small,
+.nav a,
+.menu-toggle,
+.btn,
+.text-link,
+.back-link,
+.eyebrow,
+.hero-number,
+.hero-book-label,
+.hero-img-label,
+.intro-band,
+.room-info > span:first-child,
+.room-enter,
+.stock-note,
+.foyer-text .foyer-notice,
+.case-name span,
+.door-no,
+.door-arrow,
+.door-sub,
+.card-view,
+.research-legend,
+.viewer-tag,
+.viewer-pagination a,
+.study-main figcaption,
+.merch-duo figcaption,
+.study-main .study-context figcaption,
+.study-context-open,
+.block-num,
+.product-see,
+.product-unavailable,
+.disabled-buy,
+.shop-status strong,
+.out-label,
+.about-hero > p:last-child,
+.footer-links,
+.footer-bottom,
+.shop-brand span,
+.shop-room,
+.shop-eyebrow,
+.shop-availability,
+.shop-hero-figure figcaption,
+.shop-nav-inner a,
+.shop-nav-inner a > span,
+.shop-inspect-label,
+.shop-view-buttons > button,
+.shop-stock,
+.shop-card-type,
+.shop-postcard-display figcaption > span,
+.shop-back-to-gallery,
+.shop-cap-count {
+  font-family: var(--sans);
+  font-weight: 500;
+}
+
+/* These earlier shorthands use !important, so the family override must match. */
+.shop-image-control,
+.shop-dialog-description .shop-dialog-stock-note {
+  font-family: var(--sans) !important;
+}
+
+/* Product titles remain display titles even when their clickable label is a button. */
+.shop-product-card h3 button {
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+}
+
+/* Campaign slogans use bold sans-serif lettering, distinct from archival records. */
+.slogan-pair strong,
+.slogan-pair em,
+.merch-view-heading > p,
+.item-description,
+.item-description i,
+.mic-shop .shop-slogan {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Preserve the italic display subtitle when it is a paragraph in the shop copy. */
+.shop-book-copy > .shop-book-subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-optical-sizing: auto;
+}
+
+/* Catalogue identifiers and the date/location field are documentary metadata. */
+.kicker-num,
+.work-index,
+.case-number,
+.collection-count > span,
+.study-title > span:first-child,
+.viewer-context > span,
+.viewer-context > p:last-child,
+.editorial-id,
+.merch-meta > span,
+.feature-list strong,
+.shop-edition-list dt,
+.sources h3 span,
+.record-data,
+.operation-date,
+.record-date,
+.archive-reference,
+.military-equipment,
+.record-location {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.work-viewer .viewer-content > .eyebrow,
+.study-heading .eyebrow {
+  font-family: var(--mono);
+}
+
+/* Historical explanation is curatorial prose. The record heading, structured
+ * metadata and citations carry the separate documentary voice. */
+.study-analysis > .study-block:nth-of-type(3) p {
+  font-family: var(--sans);
+  font-weight: 400;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+}
+
+.study-analysis > .study-block:nth-of-type(3) > .block-num,
+.study-analysis > .study-block:nth-of-type(3) .record-data {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.sources ol,
+.sources li,
+.sources a {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.85;
+}
+
+.sources h3 {
+  font-family: var(--sans);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+

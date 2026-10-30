@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A-Thrice — Exhibition Typography</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="typography.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f1e9dc; color: #17171b; font: 17px/1.65 var(--sans); }
+    main { width: min(1100px, calc(100% - 44px)); margin: 50px auto 70px; }
+    header { border-bottom: 1px solid #c7a46d; padding-bottom: 32px; }
+    h1 { font-size: clamp(40px, 6vw, 76px); font-weight: 400; line-height: 1.05; margin: 10px 0 22px; }
+    h2 { font-size: 34px; font-weight: 400; line-height: 1.2; margin: 0 0 15px; }
+    p { margin: 0 0 16px; }
+    .label { color: #745d3e; font: 500 11px/1.6 var(--sans); letter-spacing: .12em; text-transform: uppercase; }
+    .hero-deck { font-size: 38px; line-height: 1.2; color: #43151e; }
+    .sample { border-bottom: 1px solid #c7a46d; padding: 28px 0; }
+    .viewer-essay p { font-size: 19px; max-width: 850px; }
+    .study-block { margin-top: 15px; }
+    .study-analysis > .study-block:nth-of-type(3) { background: #17171b; color: #f1e9dc; padding: 24px; }
+    .study-analysis > .study-block:nth-of-type(3) p { margin: 0; }
+    .sources a { color: #43151e; text-underline-offset: 4px; }
+    .item-description { color: #43151e; font-size: 22px; line-height: 1.5; margin-top: 22px; }
+    .status { margin-top: 25px; padding: 18px; border: 1px solid #c7a46d; background: #e8dfd1; }
+    .status p:last-child { margin-bottom: 0; }
+    .status.ok { border-color: #50654a; }
+    .status.error { border-color: #ad2638; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    code { font-family: var(--mono); font-size: 13px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 18px; }
+    .nav a { color: #43151e; text-decoration: underline; text-underline-offset: 4px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="label">A-Thrice · The Millinery–Industrial Complex · Typography guide</p>
+    <h1 id="display-sample">The Millinery–<br>Industrial Complex</h1>
+    <p class="hero-deck" id="italic-sample">À la Victoire</p>
+    <p>Bodoni Moda for exhibition, gallery and artwork titles, with a true italic for the display subtitle.</p>
+  </header>
+
+  <section class="sample">
+    <p class="label">IBM Plex Sans · Curatorial writing</p>
+    <h2>Clear, contemporary exhibition text</h2>
+    <div class="viewer-essay"><p id="body-sample">A large naval ornament presides over much smaller boats. The contrast gives military power the scale of a public monument and life at sea the scale of a fragile detail.</p></div>
+    <nav class="nav" aria-label="Typography sample navigation"><a id="nav-sample" href="#record-sample">Beneath the Ornament</a><a href="#font-status">Font check</a></nav>
+    <p><em>True italic is also available for emphasis within curatorial prose.</em></p>
+  </section>
+
+  <section class="sample">
+    <p class="label">IBM Plex Mono · Historical and military records</p>
+    <h2>A separate documentary voice</h2>
+    <div class="study-analysis">
+      <div class="study-block"><p>Detail descriptions use IBM Plex Sans.</p></div>
+      <div class="study-block"><p>Curatorial interpretations also use IBM Plex Sans.</p></div>
+      <div class="study-block"><p>Longer historical descriptions stay in IBM Plex Sans.</p><p id="record-sample" class="record-data">DATE / LOCATION / MILITARY EQUIPMENT<br>ARCHIVE REFERENCE / SOURCE / RECORD<br><em>Upright and italic documentary text</em></p></div>
+    </div>
+    <div class="sources"><ol><li><a id="source-sample" href="#font-status">H01A · Archival reference specimen</a></li></ol></div>
+    <p class="item-description" id="campaign-sample">PEACE ON EARTH<br>TERMS MAY APPLY</p>
+    <p>Campaign wording uses bold IBM Plex Sans; the embroidery in the artwork images is unchanged.</p>
+  </section>
+
+  <section class="status" id="font-status" aria-live="polite">
+    <p><strong>Checking the bundled fonts in this browser…</strong></p>
+    <p>You can open this page directly from the extracted folder. No font installation or internet connection is required.</p>
+  </section>
+</main>
+<script>
+(async function () {
+  const status = document.getElementById('font-status');
+  const families = ['Bodoni Moda', 'IBM Plex Sans', 'IBM Plex Mono'];
+  const specs = families.flatMap(family => ['normal', 'italic'].map(style => ({family, style, request:style+' 400 32px "'+family+'"'})));
+  const roles = [
+    ['display-sample', 'Bodoni Moda'],
+    ['italic-sample', 'Bodoni Moda'],
+    ['body-sample', 'IBM Plex Sans'],
+    ['nav-sample', 'IBM Plex Sans'],
+    ['record-sample', 'IBM Plex Mono'],
+    ['source-sample', 'IBM Plex Mono'],
+    ['campaign-sample', 'IBM Plex Sans']
+  ];
+  const line = text => { const p = document.createElement('p'); p.textContent = text; return p; };
+  try {
+    if (!document.fonts) throw new Error('This browser does not expose the font-loading check.');
+    const loaded = await Promise.all(specs.map(spec => document.fonts.load(spec.request, 'À la Victoire — 0123456789')));
+    await document.fonts.ready;
+    const missing = specs.filter((spec, i) => !loaded[i].length || loaded[i].some(face => face.status !== 'loaded'));
+    const mismatches = roles.filter(([id, family]) => getComputedStyle(document.getElementById(id)).fontFamily.split(',')[0].replace(/["']/g, '').trim() !== family);
+    if (missing.length || mismatches.length) throw new Error('A bundled face or a typography role did not match.');
+    status.classList.add('ok');
+    status.replaceChildren(line('All six bundled font faces loaded successfully in this browser.'),line('Title, subtitle, curatorial, navigation, record, source and campaign font roles match the guide.'));
+  } catch (error) {
+    status.classList.add('error');
+    status.replaceChildren(line('The browser font check could not be completed.'),line(error.message));
+  }
+})();
+</script>
+</body>
+</html>

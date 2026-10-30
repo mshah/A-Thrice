@@ -1,0 +1,130 @@
+[
+  {
+    "key": "bodoni-normal",
+    "file": "BodoniModa-variable.ttf",
+    "family": "Bodoni Moda",
+    "subfamily": "Regular",
+    "bytes": 162104,
+    "axes": {
+      "wght": [
+        400.0,
+        400.0,
+        900.0
+      ],
+      "opsz": [
+        6.0,
+        11.0,
+        96.0
+      ]
+    },
+    "glyphs": 428,
+    "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf",
+    "source": "https://github.com/google/fonts/blob/main/ofl/bodonimoda/BodoniModa[opsz,wght].ttf",
+    "blob_sha": "c5d582f8003ae692761dd8e9ce69de23cb9fea53"
+  },
+  {
+    "key": "bodoni-italic",
+    "file": "BodoniModa-Italic-variable.ttf",
+    "family": "Bodoni Moda",
+    "subfamily": "Italic",
+    "bytes": 176300,
+    "axes": {
+      "wght": [
+        400.0,
+        400.0,
+        900.0
+      ],
+      "opsz": [
+        6.0,
+        11.0,
+        96.0
+      ]
+    },
+    "glyphs": 428,
+    "sha256": "dfff1619f8f6871c6372f8855b67211f9a73b4e93d45aca868cd8f46a48622de",
+    "source": "https://github.com/google/fonts/blob/main/ofl/bodonimoda/BodoniModa-Italic[opsz,wght].ttf",
+    "blob_sha": "174375b9265ac430071f6f1f20de8dbe088c61c1"
+  },
+  {
+    "key": "plex-sans-normal",
+    "file": "IBMPlexSans-variable.woff2",
+    "family": "IBM Plex Sans Var",
+    "subfamily": "Regular",
+    "bytes": 230368,
+    "axes": {
+      "wght": [
+        100.0,
+        400.0,
+        700.0
+      ],
+      "wdth": [
+        85.0,
+        100.0,
+        100.0
+      ]
+    },
+    "glyphs": 891,
+    "sha256": "e978248b6b56da9e372975322a98dd9a51135d1b375e32ed6d5ca69f3aab792d",
+    "source": "https://github.com/IBM/plex/blob/master/packages/plex-sans-variable/fonts/complete/woff2/IBM%20Plex%20Sans%20Var-Roman.woff2",
+    "blob_sha": "59b0bc0a7d9bb903b394065c8d0863b7c97b1115"
+  },
+  {
+    "key": "plex-sans-italic",
+    "file": "IBMPlexSans-Italic-variable.woff2",
+    "family": "IBM Plex Sans Var",
+    "subfamily": "Italic",
+    "bytes": 262364,
+    "axes": {
+      "wght": [
+        100.0,
+        400.0,
+        700.0
+      ],
+      "wdth": [
+        85.0,
+        100.0,
+        100.0
+      ]
+    },
+    "glyphs": 891,
+    "sha256": "57c2e5e2d0a16054e83315a312d2d5d0166e4a6f5b27dbed28d7d9d05b5e4292",
+    "source": "https://github.com/IBM/plex/blob/master/packages/plex-sans-variable/fonts/complete/woff2/IBM%20Plex%20Sans%20Var-Italic.woff2",
+    "blob_sha": "ce4098421e4743d2dceac05dbf8fb516435ae0b3"
+  },
+  {
+    "key": "plex-mono-normal",
+    "file": "IBMPlexMono-variable.woff2",
+    "family": "IBM Plex Mono Var",
+    "subfamily": "Regular",
+    "bytes": 83488,
+    "axes": {
+      "wght": [
+        100.0,
+        400.0,
+        700.0
+      ]
+    },
+    "glyphs": 1045,
+    "sha256": "ef55d69e81baa6523a9b6e015d746e707bc7e9579f18703a169cb18c36dd567b",
+    "source": "https://github.com/IBM/plex/blob/master/packages/plex-mono-variable/fonts/complete/woff2/IBM%20Plex%20Mono%20Var-Roman.woff2",
+    "blob_sha": "09a8c306fe9df33ffb8c2ff8edca7cb7025d79a2"
+  },
+  {
+    "key": "plex-mono-italic",
+    "file": "IBMPlexMono-Italic-variable.woff2",
+    "family": "IBM Plex Mono Var",
+    "subfamily": "Italic",
+    "bytes": 96788,
+    "axes": {
+      "wght": [
+        100.0,
+        400.0,
+        700.0
+      ]
+    },
+    "glyphs": 1045,
+    "sha256": "b1c1137b5de255336110167a3a66531bed1e7d14fc8a0a384bd0d7c06bdd433b",
+    "source": "https://github.com/IBM/plex/blob/master/packages/plex-mono-variable/fonts/complete/woff2/IBM%20Plex%20Mono%20Var-Italic.woff2",
+    "blob_sha": "044d35af0edc098e25758270152444dc885a8f7f"
+  }
+]
