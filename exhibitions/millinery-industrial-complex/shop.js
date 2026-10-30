@@ -30,7 +30,7 @@
       products.filter(product => product.collection === grid.dataset.shopCollection).forEach(product => {
         const card = element('article', 'shop-product-card');
         const imageButton = productTrigger(product, 'shop-card-image');
-        imageButton.setAttribute('aria-label', 'Inspect ' + product.name + ' — ' + product.type);
+        imageButton.setAttribute('aria-label', 'View ' + product.name + ' — ' + product.type);
         const photo = element('img');
         photo.src = asset(product.images[0]);
         photo.alt = product.images[0].alt;
@@ -43,7 +43,7 @@
         heading.append(productTrigger(product, '', product.name));
         card.append(imageButton, element('p', 'shop-card-type', product.type), heading);
         if (product.slogan) card.append(element('p', 'shop-slogan', product.slogan));
-        card.append(element('p', 'shop-card-description', product.description), productTrigger(product, 'shop-text-button', 'View details ↗'));
+        card.append(element('p', 'shop-card-description', product.description), productTrigger(product, 'shop-text-button', 'View item ↗'));
         grid.append(card);
       });
     });
