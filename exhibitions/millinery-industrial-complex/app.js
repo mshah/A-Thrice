@@ -31,9 +31,9 @@ function home(){
    <div class="hero-actions">${link('#/foyer','ENTER THE EXHIBITION','btn btn-gold')}${link('#/about','READ THE CURATORIAL STATEMENT','text-link')}</div>
    <div class="hero-number">THIRTEEN DIGITAL COUTURE WORKS <span>·</span> THREE GALLERIES <span>·</span> ONE IMAGINED MUSEUM</div>
   </div>
-  <a class="hero-image hero-book-cover" href="#/shop/book" aria-label="Explore the exhibition book and look inside">
-   <img src="assets/shop/exhibition-book-cover.webp" alt="The Millinery–Industrial Complex / À la Victoire exhibition book cover by A-Thrice, featuring the Collateral Style couture portrait." width="1122" height="1402" loading="eager" decoding="async" fetchpriority="high">
-   <span class="hero-book-label">THE EXHIBITION BOOK <span>LOOK INSIDE ↗</span></span>
+  <a class="hero-image hero-book-cover" href="#/artwork/09" aria-label="View Collateral Style, couture artwork 09">
+   <img src="../../assets/millinery-collateral-style-portrait.webp" alt="Collateral Style: a couture portrait with a crimson naval hat, pearls, gold ornament and black veiling" width="1086" height="1448" loading="eager" decoding="async" fetchpriority="high">
+   <span class="hero-book-label">09 — COLLATERAL STYLE <span>VIEW ARTWORK ↗</span></span>
   </a>
  </section>
  <section class="intro-band"><span>THE OBJECTS ARE IMAGINARY.</span><i>THE HISTORY IS NOT.</i></section>
