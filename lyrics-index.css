@@ -1,0 +1,35 @@
+/* A-Thrice lyrics and annotation catalogue. */
+.lyrics-index-page{--index-accent:#50dadd;--index-ink:#ecf4fa;--index-muted:#adc1cf;--index-line:#344d63;padding-bottom:70px;color:var(--index-ink)}
+.lyrics-index-page a:focus-visible,.lyrics-index-page summary:focus-visible{outline:2px solid var(--index-accent);outline-offset:5px}
+.lyrics-index-hero{padding:62px 0 44px;border-bottom:1px solid var(--index-line)}
+.lyrics-index-kicker{font:10px/1.8 'DM Mono',monospace;color:var(--index-accent);letter-spacing:.1em;margin:0}
+.lyrics-index-hero h1{font:400 clamp(64px,8vw,116px)/.98 'Instrument Serif',serif;letter-spacing:-.035em;margin:26px 0 28px}
+.lyrics-index-hero h1 em{font-weight:400;color:var(--index-accent)}
+.lyrics-index-hero>p:last-of-type{font:18px/1.8 'DM Sans',sans-serif;color:var(--index-muted);max-width:65ch;margin:0}
+.lyrics-index-jumps{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.lyrics-index-jumps a{border:1px solid #50dadd66;padding:11px 14px;color:var(--index-accent);font:12px/1.6 'DM Sans',sans-serif;min-height:44px}
+.lyrics-index-jumps a:hover{background:#16343e}
+.lyrics-index-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px;align-items:start;padding-top:40px}
+.lyrics-index-album{background:#0e1c2e;border:1px solid var(--index-line);padding:28px;min-width:0;scroll-margin-top:26px}
+.lyrics-index-album-heading{display:grid;grid-template-columns:88px minmax(0,1fr);gap:21px;align-items:start}
+.lyrics-index-album-heading img{display:block;width:88px;height:88px;object-fit:cover;border:1px solid var(--index-line)}
+.lyrics-index-album h2{font:400 clamp(31px,3.6vw,45px)/1.08 'Instrument Serif',serif;letter-spacing:-.02em;margin:10px 0 0;overflow-wrap:break-word}
+.lyrics-index-description{font:15px/1.8 'DM Sans',sans-serif;color:var(--index-muted);margin:22px 0 14px}
+.lyrics-index-album-link{display:inline-block;color:var(--index-accent);font:12px/1.7 'DM Sans',sans-serif;border-bottom:1px solid #50dadd66;padding:6px 0}
+.lyrics-index-songlist{margin-top:24px;border-top:1px solid var(--index-line)}
+.lyrics-index-songlist summary{font:12px/1.8 'DM Sans',sans-serif;color:var(--index-ink);padding:17px 0;cursor:pointer;min-height:48px}
+.lyrics-index-songlist summary::marker{color:var(--index-accent)}
+.lyrics-index-tracks{list-style:none;padding:0;margin:0}
+.lyrics-index-tracks li{border-top:1px solid #344d6377}
+.lyrics-index-tracks li>a:first-child{display:grid;grid-template-columns:25px minmax(0,1fr) 14px;gap:12px;align-items:baseline;padding:14px 0;color:var(--index-ink);font:15px/1.65 'DM Sans',sans-serif;min-height:48px}
+.lyrics-index-tracks li>a:first-child:hover{color:var(--index-accent)}
+.lyrics-index-number{font:9px/1.6 'DM Mono',monospace;color:#87a7b9;user-select:none}
+.lyrics-index-tracks li>a.lyrics-index-related-note{display:block;margin:0 0 15px 37px;color:var(--index-accent);font:11px/1.7 'DM Sans',sans-serif}
+.lyrics-index-actions{display:flex;flex-direction:column;align-items:flex-start;gap:16px;margin-top:24px}
+.lyrics-index-external{display:inline-block;border:1px solid #50dadd88;color:var(--index-accent);padding:12px 16px;font:13px/1.6 'DM Sans',sans-serif;min-height:44px}
+.lyrics-index-external:hover{background:#16343e}
+.lyrics-index-more{margin-top:44px;border-top:1px solid var(--index-line);padding-top:26px;display:flex;justify-content:space-between;gap:20px;align-items:center}
+.lyrics-index-more p{font:13px/1.7 'DM Sans',sans-serif;color:var(--index-muted);margin:0}
+.lyrics-index-more a{font:14px/1.7 'DM Sans',sans-serif;color:var(--index-accent)}
+@media(max-width:900px){.lyrics-index-grid{grid-template-columns:1fr}.lyrics-index-album h2{font-size:40px}.lyrics-index-hero{padding-top:42px}}
+@media(max-width:580px){.lyrics-index-hero h1{font-size:clamp(60px,14vw,84px)}.lyrics-index-hero>p:last-of-type{font-size:16px}.lyrics-index-jumps{gap:10px}.lyrics-index-jumps a{font-size:11px}.lyrics-index-grid{padding-top:28px;gap:24px}.lyrics-index-album{padding:21px}.lyrics-index-album-heading{grid-template-columns:65px minmax(0,1fr);gap:17px}.lyrics-index-album-heading img{width:65px;height:65px}.lyrics-index-album h2{font-size:33px}.lyrics-index-kicker{font-size:9px}.lyrics-index-description{font-size:14px}.lyrics-index-more{align-items:flex-start;flex-direction:column}}
