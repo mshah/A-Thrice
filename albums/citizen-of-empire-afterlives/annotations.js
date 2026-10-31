@@ -58,12 +58,12 @@
     }
     panel.hidden = mobile.matches && !all;
     panelClose.hidden = !selected.length || all;
-    showAllButton.textContent = all ? 'Close all annotations' : `Show all ${notes.length} annotations`;
+    showAllButton.textContent = all ? 'Close all annotations' : 'Show all annotations';
     showAllButton.setAttribute('aria-pressed', String(all));
     status.textContent = all
-      ? `${notes.length} artist annotations. Each note has a link you can share.`
+      ? 'Artist’s annotations. Each note has a link you can share.'
       : selected.length
-        ? `${selected.length} ${selected.length === 1 ? 'annotation' : 'annotations'} for the selected lyric.`
+        ? 'Artist’s annotation for the selected lyric.'
         : 'Choose an underlined lyric to read its annotation, or show all notes.';
     updateTriggers();
   }
