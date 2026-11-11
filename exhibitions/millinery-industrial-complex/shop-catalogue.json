@@ -30,12 +30,14 @@
       "id": "exhibition-book",
       "collection": "book",
       "name": "The Millinery–Industrial Complex",
-      "type": "Exhibition book · À la Victoire",
-      "description": "À la Victoire in book form, by A-Thrice. Preview the exhibition cover and a spread devoted to Safe Passage.",
+      "type": "Digital exhibition catalogue · PDF · 55 pages",
+      "description": "The completed, illustrated 55-page exhibition catalogue: thirteen couture portraits and historical studies, Victory Merch, Consuming Patriotism, the fictional gift shop, an artist statement, AI-process disclosure and 43 numbered references.",
       "details": [
-        "The Millinery–Industrial Complex · À la Victoire",
-        "By A-Thrice · An imagined exhibition",
-        "Inside look: the Safe Passage couture portrait spread"
+        "Digital PDF edition · 55 pages",
+        "A-Thrice · 2026 · illustrated exhibition catalogue",
+        "Includes thirteen facing portrait/research pairs and forty-three source notes",
+        "Digital delivery through a secure checkout once configured",
+        "The finished catalogue is real; objects depicted inside the fictional museum shop remain imagined."
       ],
       "images": [
         {
@@ -43,16 +45,17 @@
           "label": "Cover",
           "width": 1122,
           "height": 1402,
-          "alt": "Exhibition book cover reading The Millinery–Industrial Complex / À la Victoire / A-Thrice / An Imagined Exhibition, with the Collateral Style couture portrait, red velvet, pearls, gold ornament and a miniature warship."
+          "alt": "Conceptual presentation mock-up of the exhibition book; the completed downloadable PDF is a 55-page illustrated catalogue with a different final cover."
         },
         {
           "file": "shop/exhibition-book-inside.webp",
           "label": "Inside look · Safe Passage",
           "width": 2048,
           "height": 1279,
-          "alt": "An interior book spread for Safe Passage. The ivory left page carries its title, the line Security, dressed for ceremony, and accompanying text; the right page shows the couture portrait with an aircraft carrier, a miniature port and black lace."
+          "alt": "Illustrative sample spread from the fictional book mock-up; the completed PDF has an updated facing-page design."
         }
-      ]
+      ],
+      "availability": "catalogue-only"
     },
     {
       "id": "victory-merch-01",
@@ -83,7 +86,8 @@
           "href": "#/study/01",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-02",
@@ -114,7 +118,8 @@
           "href": "#/study/02",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-03",
@@ -145,7 +150,8 @@
           "href": "#/study/03",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-04",
@@ -176,7 +182,8 @@
           "href": "#/study/04",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-05",
@@ -207,7 +214,8 @@
           "href": "#/study/05",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-06",
@@ -238,7 +246,8 @@
           "href": "#/study/06",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-07",
@@ -269,7 +278,8 @@
           "href": "#/study/07",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-08",
@@ -300,7 +310,8 @@
           "href": "#/study/08",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "collateral-style-display",
@@ -349,7 +360,8 @@
           "href": "#/study/09",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-10",
@@ -380,7 +392,8 @@
           "href": "#/study/10",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-11",
@@ -411,7 +424,8 @@
           "href": "#/study/11",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-12",
@@ -442,7 +456,8 @@
           "href": "#/study/12",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "victory-merch-13",
@@ -473,7 +488,8 @@
           "href": "#/study/13",
           "label": "Read the historical study ↗"
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "eagle-pin",
@@ -492,7 +508,8 @@
           "label": "Front",
           "alt": "Antique-gold eagle lapel pin with red cap, American shield, laurel leaves, missile and sewing-needle motifs, and a hanging ivory pearl."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "laurel-pin",
@@ -511,7 +528,8 @@
           "label": "Front",
           "alt": "Divided laurel pin with golden leaves on the left and dark leaves on the right, a crossed gold sewing needle and black missile, red stones and an ivory pearl."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "cockade-pin",
@@ -530,7 +548,8 @@
           "label": "Front",
           "alt": "Victory cockade pin in red, ivory and navy with gold stars, a missile medallion, laurel leaves and a pearl drop."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "detachable-cockade",
@@ -555,7 +574,8 @@
           "label": "Reverse & fastenings",
           "alt": "Reverse of the detachable victory cockade showing navy felt, a horizontal pin and a vertical clip."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "eagle-tote",
@@ -574,7 +594,8 @@
           "label": "Tote & pouch",
           "alt": "Navy Victory Merch tote with ivory handles and an embroidered eagle insignia, beside a matching navy drawstring pouch."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "cockade-tote",
@@ -593,7 +614,8 @@
           "label": "Tote & pouch",
           "alt": "Ivory Victory Merch tote with navy handles and a ribbon cockade emblem, beside a crimson drawstring pouch with the same emblem."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "collateral-streetwear",
@@ -613,7 +635,8 @@
           "label": "Cap",
           "alt": "Crimson baseball cap embroidered COLLATERAL STYLE / HUMAN COST SOLD SEPARATELY, with a small naval laurel emblem at the side."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "midnight-streetwear",
@@ -633,7 +656,8 @@
           "label": "Cap",
           "alt": "Crimson baseball cap embroidered MIDNIGHT HAMMER / AUTHORIZATION SOLD SEPARATELY, with a bomber-and-laurel emblem at the side."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "fifty-nine-streetwear",
@@ -653,7 +677,8 @@
           "label": "Cap",
           "alt": "Crimson baseball cap embroidered FIFTY-NINE SALUTES / WHO DECIDES WHAT FOLLOWS?, with a destroyer-and-laurel emblem at the side."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "couture-postcards",
@@ -679,7 +704,8 @@
           "label": "Shop display",
           "alt": "Exhibition postcard collections displayed on a museum shop counter, with portrait, detail and Victory Merch cards."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "detail-postcards",
@@ -699,7 +725,8 @@
           "label": "Complete set",
           "alt": "Six close-up artwork postcards beside an ivory box labelled Beneath the Ornament / 6 Postcards."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     },
     {
       "id": "merch-postcards",
@@ -719,7 +746,8 @@
           "label": "Complete set",
           "alt": "Four ornate Victory Merch cap postcards beside an oxblood box. The Christmas Strike postcard reads PEACE ON EARTH / TERMS MAY APPLY."
         }
-      ]
+      ],
+      "availability": "exhibition-only"
     }
   ]
 }

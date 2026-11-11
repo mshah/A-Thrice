@@ -45,3 +45,17 @@
 .study-context-open{display:flex;justify-content:space-between;gap:16px;color:var(--gold);font:10px/1.6 var(--mono);letter-spacing:.03em;margin-top:13px;padding-bottom:6px;border-bottom:1px solid var(--border)}
 .study-context-link:hover .study-context-open{color:var(--ivory);border-color:var(--gold)}
 @media(max-width:700px){.study-main .study-context{padding:18px;margin-top:18px}.study-main .study-context figcaption{align-items:flex-start;gap:8px;font-size:8px;letter-spacing:.035em;padding-bottom:18px}.study-context figcaption>span:last-child{font-size:10px}.study-context-link{width:min(78%,300px)}.study-main .study-context .study-hat-image{max-height:300px}.study-context-open{font-size:9px}}
+
+/* Essays and citations introduced with the exhibition catalogue. */
+.exhibition-essay{max-width:960px;padding-block:70px 85px;border-bottom:1px solid var(--border)}
+.exhibition-essay h2{font:clamp(38px,6vw,74px)/1.13 var(--serif);margin:12px 0 16px}
+.exhibition-essay p:not(.eyebrow){max-width:740px;font-size:16px;line-height:1.85;margin:18px 0}
+.exhibition-essay .essay-subtitle{color:var(--gold);font-style:italic}
+.about-addenda{margin-top:65px;border-top:1px solid var(--border);padding-top:25px}
+.about-addenda h3{margin-top:40px}
+.about-addenda a{color:var(--gold);text-underline-offset:3px}
+.study-citation{font-size:.75em;vertical-align:super;white-space:nowrap;margin-left:2px}
+.study-citation a{color:var(--gold);text-decoration:underline;text-underline-offset:2px}
+.catalogue-notes{list-style:none;margin:0;padding:0}
+.catalogue-notes li{margin:0 0 12px}
+.catalogue-notes .note-num{font-weight:700}

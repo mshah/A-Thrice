@@ -56,3 +56,13 @@
 .shop-book-spread>img{width:100%;height:auto;object-fit:contain}
 @media(max-width:1100px){.shop-book-layout{gap:40px}.shop-book-cover img{max-height:500px}.shop-nav-inner{gap:24px}}
 @media(max-width:760px){.shop-book-layout{grid-template-columns:1fr;gap:28px}.shop-book-cover{padding:24px}.shop-book-cover img{max-height:470px}.shop-book-copy h3{font-size:42px}.shop-book-subtitle{font-size:27px}.shop-book-copy>p:last-of-type{font-size:14px}.shop-book-copy .shop-eyebrow{margin-top:22px}.shop-book-interior{margin-top:30px!important}.shop-book-interior figcaption{align-items:flex-start;flex-direction:column;gap:7px}.shop-book-interior figcaption>span:last-child{font-size:10px}.shop-book-interior .shop-inspect-label{font-size:8px;padding:5px 8px}.shop-book-actions{gap:20px}}
+
+/* Catalogue-only retail; all other imagery remains art rather than stock. */
+.shop-critical-essay{max-width:980px;padding-block:65px 110px;border-top:1px solid var(--line)}
+.shop-critical-essay h2{font:clamp(36px,5.3vw,66px)/1.1 var(--serif);color:var(--oxblood);margin:12px 0}
+.shop-critical-essay p:not(.shop-eyebrow){max-width:760px;font-size:16px;line-height:1.85;margin:18px auto}
+.shop-critical-essay .shop-essay-deck{font-style:italic;color:var(--muted)}
+.shop-book-actions .shop-checkout-container{display:block;flex-basis:100%;margin-bottom:14px}
+.shop-purchase-pending{display:inline-block;font-size:13px;line-height:1.6;color:var(--muted)}
+.shop-display-status{display:inline-block;opacity:.9}
+#shop-dialog-checkout{display:inline-flex;margin:18px 0}
