@@ -6,24 +6,24 @@ window.EXHIBITION_DATA = {
       "name": "Fifty-Nine Salutes",
       "subject": "Shayrat airfield, Syria, 7 April 2017 local time.",
       "label": [
-        "Two miniature destroyers carry the visual authority of a fleet into the intimate space of a hat. Gold missile ornaments turn a strike into a ceremonial salute. The title refers to the 59 Tomahawks launched at Shayrat airfield in April 2017. Beneath the ships, damaged hangar forms interrupt the velvet's composure. A separate mourning detail acknowledges the preceding chemical attack at Khan Shaykhun. The work holds both events in view while asking how a decision to use force becomes an object of public admiration."
+        "Two miniature destroyers carry the visual authority of a fleet into the intimate space of a hat. Gold missile ornaments turn a strike into a ceremonial salute."
       ],
       "interpretation": [
-        "The pairing of USS Ross and USS Porter gives the work a specificity that a generic warship would lack. Their reduction to elegant miniatures makes machinery of considerable destructive capacity available as personal distinction. The three rising ornaments organise that capacity into rhythm. Their resemblance to fireworks is an artistic transformation of the launch, giving a military action the manners of a celebration.",
-        "The title borrows the count of missiles and changes the sense of the word salute. Numbers can communicate scale and precision while withholding the political question of what follows. The hat's balanced composition cannot supply an answer to that question. Its small airfield remains beneath the naval display, while the separate pearl-and-veil detail prevents the chemical attack that prompted the response from disappearing into a general image of destruction. This is a work about the authority to respond and the ease with which a response becomes a finished story."
+        "The pairing of USS Ross and USS Porter gives the work a specificity that a generic warship would lack. Their reduction to elegant miniatures makes machinery of considerable destructive capacity available as personal distinction. The three rising ornaments organise that capacity into rhythm. Their resemblance to fireworks is an artistic transformation of the launch, giving a military action the manners of a celebration."
       ],
       "record": [
-        "The United States launched 59 Tomahawk missiles from USS Ross and USS Porter against Shayrat airfield on 7 April 2017 in Syria, the evening of 6 April in Washington. The Pentagon described the strike as a response to the 4 April chemical attack at Khan Shaykhun and identified aircraft, shelters and supporting infrastructure among the targets. That statement establishes the U.S. account of purpose and targeting; it does not independently establish every claimed effect. [H01A]",
-        "The OPCW Fact-Finding Mission subsequently confirmed the use of sarin or a sarin-like substance at Khan Shaykhun. Its June 2017 report addressed chemical use, not the legality or strategic success of the American strike. The chemical attack and the later American strike occurred on different dates and at different sites. [H01B]"
+        "On 7 April 2017 in Syria, the United States launched 59 Tomahawk missiles from USS Ross and USS Porter at Shayrat airfield. It was still 6 April in Washington. The Pentagon described the strike as a response to the chemical attack three days earlier at Khan Shaykhun, identifying aircraft, shelters and supporting infrastructure as targets. This is the American account of the strike’s purpose and intended targets, not an independent assessment of its effects. 1 Khan Shaykhun and Shayrat were different sites. The OPCW Fact-Finding Mission subsequently confirmed exposure to sarin at Khan Shaykhun on 4 April. Its June 2017 report investigated chemical-weapons use, not the legality or strategic success of the American strike on Shayrat. 2"
       ],
-      "detail": "Hangars and runway sit beneath the destroyers. The ships refer to documented launch vessels; their gilding and ceremonial missile arcs are artistic transformations. The hangars form a composite landscape rather than a verified plan of Shayrat. The memorial pearls do not specify a number of victims or place the chemical attack at the airfield.",
+      "detail": "Two gilded destroyers rise above an imagined airfield, while a separate pearl cluster introduces mourning. USS Ross and USS Porter were the documented launch vessels; the decorative missile arcs and miniature hangars are invented compositions. The pearls acknowledge the preceding chemical attack at Khan Shaykhun without representing a casualty count or placing that attack at Shayrat.",
       "sources": [
         {
-          "label": "H01A: Jim Garamone, U.S. Department of Defense, Trump Orders Missile Attack in Retaliation for Syrian Chemical Strikes, 6 April 2017 U.S. date. Official launch account.",
+          "number": 1,
+          "label": "Jim Garamone, U.S. Department of Defense, Trump Orders Missile Attack in Retaliation for Syrian Chemical Strikes, 6 April 2017 U.S. date. Official launch account.",
           "url": "https://www.defense.gov/News/News-Stories/Article/article/1144601/trump-orders-missile-attack-in-retaliation-for-syrian-chemical-strikes/"
         },
         {
-          "label": "H01B: OPCW, Report of the OPCW Fact-Finding Mission in Syria Regarding an Alleged Incident in Khan Shaykhun, Syrian Arab Republic, April 2017, S/1510/2017, 29 June 2017. Chemical-use finding.",
+          "number": 2,
+          "label": "OPCW, Report of the OPCW Fact-Finding Mission in Syria Regarding an Alleged Incident in Khan Shaykhun, Syrian Arab Republic, April 2017, S/1510/2017, 29 June 2017. Chemical-use finding.",
           "url": "https://www.opcw.org/sites/default/files/documents/Fact_Finding_Mission/s-1510-2017_e\\_.pdf"
         }
       ],
@@ -33,7 +33,11 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-01.webp",
       "slogan": "FIFTY-NINE SALUTES",
       "qualifier": "WHO DECIDES WHAT FOLLOWS?",
-      "hatContextImage": "assets/hat-context/01-fifty-nine-salutes.webp"
+      "hatContextImage": "assets/hat-context/01-fifty-nine-salutes.webp",
+      "noteNumbers": [
+        1,
+        2
+      ]
     },
     {
       "id": 2,
@@ -41,28 +45,29 @@ window.EXHIBITION_DATA = {
       "name": "Mother of All Victories",
       "subject": "Achin district, Nangarhar, Afghanistan, 13 April 2017.",
       "label": [
-        "A large bomb becomes the jewel at the centre of a compact pillbox. The miniature refers to the GBU-43/B used against an ISIS-K tunnel complex in Afghanistan in April 2017. A laurel halo gives destructive capacity the form of distinction. Mountain folds and cave openings occupy the smaller space beneath it. The title exposes the distance between a spectacular weapon and a durable political outcome. Mourning textures introduce seriousness without claiming a casualty record that the ornament cannot provide."
+        "A large bomb becomes the jewel at the centre of a compact pillbox. The miniature refers to the GBU-43/B used against an ISIS-K tunnel complex in Afghanistan in April 2017."
       ],
       "interpretation": [
-        "The bomb's popular nickname lends itself to a language of supremacy. In this work, the laurel wreath carries that implication further: the munition appears already rewarded. A measurement of explosive scale is made to resemble a judgment about success. The terrain resists this simplification. Its folds and openings suggest a place whose political and social complexity cannot be contained by the outline of a weapon.",
-        "The contrast also changes the visitor's relation to Afghanistan. The mountain landscape risks becoming an attractive base for American technology, repeating the marginalisation the work examines. The Achin setting and the continuing conflict give the weapon a history beyond its moment of display. The argument can recognise the threat posed by ISIS-K and the military's stated intention to protect advancing forces while examining the attention captured by an exceptional munition. The imagined hat grants the weapon a stable display setting; the operation did not grant the surrounding war an equally tidy ending."
+        "The bomb's popular nickname lends itself to a language of supremacy. In this work, the laurel wreath carries that implication further: the munition appears already rewarded. A measurement of explosive scale is made to resemble a judgment about success. The terrain resists this simplification. Its folds and openings suggest a place whose political and social complexity cannot be contained by the outline of a weapon."
       ],
       "record": [
-        "U.S. Forces Afghanistan announced that a GBU-43/B Massive Ordnance Air Blast bomb struck an ISIS-K tunnel complex in Achin on 13 April 2017. The command said the purpose was to reduce obstacles and risks to U.S. and Afghan forces conducting clearing operations. The target was an ISIS affiliate, not an undifferentiated Afghan population. [H02A]",
-        "Afghanistan Analysts Network's early assessment described restricted independent access and the resulting dependence on official accounts of immediate effects. Its later analysis placed the attack within a continuing contest over the Mamand Valley. These reports support caution about equating the weapon's scale with an independently demonstrated strategic result. The dark fabric in the work is not evidence of specific civilian deaths. [H02B, H02C]"
+        "On 13 April 2017, U.S. Forces Afghanistan announced that a GBU-43/B Massive Ordnance Air Blast bomb had struck an ISIS-K tunnel complex in Achin, Nangarhar. The command described the strike as a way to reduce obstacles and danger for U.S. and Afghan forces conducting clearing operations. The named target was an ISIS affiliate within an ongoing conflict, not the Afghan population as a whole. 3 Afghanistan Analysts Network reported that restricted independent access initially made the effects difficult to verify beyond official statements. Its later account situated the strike within the continuing struggle for the Mamand Valley. The extraordinary size of the munition could be established; a durable strategic victory could not be inferred from size alone. The work’s dark fabric evokes aftermath but documents no particular civilian death. 4, 5"
       ],
-      "detail": "Cave recesses, black beads and velvet form the landscape beneath the bomb. The weapon type and Achin setting have historical referents, while their relative scale is expressive. The caves are a composite landscape. The dark ornament conveys unease and aftermath without establishing a death toll or documenting the blast site.",
+      "detail": "The bomb rests inside a laurel halo above a small landscape of mountain folds and cave openings. The GBU-43/B and the Achin setting have historical counterparts, but their relative scale serves the artwork’s argument rather than engineering accuracy. The miniature caves are a composite invention. Black crystals and smoky organza suggest uncertainty and aftermath, not a verified damage survey or death toll.",
       "sources": [
         {
-          "label": "H02A: U.S. Forces Afghanistan, U.S. Forces Targets, Destroys ISIS-K Stronghold, 13 April 2017, release 2017-04-13-US-01. Official account.",
+          "number": 3,
+          "label": "U.S. Forces Afghanistan, U.S. Forces Targets, Destroys ISIS-K Stronghold, 13 April 2017, release 2017-04-13-US-01. Official account.",
           "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/1151115/us-forces-targets-destroys-isis-k-stronghold/"
         },
         {
-          "label": "H02B: Borhan Osman, Kate Clark and Martine van Bijlert, “Mother of All Bombs” Dropped on ISKP: Assessing the Aftermath, Afghanistan Analysts Network, 15 April 2017. Context and limits of early evidence.",
+          "number": 4,
+          "label": "Borhan Osman, Kate Clark and Martine van Bijlert, “Mother of All Bombs” Dropped on ISKP: Assessing the Aftermath, Afghanistan Analysts Network, 15 April 2017. Contemporary independent reporting and limitations of early evidence.",
           "url": "https://www.afghanistan-analysts.org/en/reports/war-and-peace/mother-of-all-bombs-dropped-on-iskp-assessing-the-aftermath/"
         },
         {
-          "label": "H02C: Afghanistan Analysts Network, The Battle for Mamand: ISKP under Strain, but Not Yet Defeated, 23 May 2017. Subsequent battlefield context.",
+          "number": 5,
+          "label": "Borhan Osman, The Battle for Mamand: ISKP under Strain, but Not Yet Defeated, Afghanistan Analysts Network, 23 May 2017. Subsequent battlefield context.",
           "url": "https://www.afghanistan-analysts.org/en/reports/war-and-peace/the-battle-for-mamand-iskp-under-strain-but-not-yet-defeated/"
         }
       ],
@@ -72,7 +77,12 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-02.webp",
       "slogan": "MOTHER OF ALL BOMBS",
       "qualifier": "SCALE IS NOT STRATEGY",
-      "hatContextImage": "assets/hat-context/02-mother-of-all-victories.webp"
+      "hatContextImage": "assets/hat-context/02-mother-of-all-victories.webp",
+      "noteNumbers": [
+        3,
+        4,
+        5
+      ]
     },
     {
       "id": 3,
@@ -80,32 +90,34 @@ window.EXHIBITION_DATA = {
       "name": "The Allied Collection",
       "subject": "joint U.S., British and French strikes in Syria, 14 April 2018 local time.",
       "label": [
-        "Three jewel clusters turn a military coalition into an arrangement of coordinated luxury. Above them, a B-1 miniature and gilded missiles evoke the joint strikes on Syrian chemical-weapons-related facilities in April 2018. The intervention followed the chemical attack in Douma. Glass-like ornaments carry the fragility of the subject beneath the display of precision. The work asks how alliance, technical accomplishment and moral purpose can be gathered into one reassuring image, even when each requires a different kind of evidence."
+        "Three jewel clusters turn a military coalition into an arrangement of coordinated luxury. Above them, a B-1 miniature and gilded missiles evoke the joint strikes on Syrian chemical-weapons-related facilities in April 2018."
       ],
       "interpretation": [
-        "The word collection belongs naturally to fashion and quietly changes the meaning of coalition. Three states become coordinated elements of a designed whole. Their different constitutional practices and legal explanations disappear into harmonious colour. The hat's successful composition is therefore part of its argument: visual unity can stand in for an agreement that still requires scrutiny.",
-        "Precision is similarly unsettled. It can describe a weapon's ability to reach a selected location. It cannot establish that the selection was justified, that the operation achieved its political purpose, or that accountability followed. The glass-like forms beneath the aircraft hold the material and human vulnerability that the upper arrangement claims to control. The work acknowledges the chemical attack and the seriousness of the prohibition it violated. Its criticism concerns the movement from a compelling reason to act to a finished image of legitimate action, with too little room left for the questions in between."
+        "The word collection belongs naturally to fashion and quietly changes the meaning of coalition. Three states become coordinated elements of a designed whole. Their different constitutional practices and legal explanations disappear into harmonious colour. The hat's successful composition is therefore part of its argument: visual unity can stand in for an agreement that still requires scrutiny."
       ],
       "record": [
-        "U.S., British and French forces struck three Syrian facilities on 14 April 2018, described by the participants as associated with chemical-weapons research, storage or production. The U.S. account included B-1 bombers among the platforms. The declared purpose was to degrade capability and deter further chemical-weapons use following Douma on 7 April. The identification of the facilities' roles is attributed to the striking governments. [H03A]",
-        "In 2023, the OPCW Investigation and Identification Team found reasonable grounds to identify Syrian Arab Air Forces as responsible for the Douma chemical attack. This later attribution is distinct from what was publicly established on the night of the strikes. The UK published a humanitarian-intervention justification; the House of Commons Library explained the wider legal controversy. Neither allied participation nor a published justification is a judicial determination of legality. [H03B, H03C, H03D]"
+        "On 14 April 2018, American, British and French forces struck three facilities in Syria. The participating governments described them as connected to chemical-weapons research, storage or production; the U.S. account listed B-1 bombers among the platforms used. Officials said the operation was intended to degrade chemical capability and deter further use following the 7 April attack in Douma. The facilities’ alleged roles were part of the governments’ stated targeting case. 6 In 2023, an OPCW investigation found reasonable grounds to identify Syrian Arab Air Forces as responsible for the Douma attack. That later finding was not available when the allied strikes took place. The British government separately published a humanitarian-intervention justification, while House of Commons research documented the wider legal dispute. Allied participation and published legal arguments did not in themselves settle the operation’s legality. 7, 8, 9"
       ],
-      "detail": "Pearl-and-jewel settings sit beside industrial miniatures. The colours refer to the three participating states rather than official insignia. The buildings do not reproduce a verified facility plan. The chemical attack at Douma and the later target sites are separate locations; the ornamental forms do not establish what chemicals were present at a struck building.",
+      "detail": "Three coordinated clusters of jewels stand for the American, British and French participants, making an alliance appear effortless and harmonious. The transparent vessels and miniature buildings evoke the stated chemical-weapons targets without reproducing a verified facility or recovered material. Douma, where the preceding chemical attack occurred, was separate from the sites struck a week later.",
       "sources": [
         {
-          "label": "H03A: U.S. Department of Defense, Pentagon Officials Describe Syria Strikes, Hope Assad Gets Message, 14 April 2018. Official operational account.",
+          "number": 6,
+          "label": "U.S. Department of Defense, Pentagon Officials Describe Syria Strikes, Hope Assad Gets Message, 14 April 2018. Official operational account.",
           "url": "https://www.war.gov/News/News-Stories/Article/Article/1493718/pentagon-officials-describe-syria-strikes-hope-assad-gets-message/"
         },
         {
-          "label": "H03B: OPCW, OPCW Releases Third Report by Investigation and Identification Team, 27 January 2023; report S/2125/2023. Douma attribution.",
+          "number": 7,
+          "label": "OPCW, OPCW Releases Third Report by Investigation and Identification Team, 27 January 2023; report S/2125/2023. Douma attribution.",
           "url": "https://www.opcw.org/media-centre/news/2023/01/opcw-releases-third-report-investigation-and-identification-team"
         },
         {
-          "label": "H03C: UK Government, Syria Action — UK Government Legal Position, 14 April 2018. Participant's legal argument.",
+          "number": 8,
+          "label": "UK Government, Syria Action — UK Government Legal Position, 14 April 2018. Participant's legal argument.",
           "url": "https://www.gov.uk/government/publications/syria-action-uk-government-legal-position/syria-action-uk-government-legal-position"
         },
         {
-          "label": "H03D: Richard Ware, The Legal Basis for Air Strikes against Syrian Government Targets, House of Commons Library, 16 April 2018, CBP-8287. Parliamentary research.",
+          "number": 9,
+          "label": "Richard Ware, The Legal Basis for Air Strikes against Syrian Government Targets, House of Commons Library, 16 April 2018, CBP-8287. Parliamentary research.",
           "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8287/"
         }
       ],
@@ -115,7 +127,13 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-03.webp",
       "slogan": "UNITED IN PRECISION",
       "qualifier": "ACCOUNTABILITY NOT INCLUDED",
-      "hatContextImage": "assets/hat-context/03-the-allied-collection.webp"
+      "hatContextImage": "assets/hat-context/03-the-allied-collection.webp",
+      "noteNumbers": [
+        6,
+        7,
+        8,
+        9
+      ]
     },
     {
       "id": 4,
@@ -123,28 +141,29 @@ window.EXHIBITION_DATA = {
       "name": "The Hunt",
       "subject": "raid on Abu Bakr al-Baghdadi's compound, northwestern Syria, 26–27 October 2019.",
       "label": [
-        "Helicopters circle a small compound as though the raid had become an orderly ceremonial dance. The setting refers to the operation that resulted in the death of ISIS leader Abu Bakr al-Baghdadi in October 2019. Dark passages remain visible beneath the gilded aircraft. Their complexity interrupts the impression that the death of a leader completes the story. The work recognises the danger of its target while asking what a public narrative of success can leave outside the frame."
+        "Helicopters circle a small compound as though the raid had become an orderly ceremonial dance. The setting refers to the operation that resulted in the death of ISIS leader Abu Bakr al-Baghdadi in October 2019."
       ],
       "interpretation": [
-        "The circular arrangement promises enclosure. It gives the viewer a complete route around an event whose public account has required continuing examination. The miniature architecture makes the compound available as an object of visual mastery, while its recessed openings suggest spaces that remain difficult to see. The hat's neat perimeter becomes an imagined boundary around the story.",
-        "Baghdadi's leadership of ISIS is essential to the interpretation. Removing that fact would turn a specific counterterrorism operation into a misleading generic scene. Acknowledging it also leaves room to examine the treatment of noncombatants and the procedures for investigating harm. The lower lace and dark pearls open that space without assigning a victim to each ornament. Their function is to interrupt narrative closure. The companion cap's question, END OF STORY?, belongs to this continuing scrutiny, including the documentary work of journalists who challenged the official assessment of a nearby vehicle strike."
+        "The circular arrangement promises enclosure. It gives the viewer a complete route around an event whose public account has required continuing examination. The miniature architecture makes the compound available as an object of visual mastery, while its recessed openings suggest spaces that remain difficult to see. The hat's neat perimeter becomes an imagined boundary around the story."
       ],
       "record": [
-        "U.S. special forces raided Baghdadi's compound during the night of 26–27 October 2019. The U.S. account stated that he killed himself and two children by detonating explosives as forces closed in; it also described the evacuation of noncombatants. Reuters reported ISIS's subsequent confirmation of his death. These are separate sources for the official account and the confirmation of the principal outcome. [H04A, H04B]",
-        "NPR's 2023 investigation examined Pentagon records concerning a vehicle struck during the operation and challenged the basis for classifying its occupants as combatants. It makes a continuing question about civilian harm historically grounded. It does not make Baghdadi a civilian or render every person present at the compound a combatant. [H04C]"
+        "During the night of 26–27 October 2019, U.S. special forces raided the compound of ISIS leader Abu Bakr al-Baghdadi in northwestern Syria. U.S. officials said he detonated explosives as troops approached, killing himself and two children; they also described evacuating other noncombatants. Reuters subsequently reported ISIS’s confirmation of his death. The official description of the raid and the later confirmation of its principal outcome are distinct accounts. 10, 11 A 2023 NPR investigation, drawing on Pentagon records, questioned the military’s classification of people in a vehicle struck during the operation. This reporting raises a specific question about civilian harm without changing Baghdadi’s role as an ISIS leader or establishing that everyone at the compound was a combatant. The claims and the evidence behind them remain more complex than the neatly completed arc of the imagined headdress. 12"
       ],
-      "detail": "Dark pearl drops and beaded mourning mesh interrupt the helicopter display. The aircraft and compound refer to the operation’s general form; the arrangement is invented. The pearls do not count children or other deaths. The disputed vehicle strike is examined in the historical record through attributed investigative reporting.",
+      "detail": "Two model helicopters encircle a stylised compound, with a recessed passage visible beneath their ceremonial arc. Their route and the surrounding architecture are invented rather than a reconstruction of the raid. Dark pearls evoke mourning without counting fatalities. The separately reported dispute over a vehicle strike belongs to the historical account, not to any supposedly evidentiary object in the miniature.",
       "sources": [
         {
-          "label": "H04A: Jim Garamone, Central Command Chief Gives Details on Baghdadi Raid, U.S. Department of Defense, 30 October 2019. Official account of McKenzie's briefing.",
+          "number": 10,
+          "label": "Jim Garamone, Central Command Chief Gives Details on Baghdadi Raid, U.S. Department of Defense, 30 October 2019. Official account of McKenzie's briefing.",
           "url": "https://www.defense.gov/News/News-Stories/Article/Article/2003960/central-command-chief-gives-details-on-baghdadi-raid/"
         },
         {
-          "label": "H04B: Reuters, Islamic State Vows Revenge against U.S. for Baghdadi Killing, 31 October 2019. Confirmation and response.",
+          "number": 11,
+          "label": "Reuters, Islamic State Vows Revenge against U.S. for Baghdadi Killing, 31 October 2019. Confirmation and response.",
           "url": "https://www.reuters.com/article/world/islamic-state-vows-revenge-against-us-for-baghdadi-killing-idUSKBN1XA24P/"
         },
         {
-          "label": "H04C: Daniel Estrin, Pentagon Files Reveal Flaws in U.S. Claims about Syrian Casualties in Baghdadi Raid, NPR, 21 July 2023, updated 28 July; accessible NPR republication. Investigative reporting using released records.",
+          "number": 12,
+          "label": "Daniel Estrin, Pentagon Files Reveal Flaws in U.S. Claims about Syrian Casualties in Baghdadi Raid, NPR, 21 July 2023, updated 28 July; accessible NPR republication. Investigative reporting using released records.A-THRICE / THE MILLINERY–INDUSTRIAL COMPLEX • 56",
           "url": "https://www.knpr.org/npr/npr/2023-07-21/pentagon-files-reveal-flaws-in-u-s-claims-about-syrian-casualties-in-baghdadi-raid"
         }
       ],
@@ -154,7 +173,12 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-04.webp",
       "slogan": "TARGET ELIMINATED",
       "qualifier": "END OF STORY?",
-      "hatContextImage": "assets/hat-context/04-the-hunt.webp"
+      "hatContextImage": "assets/hat-context/04-the-hunt.webp",
+      "noteNumbers": [
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 5,
@@ -162,28 +186,29 @@ window.EXHIBITION_DATA = {
       "name": "Terminal Authority",
       "subject": "U.S. strike near Baghdad International Airport, Iraq, 3 January 2020 local time.",
       "label": [
-        "The drone lies close to the crown, its wings absorbed into the hat's elegant structure. Below it, a narrow road carries tiny vehicles through folds of black satin. The design refers to the U.S. strike that killed Qasem Soleimani, Abu Mahdi al-Muhandis and others near Baghdad airport in January 2020. Its calm finish gives a lethal decision the appearance of completion. The smaller roadway asks where the consequences of that decision continue after its principal target has been removed."
+        "The drone lies close to the crown, its wings absorbed into the hat's elegant structure. Below it, a narrow road carries tiny vehicles through folds of black satin."
       ],
       "interpretation": [
-        "This work makes distance look comfortable. The aircraft's long span becomes an architectural feature of a wearable object, while the road is partly concealed within the textile. The arrangement reproduces an imbalance of attention: the platform is available for admiration, while the place of impact requires a closer search. The immaculate surface makes control look like a property of the whole event.",
-        "The word terminal joins an airport setting to an assertion of final authority. A target's death can be confirmed even while the consequences of the decision remain open. The work connects this problem to bureaucracy by asking how intelligence assessments, presidential orders and public explanations turn a person into an authorised target. The companion phrase RISK EXPORTED concerns the distribution of danger after the strike. It is an artistic proposition about consequence, not a complete account of who bore risk or a finding about every action of the people killed."
+        "This work makes distance look comfortable. The aircraft's long span becomes an architectural feature of a wearable object, while the road is partly concealed within the textile. The arrangement reproduces an imbalance of attention: the platform is available for admiration, while the place of impact requires a closer search. The immaculate surface makes control look like a property of the whole event."
       ],
       "record": [
-        "The United States acknowledged a presidentially directed strike that killed Soleimani, commander of Iran's Quds Force, near Baghdad airport on 3 January 2020. Abu Mahdi al-Muhandis and others were also killed. The Pentagon presented the action as protective and deterrent, asserting that Soleimani was developing attacks. Those assertions require attribution. Reporting identified an MQ-9 Reaper as the platform; the miniature does not reproduce a publicly available complete mission record. [H05A, H05C]",
-        "UN Special Rapporteur Agnès Callamard's 2020 report concluded that the strike violated international law, questioning the evidence for the self-defence justification. This is a finding by an independent UN expert, not a criminal-court judgment. A presidential order does not, by itself, establish the strike’s legal basis. [H05B]"
+        "On 3 January 2020, a U.S. strike near Baghdad International Airport killed Qasem Soleimani, commander of Iran’s Quds Force, Abu Mahdi al-Muhandis and others. The Pentagon described the presidentially directed action as protective and deterrent, asserting that Soleimani was planning attacks. Contemporary reporting described the aircraft as an MQ-9 Reaper, although the cited analysis noted that no official statement had publicly confirmed the platform. These accounts explain the declared purpose and reported weapon system without establishing a complete public record of the mission. 13, 15 In 2020, UN Special Rapporteur Agnès Callamard concluded that the strike violated international law and challenged the evidence supporting the U.S. self-defence rationale. Her assessment was an independent expert finding, not a criminal-court ruling. The fact that the president directed the operation addressed domestic command, but did not by itself determine whether its use of force met international-law requirements. 14"
       ],
-      "detail": "A narrow roadway runs beneath the drone. The aircraft type follows published reporting, while the vehicles, street arrangement and fractured beads form a symbolic composite. They do not reconstruct the convoy or reproduce its damage. No bead corresponds to an individual death; Soleimani’s military role and the legal assessments are addressed in the historical record.",
+      "detail": "The drone’s outstretched wing crosses an almost hidden road. Its recognisable shape follows published reporting on the aircraft, while the vehicles, road and fractured beads form a symbolic composite, not a map of the convoy or a damage record. No individual death corresponds to a bead. The composition places technical distance and political consequence inside one seemingly immaculate accessory.",
       "sources": [
         {
-          "label": "H05A: U.S. Department of Defense, Statement by the Department of Defense, 2 January 2020 Washington date. Official responsibility and rationale.",
+          "number": 13,
+          "label": "U.S. Department of Defense, Statement by the Department of Defense, 2 January 2020 Washington date. Official responsibility and rationale.",
           "url": "https://www.war.gov/News/Releases/Release/Article/2049534/statement-by-the-department-of-defense/"
         },
         {
-          "label": "H05B: Agnès Callamard, Use of Armed Drones for Targeted Killings, 2020, A/HRC/44/38, including annex on the Soleimani strike. UN expert analysis.",
+          "number": 14,
+          "label": "Agnès Callamard, Use of Armed Drones for Targeted Killings, 2020, A/HRC/44/38, including annex on the Soleimani strike. UN expert analysis.",
           "url": "https://www.ohchr.org/en/documents/thematic-reports/ahrc4438-use-armed-drones-targeted-killings-report-special-rapporteur"
         },
         {
-          "label": "H05C: Peter Lee, US-Iran Airstrikes: I Spent Two Years Learning about Reaper Drone Strikes, This Is How an Attack Plays Out, ABC / The Conversation, 8 January 2020. Reporting-based platform identification and operational context.",
+          "number": 15,
+          "label": "Peter Lee, US-Iran Airstrikes: I Spent Two Years Learning about Reaper Drone Strikes, This Is How an Attack Plays Out, ABC / The Conversation, 8 January 2020. Reporting-based platform identification, with explicit uncertainty about official confirmation.",
           "url": "https://www.abc.net.au/news/2020-01-08/qassem-soleimani-drone-attack-this-is-how-reaper-airstrike/11852740"
         }
       ],
@@ -193,7 +218,12 @@ window.EXHIBITION_DATA = {
       "editorial": null,
       "slogan": "TARGET REMOVED",
       "qualifier": "RISK EXPORTED",
-      "hatContextImage": "assets/hat-context/05-terminal-authority.webp"
+      "hatContextImage": "assets/hat-context/05-terminal-authority.webp",
+      "noteNumbers": [
+        13,
+        14,
+        15
+      ]
     },
     {
       "id": 6,
@@ -201,28 +231,29 @@ window.EXHIBITION_DATA = {
       "name": "Over the Horizon",
       "subject": "U.S. counterterrorism air operations in Somalia, 2025; a composite reference.",
       "label": [
-        "A sweep of pearls draws a bright horizon between an aircraft ornament and a small mountain landscape. The veil makes the space between them difficult to see. This composite work refers to U.S. counterterrorism air operations in Somalia during 2025, including actions coordinated with Somali authorities. Its northern landscape recalls the setting of operations against ISIS-Somalia. The polished upper surface asks how distance can become an aesthetic of control while the people, partnerships and uncertainties on the ground remain less visible."
+        "A sweep of pearls draws a bright horizon between an aircraft ornament and a small mountain landscape. The veil makes the space between them difficult to see."
       ],
       "interpretation": [
-        "The horizon promises a commanding view, but it also marks a limit. In this design, that limit is made desirable through pearls. The viewer is invited to appreciate the curve while the fabric below interrupts access to the terrain. Visibility becomes a privilege distributed by the image itself.",
-        "Somalia cannot serve only as a remote surface beneath American aircraft. Local forces, authorities and communities have their own interests and experiences of militant violence. Their agency complicates an account organised entirely around the reach of U.S. power. Cooperation with Somali authorities and the distinction between ISIS-Somalia and al-Shabaab are central to that account. Its composite geography is also consequential. A northern mountain setting can anchor the ISIS reference without being allowed to stand for every operation in the country. The imagined observation point exposes the limits of the view it offers, including the museum visitor's temptation to regard an unfamiliar place as fully described by a miniature."
+        "The horizon promises a commanding view, but it also marks a limit. In this design, that limit is made desirable through pearls. The viewer is invited to appreciate the curve while the fabric below interrupts access to the terrain. Visibility becomes a privilege distributed by the image itself."
       ],
       "record": [
-        "AFRICOM's update on the 1 February 2025 strikes against ISIS-Somalia stated that they were coordinated with the Federal Government of Somalia. A separate July release documented action against al-Shabaab west of Sabiid and withheld specific asset details. These are different target organisations and locations. The work brings a broader campaign into one image; its catalogue title is not an official operation designation. [H06A, H06B]",
-        "Reuters reported from territory recaptured by Puntland forces in February 2025, documenting a ground campaign and residents' experiences alongside the U.S. strikes. This context prevents the landscape from becoming an empty theatre for outside power. The aircraft ornament is deliberately generalised. Neither the veil nor the absence of visible people establishes civilian casualties in a particular strike. [H06C]"
+        "U.S. Africa Command stated that its 1 February 2025 strikes against ISIS-Somalia were coordinated with Somalia’s federal government. A separate July announcement concerned al-Shabaab west of Sabiid and did not disclose the assets used. These were different organisations and locations. Over the Horizon combines elements of a wider campaign rather than reconstructing one named operation or strike. 16, 17 Reuters reporting from areas recaptured by Puntland forces in February 2025 described a ground offensive and the experiences of residents alongside U.S. air operations. This local context matters: Somali authorities and communities appear here as participants with their own interests, not merely as the backdrop to distant aircraft. The aircraft in the image is deliberately generic, and its obscured terrain conveys no finding about casualties from a particular attack. 18"
       ],
-      "detail": "A pearl-edged mountain landscape lies beneath the aircraft ornament. The mountains chiefly evoke the northern setting of operations against ISIS-Somalia, rather than the locations of all operations against al-Shabaab. The aircraft is not a verified platform for a specific strike. Pearls and veiling express fragility and incomplete visibility without establishing casualties in an individual mission.",
+      "detail": "A curve of pearls marks the horizon above a dark, cave-like recess. The mountainous forms chiefly evoke northern Somalia and operations against ISIS-Somalia; they do not relocate the separate al-Shabaab campaign to that terrain. No aircraft miniature identifies a verified platform for an individual strike. The veil transforms limited visibility into an aesthetic experience while leaving questions of actual harm to documented accounts.",
       "sources": [
         {
-          "label": "H06A: AFRICOM, Update: U.S. Forces Strike on ISIS-Somalia, 11 February 2025, concerning 1 February. Official account and coordination statement.",
+          "number": 16,
+          "label": "AFRICOM, Update: U.S. Forces Strike on ISIS-Somalia, 11 February 2025, concerning 1 February. Official account and coordination statement.",
           "url": "https://www.africom.mil/pressrelease/35715/update-us-forces-strike-on-isis-somalia"
         },
         {
-          "label": "H06B: AFRICOM, U.S. Forces Conduct Strike Targeting al Shabaab, 26 July 2025, concerning 25 July. Separate location and asset-disclosure limits.",
+          "number": 17,
+          "label": "AFRICOM, U.S. Forces Conduct Strike Targeting al Shabaab, 26 July 2025, concerning 25 July. Separate location and asset-disclosure limits.",
           "url": "https://www.africom.mil/pressrelease/35912/us-forces-conduct-strike-targeting-al-shabaab"
         },
         {
-          "label": "H06C: Reuters, Puntland Offensive Deals Blow to Islamic State in Somalia, 7 February 2025. Reporting from the ground.",
+          "number": 18,
+          "label": "Reuters, Puntland Offensive Deals Blow to Islamic State in Somalia, 7 February 2025. Reporting from the ground.",
           "url": "https://www.reuters.com/world/africa/puntland-offensive-deals-blow-islamic-state-somalia-2025-02-07/"
         }
       ],
@@ -232,7 +263,12 @@ window.EXHIBITION_DATA = {
       "editorial": null,
       "slogan": "OVER THE HORIZON",
       "qualifier": "OUT OF SIGHT",
-      "hatContextImage": "assets/hat-context/06-over-the-horizon.webp"
+      "hatContextImage": "assets/hat-context/06-over-the-horizon.webp",
+      "noteNumbers": [
+        16,
+        17,
+        18
+      ]
     },
     {
       "id": 7,
@@ -240,32 +276,34 @@ window.EXHIBITION_DATA = {
       "name": "Safe Passage",
       "subject": "Operation Rough Rider, Yemen, March–May 2025; the Ras Isa strike of 17 April provides a specific reference.",
       "label": [
-        "A carrier sits above a miniature port, surrounded by pearls and gold anchors. The upper composition celebrates the capacity to protect passage at sea; the lower one asks what happens to the workers and infrastructure through which ordinary commerce moves. The work refers to the 2025 U.S. campaign against the Houthis and the strike on Ras Isa fuel port. Its luxury is sustained by a damaged commercial setting, making the distribution of protection and vulnerability part of the same design."
+        "A carrier sits above a miniature port, surrounded by pearls and gold anchors. The upper composition celebrates the capacity to protect passage at sea; the lower one asks what happens to the workers and infrastructure through which ordinary commerce moves."
       ],
       "interpretation": [
-        "The title sounds like a promise made to shipping. The image asks who is included in that promise. Aircraft and carrier form an orderly procession, while small loading structures and broken forms carry the less orderly experience beneath. The two settings occupy a single hat, resisting a clean division between the military operation and the commercial world it claims to secure.",
-        "The miniature port places the infrastructure of ordinary work beneath the carrier. Its small scale risks making vulnerability another attractive detail. The pearls share that ambiguity: they beautify fragility. The tension between lavish protection above and exposed infrastructure below keeps the promise of safe passage unsettled."
+        "The title sounds like a promise made to shipping. The image asks who is included in that promise. Aircraft and carrier form an orderly procession, while small loading structures and broken forms carry the less orderly experience beneath. The two settings occupy a single hat, resisting a clean division between the military operation and the commercial world it claims to secure."
       ],
       "record": [
-        "Operation Rough Rider was the U.S. campaign against Houthi targets from March to May 2025, undertaken in the context of attacks on shipping. CENTCOM acknowledged striking the Houthi-controlled Ras Isa fuel port on 17 April and said it sought to deny fuel and revenue. Carrier aviation participated in the wider campaign; the carrier ornament does not identify the verified launch platform for every Ras Isa strike. [H07A, H07D]",
-        "Human Rights Watch's June investigation documented civilian harm and infrastructure damage and called the port attack an apparent war crime requiring investigation. This is the organisation's assessment, not a court verdict. Oman announced a U.S.–Sana'a ceasefire agreement on 6 May; that agreement is distinct from a settlement of all regional hostilities. [H07B, H07C]"
+        "Operation Rough Rider was the U.S. campaign against Houthi targets in Yemen from March to May 2025, conducted amid attacks on maritime shipping. On 17 April, CENTCOM acknowledged striking the Houthi-controlled Ras Isa fuel port and said the action sought to deny fuel and revenue to the group. Carrier aviation participated in the wider campaign, although the ornate carrier on this hat cannot be read as proof of the launch platform for each strike at Ras Isa. 19, 22 A June investigation by Human Rights Watch documented damage and civilian harm at the port, describing the attack as an apparent war crime requiring investigation. That was the organisation’s legal assessment, not a court verdict. On 6 May, Oman announced a U.S.–Sana’a ceasefire arrangement. The agreement was significant to this campaign but did not resolve the full range of regional hostilities. 20, 21"
       ],
-      "detail": "A miniature port sits beneath the carrier. Ras Isa was a fuel port; the dock and cargo forms are composite symbols of commerce rather than a surveyed plan. The treatment of the surrounding materials conveys damage without establishing a casualty figure or identifying the munition used at a particular impact point.",
+      "detail": "A miniature carrier presides over bent loading structures, a crane and an empty safety helmet. Ras Isa was a fuel port, but the containers and industrial forms here are not a surveyed image of its layout. The helmet is an invented memorial to vulnerable workers, not a recovered possession. Black netting and fractured crystals visualise destruction without asserting a specific munition, impact point or casualty count.",
       "sources": [
         {
-          "label": "H07A: CENTCOM, Destruction of Houthi Controlled Ras Isa Fuel Port, 17 April 2025. Official acknowledgment and rationale.",
+          "number": 19,
+          "label": "CENTCOM, Destruction of Houthi Controlled Ras Isa Fuel Port, 17 April 2025. Official acknowledgment and rationale.",
           "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4159042/destruction-of-houthi-controlled-ras-isa-fuel-port/"
         },
         {
-          "label": "H07B: Human Rights Watch, Yemen: US Strikes on Port an Apparent War Crime, 4 June 2025. Independent investigation and attributed legal assessment.",
+          "number": 20,
+          "label": "Human Rights Watch, Yemen: US Strikes on Port an Apparent War Crime, 4 June 2025. Independent investigation and attributed legal assessment.",
           "url": "https://www.hrw.org/news/2025/06/04/yemen-us-strikes-on-port-an-apparent-war-crime"
         },
         {
-          "label": "H07C: Foreign Ministry of Oman, Oman Announces Ceasefire Agreement between Washington and Sanaa, 6 May 2025. Mediator's announcement.",
+          "number": 21,
+          "label": "Foreign Ministry of Oman, Oman Announces Ceasefire Agreement between Washington and Sanaa, 6 May 2025. Mediator's announcement.",
           "url": "https://www.fm.gov.om/en/24568/"
         },
         {
-          "label": "H07D: Heather Mongilio, Operation Rough Rider: 45 Days, 1,000 Targets, No End in Sight, USNI News, 29 April 2025. Contemporary campaign and carrier context.",
+          "number": 22,
+          "label": "Heather Mongilio, Operation Rough Rider: 45 Days, 1,000 Targets, No End in Sight, USNI News, 29 April 2025. Contemporary campaign and carrier context.",
           "url": "https://news.usni.org/2025/04/29/operation-rough-rider"
         }
       ],
@@ -275,7 +313,13 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-07.webp",
       "slogan": "SAFE PASSAGE",
       "qualifier": "HUMAN COST SOLD SEPARATELY",
-      "hatContextImage": "assets/hat-context/07-safe-passage.webp"
+      "hatContextImage": "assets/hat-context/07-safe-passage.webp",
+      "noteNumbers": [
+        19,
+        20,
+        21,
+        22
+      ]
     },
     {
       "id": 8,
@@ -283,28 +327,29 @@ window.EXHIBITION_DATA = {
       "name": "Midnight Hammer",
       "subject": "U.S. strikes on Iranian nuclear facilities, 22 June 2025 local time.",
       "label": [
-        "The B-2's flying wing lends itself to the hat's controlled geometry. Gold edging makes its dark outline appear almost inevitable, while a miniature cross-section below opens a view into concealed space. The design refers to the U.S. strikes on Fordow, Natanz and Isfahan in June 2025. The work examines the authority of technical accomplishment: the ability to reach a protected site can be spectacularly demonstrated, while the full assessment of damage, justification and consequence requires other forms of knowledge."
+        "The B-2's flying wing lends itself to the hat's controlled geometry. Gold edging makes its dark outline appear almost inevitable, while a miniature cross-section below opens a view into concealed space."
       ],
       "interpretation": [
-        "Stealth becomes a visible luxury. The aircraft, designed to reduce detection, is displayed as the most desirable element of the image. Its strong silhouette supplies an impression of certainty. The pearls soften that geometry and help make force look compatible with impeccable taste.",
-        "The geological cutaway offers a second kind of mastery. It appears to reveal an interior that a viewer could not otherwise inspect. The apparent revelation is itself an invention. A beautifully rendered chamber is not evidence of the actual layout or condition of a nuclear facility. The companion cap's phrase AUTHORIZATION SOLD SEPARATELY brings another hidden structure into view: the distinction between a presidential order and the other legal and political questions surrounding the use of force. The operation was ordered by a president. The slogan asks what kinds of authority and scrutiny are being bundled into the triumphant account, rather than asserting that no order existed."
+        "Stealth becomes a visible luxury. The aircraft, designed to reduce detection, is displayed as the most desirable element of the image. Its strong silhouette supplies an impression of certainty. The pearls soften that geometry and help make force look compatible with impeccable taste."
       ],
       "record": [
-        "The U.S. account of Operation Midnight Hammer identified strikes against Fordow, Natanz and Isfahan on 22 June 2025 in Iran, the evening of 21 June in Washington. B-2 bombers delivered ground-penetrating munitions at Fordow and Natanz; submarine-launched cruise missiles were used against Isfahan. The single B-2 ornament condenses a multi-platform operation. [H08A]",
-        "On 23 June, the IAEA described observable damage and cautioned that the underground damage at Fordow had not yet been fully assessed. It records the agency’s assessment at that date. The president's 23 June notification to Congress articulated an executive rationale, including collective self-defence of Israel. A notification and an asserted legal basis do not themselves settle their validity. [H08B, H08C]"
+        "Operation Midnight Hammer struck the Iranian sites at Fordow, Natanz and Isfahan on 22 June 2025 local time, the evening of 21 June in Washington. According to the U.S. military, B-2 bombers delivered ground-penetrating munitions at Fordow and Natanz, while submarine-launched cruise missiles were used at Isfahan. The single B-2 ornament condenses this multi-platform operation into one controlled silhouette. 23 On 23 June, the IAEA reported observable damage while cautioning that the full underground effects at Fordow had not yet been assessed. That was a dated technical assessment, not a permanent conclusion about the site. A presidential notification to Congress articulated an executive rationale, including collective self-defence of Israel; the existence of that notification did not itself determine the validity of the legal argument. 24, 25"
       ],
-      "detail": "Pearls, goldwork and recessed chambers sit beneath the B-2. The bomber refers to a documented platform, while the cutaway is an invented composite rather than an engineering drawing of Fordow, Natanz or Isfahan. The miniature does not establish the extent of destruction, surviving capacity or the location of nuclear material. Those questions depend on dated technical assessments.",
+      "detail": "The bomber’s dark edge appears above a lavishly imagined underground cutaway. The B-2 was a documented platform, but the chambers below are not engineering drawings of Fordow, Natanz or Isfahan. Nothing in the miniature can establish the extent of destruction, the survival of particular facilities or the whereabouts of nuclear material. The image makes visual certainty seductive precisely where technical investigation remains necessary.",
       "sources": [
         {
-          "label": "H08A: U.S. Department of Defense, Hegseth, Caine Laud Success of U.S. Strike on Iran Nuke Sites, 22 June 2025. Official operational account.",
+          "number": 23,
+          "label": "Matthew Olay, U.S. Department of Defense / U.S. Strategic Command, Hegseth, Caine Laud Success of U.S. Strike on Iran Nuke Sites, 22 June 2025. Official operational account.",
           "url": "https://www.war.gov/News/News-Stories/Article/Article/4222533/hegseth-caine-laud-success-of-us-strike-on-iran-nuke-sites/"
         },
         {
-          "label": "H08B: Rafael Mariano Grossi, IAEA Director General's Introductory Statement to the Board of Governors, 23 June 2025. Dated technical assessment and its limits.",
+          "number": 24,
+          "label": "Rafael Mariano Grossi, IAEA Director General's Introductory Statement to the Board of Governors, 23 June 2025. Dated technical assessment and its limits.",
           "url": "https://www.iaea.org/newscenter/statements/iaea-director-generals-introductory-statement-to-the-board-of-governors-23-june-2025"
         },
         {
-          "label": "H08C: Donald J. Trump, Letter to Congressional Leaders on United States Military Operations in Iran, 23 June 2025, preserved by the American Presidency Project. Executive notification and rationale.",
+          "number": 25,
+          "label": "Donald J. Trump, Letter to Congressional Leaders on United States Military Operations in Iran, 23 June 2025, preserved by the American Presidency Project. Executive notification and rationale.A-THRICE / THE MILLINERY–INDUSTRIAL COMPLEX • 57",
           "url": "https://www.presidency.ucsb.edu/documents/letter-congressional-leaders-united-states-military-operations-iran"
         }
       ],
@@ -314,7 +359,12 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-08.webp",
       "slogan": "MIDNIGHT HAMMER",
       "qualifier": "AUTHORIZATION SOLD SEPARATELY",
-      "hatContextImage": "assets/hat-context/08-midnight-hammer.webp"
+      "hatContextImage": "assets/hat-context/08-midnight-hammer.webp",
+      "noteNumbers": [
+        23,
+        24,
+        25
+      ]
     },
     {
       "id": 9,
@@ -322,28 +372,29 @@ window.EXHIBITION_DATA = {
       "name": "Collateral Style",
       "subject": "U.S. strikes on alleged drug-trafficking vessels in the Caribbean and Eastern Pacific, 2025–2026.",
       "label": [
-        "A large naval ornament presides over much smaller boats. The contrast gives military power the scale of a public monument and life at sea the scale of a fragile detail. The work responds to U.S. strikes on vessels alleged to be involved in drug trafficking. Its destroyer symbolises deployed naval power without identifying the platform that conducted a particular strike. Empty safety equipment interrupts the triumphal decoration. The work asks how an allegation and a lethal action can be compressed into a collectible image."
+        "A large naval ornament presides over much smaller boats. The contrast gives military power the scale of a public monument and life at sea the scale of a fragile detail."
       ],
       "interpretation": [
-        "The title makes collateral harm sound like a desirable finish. Its discomfort depends on the ease with which a military term enters the vocabulary of fashion. The destroyer's polished surface offers the pleasure of an accomplished object. Nets, small hulls and an orange safety ornament complicate that pleasure through differences of scale and vulnerability.",
-        "The boats' civilian appearance requires especially careful interpretation. A small fishing-style hull cannot prove its occupants' identity or activities. Equally, an official allegation of criminal activity does not remove the need to examine the legal grounds for lethal force. The work concerns that burden of justification. It does not depend on inventing innocent biographies for unidentified people. The empty life jacket is an artistic reminder of human exposure at sea; its presence must not imply that the artist possesses a recovered object or a verified account of a particular person's final moments."
+        "The title makes collateral harm sound like a desirable finish. Its discomfort depends on the ease with which a military term enters the vocabulary of fashion. The destroyer's polished surface offers the pleasure of an accomplished object. Nets, small hulls and an orange safety ornament complicate that pleasure through differences of scale and vulnerability."
       ],
       "record": [
-        "The U.S. began this series of vessel strikes in September 2025 and continued into 2026. An official inspector-general report records the first strike on 2 September and attributes the asserted cartel connection to the U.S. military. Recording a strike does not independently prove the allegations about every vessel or occupant. The work is a composite campaign reference, not one reconstructed incident. [H09A]",
-        "The UN human rights chief and independent UN experts criticised the strikes under the rules protecting life, rejecting the use of alleged criminal status as sufficient grounds for summary killing. These statements are attributed legal assessments. The destroyer, fishing nets, boat colours and debris remain artistic choices and do not establish the actual attack platform, cargo or legal status of those killed. [H09B, H09C]"
+        "U.S. forces began striking vessels alleged to be involved in drug trafficking in September 2025, and the campaign continued into 2026. An inspector-general report records the first attack on 2 September and attributes the cartel allegation to the military. Recording an attack is not the same as independently establishing the identity, cargo or legal status of everyone aboard. This artwork refers to the campaign as a whole, not a reconstructed individual incident. 26 The UN human rights chief and independent UN experts criticised the strikes under rules protecting the right to life and challenged the use of alleged criminal status as a sufficient basis for lethal force. These are attributed assessments, not claims proved by the digital image. The destroyer, nets, painted hulls and fragments are the artist’s symbols; they identify no particular firing platform or verified boat occupants. 27, 28"
       ],
-      "detail": "Tiny boats, tangled netting and an empty life jacket sit beneath the naval ornament. The destroyer symbolises power rather than identifying a verified firing platform. The boat types and colours are invented; neither the nets nor the life jacket establishes that a targeted vessel was fishing or that its occupants were civilians. Criminal allegations, a person’s status and the lawfulness of a strike require separate evidence.",
+      "detail": "A tiny hull and an empty orange life jacket sit beneath the outsized destroyer. The ship stands for naval power rather than a verified launch platform; the smaller boats and their colours are imagined. Neither the fishing-net lace nor the life jacket establishes that a particular targeted vessel was engaged in fishing or carried civilians. Their vulnerability is expressive, while identity and legality remain evidentiary questions.",
       "sources": [
         {
-          "label": "H09A: Lead Inspector General, Operation Southern Spear Report to Congress, January 1–March 31, 2026, published May 2026. Official oversight record, including attributed accounts of the campaign's beginning.",
+          "number": 26,
+          "label": "Lead Inspector General, Operation Southern Spear Report to Congress, January 1–March 31, 2026, published May 2026. Official oversight record, including attributed accounts of the campaign's beginning.",
           "url": "https://media.defense.gov/2026/May/21/2003935694/-1/-1/1/OSS_Q2_MAR2026_FINAL_508.PDF"
         },
         {
-          "label": "H09B: OHCHR, US Attacks in Caribbean and Pacific Violate International Human Rights Law: UN Human Rights Chief, 31 October 2025. Attributed assessment.",
+          "number": 27,
+          "label": "OHCHR, US Attacks in Caribbean and Pacific Violate International Human Rights Law: UN Human Rights Chief, 31 October 2025. Attributed assessment.",
           "url": "https://www.ohchr.org/en/press-releases/2025/10/us-attacks-caribbean-and-pacific-violate-international-human-rights-law-un"
         },
         {
-          "label": "H09C: UN independent experts, United States: UN Experts Demand End to Unlawful Killings at Sea, as One-Year Death Toll Hits 223, 1 September 2026. Later expert statement; the title's figure remains a dated, attributed count.",
+          "number": 28,
+          "label": "UN independent experts, United States: UN Experts Demand End to Unlawful Killings at Sea, as One-Year Death Toll Hits 223, 1 September 2026. Dated expert statement; the figure is not an independently adopted final total.",
           "url": "https://www.ohchr.org/en/press-releases/2026/09/united-states-un-experts-demand-end-unlawful-killings-sea-one-year-death"
         }
       ],
@@ -353,7 +404,12 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-09.webp",
       "slogan": "COLLATERAL STYLE",
       "qualifier": "HUMAN COST SOLD SEPARATELY",
-      "hatContextImage": "assets/hat-context/09-collateral-style.webp"
+      "hatContextImage": "assets/hat-context/09-collateral-style.webp",
+      "noteNumbers": [
+        26,
+        27,
+        28
+      ]
     },
     {
       "id": 10,
@@ -361,28 +417,29 @@ window.EXHIBITION_DATA = {
       "name": "Hawkeye",
       "subject": "Operation Hawkeye Strike, Syria, beginning 19 December 2025.",
       "label": [
-        "A fighter and helicopter form a polished commemorative arrangement above a desert setting. Three pearl drops interrupt the gold decoration. They acknowledge the two U.S. soldiers and the U.S. civilian interpreter whose deaths preceded Operation Hawkeye Strike. The design asks how mourning can be incorporated into an image of retaliation without allowing either grief or military accomplishment to close the argument. It holds the original attack and the subsequent response in relation while keeping their events and consequences distinct."
+        "A fighter and helicopter form a polished commemorative arrangement above a desert setting. Three pearl drops interrupt the gold decoration."
       ],
       "interpretation": [
-        "The pearls are a limited memorial reference within a broader decorative vocabulary. Their number refers to three reported American deaths in the preceding attack; it is not a total for the subsequent operation. Keeping that distinction visible prevents commemoration from collapsing into a general justification for whatever follows.",
-        "The interpreter's place within the trio also draws attention to forms of labour that a military image can marginalise. An aircraft is easily converted into an emblem. Translation is less readily pictured, although it is central to the encounter between forces and local people. The hat gives that labour a modest visible place without inventing a personal possession or biography. The paired aircraft offer another kind of clarity: modern military equipment becomes a coherent accessory. The work questions whether retaliation can acquire the same tailored appearance in public language, giving a difficult decision a finish that appears beyond further adjustment."
+        "The pearls are a limited memorial reference within a broader decorative vocabulary. Their number refers to three reported American deaths in the preceding attack; it is not a total for the subsequent operation. Keeping that distinction visible prevents commemoration from collapsing into a general justification for whatever follows."
       ],
       "record": [
-        "CENTCOM identified Operation Hawkeye Strike as a response to the 13 December 2025 attack near Palmyra that killed two U.S. soldiers and a U.S. civilian interpreter. The opening strikes on 19 December targeted stated ISIS infrastructure and weapons sites. Reuters reported F-15 and A-10 aircraft, Apache helicopters and HIMARS among the systems used, and CENTCOM described Jordanian support. The hat's two aircraft are a selection from this broader operation. [H10A, H10B]",
-        "The cited U.S. record identifies all three dead as American personnel, including the civilian interpreter. The pearl drops refer to that preceding attack. They do not establish the casualties, target identities or effectiveness of the later strikes. [H10C]"
+        "CENTCOM named Operation Hawkeye Strike as the response to an attack near Palmyra on 13 December 2025 that killed two U.S. soldiers and one U.S. civilian interpreter. The subsequent strikes began on 19 December against sites described as ISIS infrastructure and weapons facilities. Reuters reported F-15 and A-10 aircraft, Apache helicopters and HIMARS among the systems used; CENTCOM also described support from Jordan. The headdress selects two aircraft from that wider operation. 29, 30 The three American deaths preceded Hawkeye Strike; they were not casualties of its retaliatory missions. Accordingly, the headdress’s three pearl drops commemorate those personnel, including the civilian interpreter, without suggesting a count of people killed during the later strikes or proof of the missions’ effectiveness. 31"
       ],
-      "detail": "Three pearl drops rest against black velvet. They acknowledge the two U.S. soldiers and the U.S. civilian interpreter killed in the preceding attack on 13 December 2025; they do not count deaths caused by Hawkeye Strike. The landscape is not a mapped strike location. The pearls and ribbon are commemorative inventions rather than recovered possessions.",
+      "detail": "Three white pearls hang below the fighter and helicopter on a black ribbon. They commemorate the two U.S. soldiers and the U.S. civilian interpreter killed in the preceding 13 December attack, not deaths attributed to Hawkeye Strike. The desert setting is a composite rather than a mapped target site; the ribbon and pearls are invented memorial objects, not belongings recovered from the people commemorated.",
       "sources": [
         {
-          "label": "H10A: CENTCOM, CENTCOM Forces Remove ISIS Operatives in Syria after Large-Scale Strike, 30 December 2025. Official account connecting subsequent missions to Hawkeye's launch.",
+          "number": 29,
+          "label": "CENTCOM, CENTCOM Forces Remove ISIS Operatives in Syria after Large-Scale Strike, 30 December 2025. Official account connecting subsequent missions to Hawkeye's launch.",
           "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4368374/centcom-forces-remove-isis-operatives-in-syria-after-large-scale-strike/"
         },
         {
-          "label": "H10B: Reuters, US Hits ISIS in Syria with Large Retaliatory Strikes, Officials Say, 19 December 2025, subsequently updated. Platform and campaign reporting.",
+          "number": 30,
+          "label": "Reuters, US Hits ISIS in Syria with Large Retaliatory Strikes, Officials Say, 19 December 2025, subsequently updated. Platform and campaign reporting.",
           "url": "https://www.reuters.com/world/middle-east/us-strikes-islamic-state-targets-syria-new-york-times-reports-2025-12-19/"
         },
         {
-          "label": "H10C: CENTCOM, U.S., Partner Forces Strike ISIS Targets in Syria, 10 January 2026. Explicit account of the two soldiers and U.S. civilian interpreter killed on 13 December.",
+          "number": 31,
+          "label": "CENTCOM, U.S., Partner Forces Strike ISIS Targets in Syria, 10 January 2026. Explicit account of the two soldiers and U.S. civilian interpreter killed on 13 December.",
           "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4375251/us-partner-forces-strike-isis-targets-in-syria/"
         }
       ],
@@ -392,7 +449,12 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-10.webp",
       "slogan": "HAWKEYE STRIKE",
       "qualifier": "RETALIATION, TAILORED",
-      "hatContextImage": "assets/hat-context/10-hawkeye.webp"
+      "hatContextImage": "assets/hat-context/10-hawkeye.webp",
+      "noteNumbers": [
+        29,
+        30,
+        31
+      ]
     },
     {
       "id": 11,
@@ -400,32 +462,34 @@ window.EXHIBITION_DATA = {
       "name": "The Christmas Strike",
       "subject": "U.S. strikes in Sokoto State, Nigeria, announced 25 December 2025.",
       "label": [
-        "A missile shares its setting with stars, pearls and seasonal luxury. The design refers to U.S. strikes in Nigeria announced on Christmas Day 2025. Its holiday vocabulary brings a promise of peace into contact with the equipment of force. Gold cords suggest the reported cooperation between American and Nigerian authorities. The work asks how a complicated security operation can be made to fit a seasonal political message, and what knowledge falls away when its presentation becomes a reassuring ornament."
+        "A cruise missile rests among stars, pearls and seasonal ornament. The portrait draws on American strikes in Sokoto State, Nigeria, announced on Christmas Day 2025, placing the language of peace beside an instrument of force."
       ],
       "interpretation": [
-        "Holiday imagery offers a ready-made atmosphere of generosity and peace. The missile is placed inside that atmosphere, where it receives the care given to a special gift. The arrangement makes military action appear compatible with seasonal benevolence while leaving the incompatibility available for inspection.",
-        "The local landscape must resist becoming a decorative blank. Sokoto is a specific setting within a complicated Nigerian security environment, and Nigerian consent is part of the historical record. A predominantly American public narrative cannot describe the country simply as an unwilling recipient of outside force or reduce its violence to a single religious story. The work's title records the timing of the announcement. Its stars and pearls are A-Thrice's chosen response to that timing. They do not establish that the operation was itself designed as a holiday spectacle. The interpretation concerns how the imagery can be received and packaged, with the second slogan keeping the qualifications visible."
+        "Holiday imagery offers a ready-made atmosphere of generosity and peace. The missile is placed inside that atmosphere, where it receives the care given to a special gift. The arrangement makes military action appear compatible with seasonal benevolence while leaving the incompatibility available for inspection."
       ],
       "record": [
-        "AFRICOM announced strikes against what it identified as ISIS targets in Sokoto State on 25 December 2025 and stated that the action was coordinated with Nigerian authorities. Reuters reported Nigerian approval and cooperation. The basic record supports a joint or consent-based context; it does not justify an image of an attack against the Nigerian government's wishes. [H11A, H11B]",
-        "Public accounts of the platform and munitions differed. Reuters quoted a U.S. official describing ship-launched Tomahawks, while a later Nigerian statement described MQ-9-delivered munitions. Subsequent investigative reporting questioned aspects of the operation's effects and target identification. The cruise-missile ornament follows the reported maritime-launch account within this conflicting record. The work does not identify a launch ship. [H11B, H11C, H11D]"
+        "On 25 December 2025, AFRICOM announced strikes against targets it identified as ISIS-linked in Nigeria’s Sokoto State and said the operation was coordinated with Nigerian authorities. Reuters likewise reported Nigerian approval and cooperation. This context matters: the intervention cannot accurately be depicted as having proceeded in disregard of the Nigerian government’s stated participation. 32, 33 Published accounts differed over the weapons used. Reuters cited a U.S. official describing ship-launched Tomahawks, while a Nigerian statement later described MQ-9-delivered munitions. Subsequent reporting questioned elements of the operation’s effects and the identification of its targets. The gold missile therefore echoes one reported platform account rather than offering a definitive reconstruction; no particular launch vessel is identified. 33, 34, 35"
       ],
-      "detail": "Jewelled stars and baroque pearls frame a dry landscape. The holiday ornament is A-Thrice’s interpretive choice. The missile follows one published account of the platform used; the historical record sets out the conflicting accounts and the reported cooperation between American and Nigerian authorities. The terrain is a regional composite rather than a verified encampment plan, and the veil does not establish civilian casualties.",
+      "detail": "A gilded missile lies among seasonal stars above a dry, imagined landscape. Interwoven gold cords evoke reported American–Nigerian cooperation. The missile reflects one published account of the weapon system, alongside other differing accounts; neither the buildings nor the terrain reproduce a verified target site. Holiday ornament is the artist’s deliberate juxtaposition, while the dark veil is not evidence of civilian harm.",
       "sources": [
         {
-          "label": "H11A: AFRICOM, U.S. Africa Command Conducts Strike against ISIS in Nigeria, 25 December 2025. Official announcement and cooperation statement.",
+          "number": 32,
+          "label": "AFRICOM, U.S. Africa Command Conducts Strike against ISIS in Nigeria, 25 December 2025. Official announcement and cooperation statement.",
           "url": "https://www.africom.mil/pressrelease/36158/us-africa-command-conducts-strike-against-isis-in-nigeria"
         },
         {
-          "label": "H11B: Reuters, Nigeria Averts Unilateral US Action by Cooperating on Airstrike, 26 December 2025. Cooperation and attributed Tomahawk account.",
+          "number": 33,
+          "label": "Reuters, Nigeria Averts Unilateral US Action by Cooperating on Airstrike, 26 December 2025. Cooperation and attributed Tomahawk account.",
           "url": "https://www.reuters.com/world/africa/nigeria-averts-unilateral-us-action-by-cooperating-airstrikes-2025-12-26/"
         },
         {
-          "label": "H11C: Reuters, U.S.-Backed Airstrikes in Nigeria Hit Two ISIS-Linked Camps, Government Says, 27 December 2025. Attributed Nigerian account, including different platform description.",
+          "number": 34,
+          "label": "Reuters, U.S.-Backed Airstrikes in Nigeria Hit Two ISIS-Linked Camps, Government Says, 27 December 2025. Attributed Nigerian account, including different platform description.",
           "url": "https://www.reuters.com/world/africa/us-backed-airstrikes-nigeria-hit-two-isis-linked-camps-government-says-2025-12-27/"
         },
         {
-          "label": "H11D: The Washington Post, Unexploded Missiles, Witnesses Undercut Trump Account of Nigeria Strike, 10 January 2026. Investigative reporting on effects and identification limits.",
+          "number": 35,
+          "label": "The Washington Post, Unexploded Missiles, Witnesses Undercut Trump Account of Nigeria Strike, 10 January 2026. Investigative reporting on effects and identification limits.",
           "url": "https://www.washingtonpost.com/investigations/2026/01/10/nigeria-strikes-islamist-militants-isis/"
         }
       ],
@@ -435,7 +499,13 @@ window.EXHIBITION_DATA = {
       "editorial": null,
       "slogan": "PEACE ON EARTH",
       "qualifier": "TERMS MAY APPLY",
-      "hatContextImage": "assets/hat-context/11-the-christmas-strike.webp"
+      "hatContextImage": "assets/hat-context/11-the-christmas-strike.webp",
+      "noteNumbers": [
+        32,
+        33,
+        34,
+        35
+      ]
     },
     {
       "id": 12,
@@ -443,32 +513,34 @@ window.EXHIBITION_DATA = {
       "name": "The Extraction",
       "subject": "Operation Absolute Resolve, Caracas, Venezuela, 3 January 2026.",
       "label": [
-        "Helicopters ascend above a small city while a golden route gives movement through its streets the appearance of a procession. The design refers to the U.S. operation that captured Nicolás Maduro and Cilia Flores in January 2026. Its polished path brings military force and criminal prosecution into one triumphal image. Fractured forms beneath that path ask what happens to sovereignty when the successful execution of an arrest is presented as sufficient authority for the means used to carry it out."
+        "Helicopters rise above an imagined Caracas, tracing an ornamental golden route through its streets. The portrait refers to the U.S. operation that captured Nicolás Maduro and Cilia Flores in January 2026, questioning how a military action acquires the visual authority of a ceremonial procession."
       ],
       "interpretation": [
-        "The route is the work's most bureaucratic ornament. It appears to connect a destination, an objective and a successful result without interruption. The city becomes an ordered passage through which authority travels. Gold supplies the appearance of legitimacy before the viewer has considered the legal questions raised by that journey.",
-        "Allegations against Maduro and the basis for crossing a state’s borders with military force raise distinct questions. Neither question can be settled by the elegance of a pathway. Criminal prosecution also has its own procedures and burdens of proof; a capture is not a conviction. The fractured architectural forms keep the setting from disappearing into the accomplishment of the mission. Their placement beneath the procession examines an institutional division of attention: the named person arrives at a court, while the city through which the arrest travelled becomes a smaller matter in the image of success."
+        "The route is the work's most bureaucratic ornament. It appears to connect a destination, an objective and a successful result without interruption. The city becomes an ordered passage through which authority travels. Gold supplies the appearance of legitimacy before the viewer has considered the legal questions raised by that journey."
       ],
       "record": [
-        "U.S. authorities announced that Operation Absolute Resolve captured Nicolás Maduro and his wife, Cilia Flores, in Caracas on 3 January 2026 and transferred them to U.S. custody for prosecution. Official accounts described a combined military and law-enforcement mission. The indictment is a record of charges, not proof of the alleged conduct. [H12A, H12C]",
-        "The Office of Legal Counsel's 23 December 2025 memorandum argued that the president had domestic constitutional authority for the proposed operation. It did not supply an adjudication of the international-law controversy. In his 5 January statement to the Security Council, the UN secretary-general expressed concern about respect for international law. These records set out distinct claims of domestic and international authority. [H12B, H12D]"
+        "On 3 January 2026, U.S. authorities announced that Operation Absolute Resolve had captured Nicolás Maduro and Cilia Flores in Caracas and transferred them to American custody for prosecution. Officials described a combined military and law-enforcement mission. The charges published in January and expanded in an October 2026 superseding indictment remain allegations, not findings of guilt. 36, 38 A December 2025 memorandum from the U.S. Office of Legal Counsel argued that the president had domestic constitutional authority for the operation. It was an executive legal opinion, not a ruling on its international-law implications. At the UN Security Council on 5 January, the secretary-general raised concerns about respect for international law. Together, these records show how operational success, domestic authorisation and international legitimacy remain distinct questions. 37, 39"
       ],
-      "detail": "A miniature hillside city is framed by gold laurels. Its route, buildings and fractured forms make a composite landscape rather than a tactical map or a record of each damaged structure. The helicopters represent the operation without reproducing a verified complete formation. The charges and the legality of the cross-border operation remain distinct questions; the military outcome settles neither.",
+      "detail": "A gold processional route crosses fractured, miniature rooftops beneath the helicopters. The capture occurred, but these buildings, movements and breaks are imagined rather than a tactical map or photographic record of damage. The helicopters convey the operation’s military form without specifying an exact formation. The image questions whether successful capture can be confused with proof of criminal guilt or with legal authority for crossing a border.",
       "sources": [
         {
-          "label": "H12A: U.S. Department of Defense, Trump Announces U.S. Military's Capture of Maduro, 3 January 2026. Official operational account.",
+          "number": 36,
+          "label": "Matthew Olay, U.S. Department of War, Trump Announces U.S. Military’s Capture of Maduro, 3 January 2026. Official account of the operation.",
           "url": "https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/"
         },
         {
-          "label": "H12B: Office of Legal Counsel, memorandum concerning Nicolás Maduro, 23 December 2025, publicly released in January 2026. Executive branch's legal analysis.",
+          "number": 37,
+          "label": "U.S. Department of Justice, Office of Legal Counsel, Proposed War Department Operation to Support Law Enforcement Efforts in Venezuela, memorandum dated 23 December 2025, published January 2026. Executive-branch domestic-law analysis.",
           "url": "https://www.justice.gov/olc/media/1423306/dl?inline="
         },
         {
-          "label": "H12C: U.S. District Court, Southern District of New York, superseding indictment, United States v. Nicolás Maduro Moros and Others, January 2026 public release. Allegations and charges.",
-          "url": "https://www.justice.gov/opa/media/1422326/dl"
+          "number": 38,
+          "label": "U.S. Attorney’s Office, Southern District of New York, Nicolás Maduro Moros and Cilia Adela Flores de Maduro Charged with Torture, 8 October 2026, announcing a further superseding indictment. Criminal allegations; not proof of guilt.",
+          "url": "https://www.justice.gov/usao-sdny/pr/nicolas-maduro-moros-and-cilia-adela-flores-de-maduro-charged-torture"
         },
         {
-          "label": "H12D: António Guterres, statement to the UN Security Council on Venezuela, delivered by Rosemary DiCarlo, 5 January 2026. UN institutional response.",
+          "number": 39,
+          "label": "António Guterres, statement to the UN Security Council on Venezuela, delivered by Rosemary DiCarlo, 5 January 2026. UN institutional response.A-THRICE / THE MILLINERY–INDUSTRIAL COMPLEX • 58",
           "url": "https://trinidadandtobago.un.org/en/307938-un-secretary-generals-statement-un-security-council-venezuela"
         }
       ],
@@ -478,7 +550,13 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-12.webp",
       "slogan": "ABSOLUTE RESOLVE",
       "qualifier": "SOVEREIGNTY SOLD SEPARATELY",
-      "hatContextImage": "assets/hat-context/12-the-extraction.webp"
+      "hatContextImage": "assets/hat-context/12-the-extraction.webp",
+      "noteNumbers": [
+        36,
+        37,
+        38,
+        39
+      ]
     },
     {
       "id": 13,
@@ -486,32 +564,34 @@ window.EXHIBITION_DATA = {
       "name": "Epic Fury",
       "subject": "U.S.–Israeli campaign against Iran beginning 28 February 2026; Operation Epic Fury is the U.S. designation.",
       "label": [
-        "The collection's richest arrangement gathers a miniature fleet into one ceremonial surface. Aircraft, ships and jewels compete for attention with a small group of empty schoolroom chairs. The design responds to the campaign against Iran that began in February 2026. The chairs provide A-Thrice's memorial reference to civilian loss, including the school strike in Minab addressed by a later UN investigation. Their modest size asks whether evidence of human consequence can remain peripheral even when it has become impossible to overlook."
+        "The collection's richest arrangement gathers a miniature fleet into one ceremonial surface. Aircraft, ships and jewels compete for attention with a small group of empty schoolroom chairs."
       ],
       "interpretation": [
-        "This work accumulates the collection's visual methods. The naval ornament returns, aircraft extend the image upwards and jewels bind distinct forms into a desirable whole. Escalation is expressed through the concentration of accomplishment in one object. The hat remains compact, making an extended campaign seem available to a single act of viewing.",
-        "The chairs trouble that concentration. They refer to a place whose purpose is ordinary and recognisable, without supplying faces or claiming to reproduce particular belongings. Their emptiness resists the demand for graphic evidence as the price of moral attention. Yet the work also risks turning a memorial into another attractive detail. The accompanying historical account names the Minab school strike and sets out the later investigative finding. The chairs' fragility belongs to the artist's language; the historical case must stand on sources. This final piece asks whether the institution can keep the evidence visible when the display's richest object offers so much else to admire."
+        "This work accumulates the collection's visual methods. The naval ornament returns, aircraft extend the image upwards and jewels bind distinct forms into a desirable whole. Escalation is expressed through the concentration of accomplishment in one object. The hat remains compact, making an extended campaign seem available to a single act of viewing."
       ],
       "record": [
-        "CENTCOM announced the start of Operation Epic Fury on 28 February 2026. The work refers to the wider U.S.–Israeli campaign while using the American operational name. Its fleet and landscape are a symbolic synthesis, not a verified joint order of battle or a record of every incident in the campaign. [H13A]",
-        "In September 2026, the Independent International Fact-Finding Mission on Iran found reasonable grounds to attribute the Minab school strike to the United States and characterised it as an indiscriminate attack amounting to a war crime. This is a substantive investigative finding, not a final criminal judgment. The finding concerns that incident and does not establish responsibility for every civilian loss in the campaign. [H13B, H13C, H13D]"
+        "CENTCOM announced the opening of Operation Epic Fury on 28 February 2026. The title belongs to the U.S. operation, while the portrait addresses the wider U.S.–Israeli campaign against Iran. Its ships, aircraft and damaged infrastructure form a deliberately compressed tableau; they are neither an exact order of battle nor an account of every action in the conflict. 40 In September 2026, a UN fact-finding mission found reasonable grounds to believe that U.S. strikes on the Shajareh Tayyebeh Primary School in Minab and a sports complex in Lamerd amounted to war crimes. The mission characterised the first as an attack directed at a civilian object and the second as indiscriminate. These were investigative findings, not criminal-court judgments, and they did not attribute every civilian death in the wider campaign to the United States. 41, 42, 43"
       ],
-      "detail": "Three empty chairs sit beneath the naval ornament. They are invented memorial forms rather than recovered school furniture, a casualty count or a reconstruction of the school. The historical record attributes and dates the September 2026 UN finding concerning Minab. Its status as a substantive investigative finding remains distinct from a criminal-court judgment.",
+      "detail": "A small cluster of empty schoolroom chairs appears beneath the fleet and pearls. The chairs are invented memorial forms, not photographed furniture from Minab, a casualty count or a reconstruction of the school. Their presence leads the eye from military display to the distinct incident examined by the September 2026 UN mission. The report’s findings stand on its investigation rather than on the emotional persuasiveness of these imagined objects.",
       "sources": [
         {
-          "label": "H13A: CENTCOM, U.S. Forces Launch Operation Epic Fury, 28 February 2026. Official opening announcement.",
+          "number": 40,
+          "label": "CENTCOM, U.S. Forces Launch Operation Epic Fury, 28 February 2026. Official opening announcement.",
           "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4418396/us-forces-launch-operation-epic-fury/"
         },
         {
-          "label": "H13B: Independent International Fact-Finding Mission on Iran, Iran: Civilians Trapped between Extreme State Repression and Violations Arising from Devastating Conflict with US, Israel, UN Fact-Finding Mission Finds, 17 September 2026. Announcement of findings.",
-          "url": "https://www.ohchr.org/en/press-releases/2026/09/iran-civilians-trapped-between-extreme-state-repression-and-violations"
+          "number": 41,
+          "label": "Independent International Fact-Finding Mission on Iran, Iran: Civilians Trapped between Extreme State Repression and Violations Arising from Devastating Conflict with US, Israel, UN Fact-Finding Mission Finds, 17 September 2026. Announcement of findings.",
+          "url": "https://wapsphp.test.ohchr.un-icc.cloud/en/press-releases/2026/09/iran-civilians-trapped-between-extreme-state-repression-and-violations?sub-site=HRC"
         },
         {
-          "label": "H13C: UN Human Rights Council, Report of the Independent International Fact-Finding Mission on the Islamic Republic of Iran, A/HRC/63/61, advance edited version dated 21 September 2026. Mission's findings and stated evidentiary standard.",
-          "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session63/a-hrc-63-61-aev.pdf"
+          "number": 42,
+          "label": "UN Human Rights Council, Report of the Independent International Fact-Finding Mission on the Islamic Republic of Iran, A/HRC/63/61, dated 14 September 2026, issued 21 September 2026. Investigative findings and evidentiary standard.",
+          "url": "https://www.ecoi.net/en/document/2145088.html"
         },
         {
-          "label": "H13D: Reuters, UN Mission Finds Grounds to Believe US Committed War Crimes in Iran, and Tehran Crimes against Humanity, 17 September 2026. Independent reporting on the finding.",
+          "number": 43,
+          "label": "Reuters, UN Mission Finds Grounds to Believe US Committed War Crimes in Iran, and Tehran Crimes against Humanity, 17 September 2026. Independent coverage of the mission’s conclusions.",
           "url": "https://www.reuters.com/world/middle-east/un-mission-finds-grounds-believe-us-committed-war-crimes-iran-tehran-crimes-2026-09-17/"
         }
       ],
@@ -521,17 +601,23 @@ window.EXHIBITION_DATA = {
       "editorial": "assets/editorial-13.webp",
       "slogan": "EPIC FURY",
       "qualifier": "PEACE SOLD SEPARATELY",
-      "hatContextImage": "assets/hat-context/13-epic-fury.webp"
+      "hatContextImage": "assets/hat-context/13-epic-fury.webp",
+      "noteNumbers": [
+        40,
+        41,
+        42,
+        43
+      ]
     }
   ],
   "statement": [
-    "A fashion print dated 1778 shows a miniature ship carried in an elaborate hairstyle. Its title, Coëffure à la Belle Poule, connects the ornament to a celebrated French naval engagement. The image preserves a striking proposition: military action could be worn as a sign of elegance, allegiance and social position. [F01]",
-    "The Millinery–Industrial Complex brings that proposition into the age of American airpower.",
-    "In thirteen imagined couture works, A-Thrice turns contemporary destroyers, aircraft, drones and missiles into ceremonial headwear. Digital images simulate crimson velvet, gold embroidery, pearls and gemstones with the care of luxury fashion photography. The weapons are precise and attractive. Around and beneath them, black veiling, small architectural fragments and objects of ordinary life interrupt the celebration.",
-    "The collection follows selected American operations during Donald Trump's two presidential administrations. Their purposes, legal arguments, participants and consequences differ. The exhibition asks how those differences can be compressed into the familiar appearance of military achievement. It examines the work performed by official names, technical descriptions, commemorative objects and prestigious settings in making force appear legitimate.",
-    "This is an imagined exhibition at London's Victoria and Albert Museum. The choice of setting brings the museum's authority as a place of design, classification and cultural value into the artwork's argument. The exhibition has not taken place. The hats have not been manufactured, and the portraits do not document models wearing physical versions of them.",
-    "Gallery II, Beneath the Ornament, places the images beside historical accounts. It distinguishes recorded events, statements by participants, independent findings and A-Thrice's invented symbolism. A pearl is not a casualty record. A miniature ruined building is not a photograph of a verified strike site. The evidence must carry the historical claim.",
-    "The accompanying Victory Merch display turns commemoration into campaign merchandise. Red caps offer confident promises, followed by contradictory slogans that make the excluded costs part of the sales pitch. Their commercial appearance extends the exhibition's question to the visitor: what becomes easier to endorse when power is made beautiful, collectible and wearable?",
+    "The 1778 fashion print Coëffure à la Belle Poule offers an example of military commemoration becoming personal ornament. The French frigate appeared as a miniature ship above an elaborate coiffure, turning a celebrated but contested naval encounter into wearable prestige.",
+    "In thirteen AI-assisted digital couture portraits, A-Thrice translates contemporary American military equipment into exquisitely imagined millinery. Velvet, gold and pearls invite admiration before the viewer notices the small roads, harbours, boats, cave openings, and empty chairs below the machinery of power.",
+    "The operations are not interchangeable. Their purposes, legal justifications, and consequences differ. Beneath the Ornament therefore places documented events and attributed assessments beside artistic constructions, without treating a pearl, ruined building, or miniature as evidence of what happened to a particular person.",
+    "The imagined Victoria and Albert Museum provides the appearance of institutional legitimacy without claiming a real V&A exhibition, commission, or endorsement. The authority of a gallery label or a curated collection is itself under examination.",
+    "Victory Merch changes the scale of display. Haute couture becomes a red campaign cap: a portable declaration of belonging. Each emphatic triumphal slogan is immediately unsettled by its smaller, embroidered qualification.",
+    "The fictional gift shop makes the invitation to consume unmistakable. A souvenir, numbered edition, presentation box, or certificate can make an image of power seem rare, respectable, and worth owning. Yet a certificate can authenticate only the artwork, never the operation it depicts.",
+    "The completed digital catalogue is also a beautiful object that risks participating in the very culture of collection it critiques. That contradiction is intentional: the desire to possess is part of the work.",
     "The objects are imaginary. The history is not."
   ]
 };

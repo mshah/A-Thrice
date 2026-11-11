@@ -10,6 +10,9 @@
   const listen = (node, event, handler) => node.addEventListener(event, handler, {signal:controller.signal});
   let observer = null;
   const products = catalogue.products;
+  const checkoutUrl = window.MIC_COMMERCE?.bookCheckoutUrl || '';
+  const validCheckout = /^https:\/\/[^\s/]+(?:\/[^\s]*)?$/.test(checkoutUrl) && !/drive\.google\.com|github\.com|raw\.githubusercontent\.com|a-thrice\.com\/.*\.pdf/i.test(checkoutUrl);
+  function purchaseLink(className) { const a=element('a', className||'shop-button shop-button-gold', 'Buy the Digital PDF'); a.href=checkoutUrl; a.target='_blank'; a.rel='noopener noreferrer'; a.setAttribute('aria-label','Open secure checkout for the 55-page digital exhibition catalogue'); return a; }
   const byId = new Map(products.map(product => [product.id, product]));
   const asset = image => window.MIC_SHOP_ASSETS?.[image.file] || 'assets/' + image.file;
   const element = (tag, className, text) => {
@@ -26,6 +29,8 @@
     return button;
   }
   function renderCards() {
+    const holder=document.getElementById('shop-checkout-container');
+    if (holder) { holder.replaceChildren();if(validCheckout)holder.append(purchaseLink());else holder.append(element('span','shop-purchase-pending','Purchase link will be available when secure checkout is configured.')); }
     document.querySelectorAll('[data-shop-collection]').forEach(grid => {
       products.filter(product => product.collection === grid.dataset.shopCollection).forEach(product => {
         const card = element('article', 'shop-product-card');
@@ -38,7 +43,7 @@
         photo.decoding = 'async';
         photo.width = product.collection === 'insignia' ? 1122 : 1536;
         photo.height = product.collection === 'insignia' ? 1402 : 1024;
-        imageButton.append(photo, element('span', 'shop-stock', 'Out of Stock'));
+        imageButton.append(photo, element('span', 'shop-stock', product.id === 'exhibition-book' ? 'Digital Catalogue' : 'Exhibition Only · Not for Sale'));
         const heading = element('h3');
         heading.append(productTrigger(product, '', product.name));
         card.append(imageButton, element('p', 'shop-card-type', product.type), heading);
@@ -100,6 +105,9 @@
   function populateProduct(product) {
     currentProduct = product;
     document.getElementById('shop-dialog-title').textContent = product.name;
+    const dialogStatus=document.querySelector('.shop-dialog-status');if(dialogStatus)dialogStatus.textContent = product.id === 'exhibition-book' ? 'Digital Catalogue · Sole Purchasable Item' : 'Exhibition Only · Not for Sale';
+    const note=document.querySelector('.shop-dialog-stock-note');if(note)note.textContent=product.id==='exhibition-book' ? (validCheckout?'Secure digital checkout available below.':'Secure checkout link not yet configured.') : 'This object exists only as a digital exhibit and is not for sale.';
+    let buy=document.getElementById('shop-dialog-checkout');if(buy)buy.remove();if(product.id==='exhibition-book'&&validCheckout){buy=purchaseLink('shop-button shop-button-gold');buy.id='shop-dialog-checkout';document.getElementById('shop-dialog-related').before(buy);}
     document.getElementById('shop-dialog-type').textContent = product.type;
     const slogan = document.getElementById('shop-dialog-slogan');
     slogan.textContent = product.slogan || '';
