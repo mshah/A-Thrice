@@ -1,0 +1,106 @@
+/* Study 03 — The Host and the Trophy. Research-only draft; do not render simulated period photographs. */
+.cb-landing{background:radial-gradient(ellipse at 79% 36%,#6b644640 0,transparent 43%),linear-gradient(115deg,#14221b 0%,#1c2820 54%,#101914 100%)}
+.cb-landing:before{background:linear-gradient(90deg,#0e1b15e8 0%,#14241cc2 47%,#101a1490 100%),linear-gradient(0deg,#091510b3,transparent 44%)}
+.cb-hero-rectangles{position:absolute;z-index:-1;inset:0;pointer-events:none;overflow:hidden}
+.cb-hero-rectangles span{display:block;position:absolute;right:12%;top:23%;width:30%;height:48%;border:1px solid #d0b78438;transform:rotate(5deg)}
+.cb-hero-rectangles span+span{right:16%;top:17%;transform:rotate(-4deg);border-color:#d0b78422}
+.cb-landing h1{font-size:clamp(3.3rem,7.8vw,8.5rem);max-width:1050px}
+.cb-landing .art-body{position:relative}
+.cb-landing p{max-width:650px;color:#f1eee4}
+.cb-landing .art-bottom{gap:18px}
+.cb-experience .explorer-intro p{max-width:690px}
+.cb-experience .explorer-intro h2{font-size:clamp(2.2rem,4.2vw,4rem)}
+.cb-stage-window{background:#121d16;border:1px solid #64705f;min-height:270px;overflow:hidden}
+.cb-stage-concept{position:relative;background:repeating-linear-gradient(90deg,transparent 0,transparent 55px,#ffffff06 56px),linear-gradient(120deg,#28372b,#111c16 68%);min-height:clamp(295px,35vw,535px)}
+.cb-stage-canvas{position:relative;min-height:clamp(295px,35vw,535px);display:flex;align-items:center;justify-content:center;padding:30px;overflow:hidden}
+.cb-stage-canvas:before,.cb-stage-canvas:after{content:'';position:absolute;inset:25px 40px;border:1px dashed #b5a37960;pointer-events:none}
+.cb-stage-canvas:after{inset:49px 68px;border-style:solid;border-color:#b5a37928}
+.cb-stage-index{position:absolute;left:85px;top:70px;color:#dbc89985;font:.7rem var(--sans);letter-spacing:.16em}
+.cb-stage-ruler{position:absolute;right:65px;bottom:68px;color:#c1b89c95;font:.7rem var(--sans);letter-spacing:.1em;text-align:right}
+.cb-stage-label{position:relative;z-index:1;text-align:center;max-width:550px}
+.cb-stage-label h3,.cb-source-inner h3{font:300 clamp(2.8rem,5.5vw,5.2rem)/1 var(--serif);letter-spacing:-.05em;margin:14px 0 13px;color:var(--bone)}
+.cb-stage-label p{color:#d2d8cc;max-width:48ch;margin-inline:auto}
+.cb-stage-source{padding:clamp(22px,5vw,60px);background:linear-gradient(145deg,#28342b,#131e18)}
+.cb-source-mount{max-width:560px;margin:0 auto;background:#ddd4bd;padding:18px;border:1px solid #b8ab8b;box-shadow:0 20px 48px #0006;aspect-ratio:2048/1543;display:grid}
+.cb-source-inner{border:2px dashed #a69b80;background:#e9e2d0;color:#263327;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px}
+.cb-source-inner .eyebrow{color:#765c36}
+.cb-source-inner h3{color:#283629;margin:12px 0 12px}
+.cb-source-inner p{max-width:43ch;color:#4d594b;font-size:.96rem;line-height:1.55}
+.cb-source-inner span:last-child{font:.72rem/1.5 var(--sans);color:#76654b}
+.cb-stage-window [hidden]{display:none!important}
+.cb-draft-banner{margin:22px 0 8px;padding:17px 19px;background:#2a382c;border-left:3px solid var(--gold);color:#dee8d9;font-size:.91rem;line-height:1.6}
+.cb-draft-banner strong{color:var(--gold)}
+.cb-archive-slot{aspect-ratio:2048/1543;display:grid;place-items:center;background:#e0d7be;padding:13px}
+.cb-archive-label{border:1px dashed #8b806d;background:#ebe6d4;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:13px;padding:15px;color:#253327;width:100%;height:100%}
+.cb-archive-label .eyebrow{color:#745a34}
+.cb-archive-label strong{font:400 2.25rem var(--serif)}
+.cb-archive-label small{font:.75rem/1.45 var(--sans);color:#516250}
+.cb-chapters{scroll-margin-top:25px}
+.cb-chapter-count{float:right;color:var(--gold);font-weight:600}
+.cb-chapters .chapter-index{max-height:none}
+.cb-chapters .research-panel{min-height:610px}
+.cb-panel-overline{display:flex;flex-wrap:wrap;align-items:center;gap:10px;color:var(--gold);font:700 .76rem/1.4 var(--sans);text-transform:uppercase;letter-spacing:.12em}
+.cb-panel-overline span+span{font:.7rem/1.4 var(--sans);letter-spacing:.02em;border:1px solid #6a796c;padding:4px 7px;color:#dde8d8;text-transform:none}
+.cb-question{font:400 clamp(1.23rem,1.7vw,1.55rem)/1.42 var(--serif);color:#dbe1d3}
+.cb-panel-placeholder{display:grid;grid-template-columns:1fr .56fr;gap:18px;margin:22px 0 30px}
+.cb-image-slot{background:#29382c;border:1px dashed #81947a;min-height:140px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:22px 16px;color:#d4ddcf}
+.cb-image-slot strong{display:block;font:400 1.4rem/1.2 var(--serif);margin:7px 0;color:#f1e3c7}
+.cb-image-slot span{color:var(--gold);font:.72rem var(--sans);font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.cb-image-slot small{color:#b8c8bb;font:.74rem/1.45 var(--sans);max-width:34ch}
+.cb-image-slot.cb-locator{background:#233127;min-height:140px}
+.cb-chapters .research-panel .story{font:400 1.02rem/1.75 var(--sans)}
+.cb-chapters .research-panel .story p{max-width:82ch}
+.cb-chapters .research-panel .disclosure{color:#cbd6c9}
+.cb-chapters .research-panel .evidence-box{margin:18px 0 8px}
+.cb-chapters .research-tabs{margin-top:19px}
+.cb-tabs button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.cb-tabs [role="tab"][aria-selected="true"]{font-weight:700}
+.cb-tabpanel[hidden]{display:none!important}
+.cb-tabpanel{min-height:110px}
+.cb-subject-anchor{border-top:1px solid #5d6d5c;padding:15px 0;margin:14px 0 20px;color:#cbd7cd}
+.cb-subject-anchor strong{color:#eedbab}
+.cb-ref-tags{display:flex;gap:8px;flex-wrap:wrap}
+.cb-ref-tags a,.cb-ref-tags span{border:1px solid #75856f;background:#293a2f;padding:5px 9px;color:#f0e6c9;text-decoration:none;font-size:.77rem}
+.cb-ref-tags a:hover{border-color:var(--gold)}
+.cb-note{color:#c1cec3;font-size:.89rem;line-height:1.65}
+.cb-source-collection{margin-top:15px;border-top:1px solid #677664;padding-top:13px}
+.cb-source-collection h4{font:400 1.25rem var(--serif);margin:0 0 10px}
+.cb-source-collection ul{margin:0;padding-left:22px}
+.cb-source-collection li{margin:0 0 11px;font-size:.85rem}
+.cb-source-collection a{color:#ead8b5}
+.cb-source-collection small{display:block;color:#bac7bd}
+.cb-experience .history-room .ph-afterlife{scroll-margin-top:25px}
+.cb-experience .chapter-btn{min-height:41px}
+.cb-previous-next{display:flex;justify-content:space-between;gap:18px;border-top:1px solid #586655;margin-top:28px;padding-top:16px}
+.cb-previous-next button{border:0;background:transparent;color:var(--gold);padding:8px 0;text-align:left;font:.83rem/1.4 var(--sans)}
+.cb-previous-next button:last-child{text-align:right;margin-left:auto}
+.cb-previous-next button:disabled{opacity:.35;cursor:not-allowed}
+@media(max-width:900px){.cb-landing h1{font-size:clamp(3.5rem,9.8vw,6.2rem)}.cb-stage-index{left:40px;top:38px}.cb-stage-ruler{right:40px;bottom:42px}.cb-chapters{grid-template-columns:1fr}.cb-chapters .chapter-index{max-height:none}}
+@media(max-width:580px){.cb-landing h1{font-size:clamp(3.1rem,12.2vw,4.9rem)}.cb-landing .art-bottom{flex-direction:column;align-items:start;gap:6px}.cb-stage-label h3{font-size:2.9rem}.cb-stage-canvas:before{inset:14px}.cb-stage-canvas:after{inset:25px}.cb-stage-index{top:27px;left:28px}.cb-stage-ruler{bottom:28px;right:25px;font-size:.61rem;max-width:155px}.cb-stage-concept,.cb-stage-canvas{min-height:330px}.cb-source-mount{padding:9px}.cb-source-inner h3{font-size:2.7rem}.cb-source-inner p{font-size:.82rem}.cb-panel-placeholder{grid-template-columns:1fr}.cb-image-slot{min-height:120px}.cb-panel-overline{gap:6px}.cb-experience .controls{flex-direction:column;align-items:stretch;width:100%}.cb-experience .controls .btn{justify-content:center}.cb-chapters .research-panel{padding:20px}}
+
+/* Entry points: two featured works plus an explicitly unfinished third study. */
+.works-grid .cb-work-card{grid-column:1/-1;min-height:330px;background:radial-gradient(circle at 76% 18%,#82725533,transparent 38%),linear-gradient(115deg,#28382c,#152019)}
+.works-grid .cb-work-card:before{left:auto;right:10%;top:15%;width:25%;height:54%;transform:rotate(4deg);border-color:#d7bd8555}
+.works-grid .cb-work-card .work-bottom{max-width:790px}
+.works-grid .cb-work-card .work-bottom h3{font-size:clamp(2.1rem,3.3vw,3.6rem)}
+.cb-home-teaser{margin-top:19px;min-height:142px;display:grid;grid-template-columns:minmax(0,1.3fr) auto;grid-template-rows:auto auto;align-content:center;gap:9px 20px;padding:25px 30px;border:1px solid #637562;background:linear-gradient(115deg,#26342a,#161f1a);color:var(--bone);text-decoration:none;position:relative}
+.cb-home-teaser:hover{border-color:var(--gold);background:linear-gradient(115deg,#2e3b30,#1b2a1e)}
+.cb-home-teaser-kicker{grid-column:1/-1;color:var(--gold);letter-spacing:.15em;text-transform:uppercase;font:700 .7rem/1.4 var(--sans)}
+.cb-home-teaser-title{font:400 clamp(1.7rem,2.8vw,3rem)/1.1 var(--serif);color:#f0ecdf}
+.cb-home-teaser-desc{grid-column:1;color:#ccd6cb;font:.87rem/1.55 var(--sans)}
+.cb-home-teaser-arrow{grid-row:2/4;grid-column:2;align-self:center;color:var(--gold);font:.75rem var(--sans);letter-spacing:.09em;text-transform:uppercase;white-space:nowrap}
+@media(max-width:700px){.cb-home-teaser{grid-template-columns:1fr;padding:22px;gap:10px}.cb-home-teaser-kicker,.cb-home-teaser-desc,.cb-home-teaser-title,.cb-home-teaser-arrow{grid-column:1;grid-row:auto}.cb-home-teaser-arrow{justify-self:start}.works-grid .cb-work-card{min-height:400px}}
+
+/* Approved panorama: shared exhibition markers, close-ups and gold locators. */
+.cb-landing{background-image:linear-gradient(90deg,#101a14dd,#101a1455),url('../images/host-trophy-hero.webp');background-size:cover;background-position:center}
+.cb-hero-rectangles{display:none}
+.cb-stage-window{overflow:auto;min-height:0;scrollbar-color:#768879 #27352b}
+.cb-stage-concept{min-height:0;min-width:1100px;width:100%;position:relative;background:none;aspect-ratio:2048/760}
+.cb-stage-concept>img{display:block;width:100%;height:auto}
+.cb-stage-source{padding:24px;min-width:0}
+.cb-stage-source>img{display:block;max-height:75vh;max-width:100%;width:auto;margin:auto}
+.cb-experience .hotspot{width:40px;height:40px}
+.cb-experience .hotspot:focus-visible{outline:3px solid white;outline-offset:3px}
+.cb-chapters .image-close{margin:0}
+.works-grid .cb-work-card{background-image:linear-gradient(0deg,#101a14e8,#101a1433),url('../images/host-trophy-hero.webp');background-size:cover;background-position:center}
+@media(max-width:580px){.cb-stage-concept{min-height:0;min-width:1100px}.cb-stage-source{padding:10px}}

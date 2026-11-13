@@ -1,0 +1,14 @@
+# Git internals
+**/.git
+
+# Local development files
+**/node_modules
+**/.DS_Store
+
+# Deployment configuration
+wrangler.jsonc
+.assetsignore
+
+# Repository documentation
+*.md
+README_patch_notes.txt
