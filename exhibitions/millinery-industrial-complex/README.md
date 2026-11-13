@@ -59,3 +59,13 @@ The website retains the established Imperial Oxblood, Victory Red, Antique Gold,
 ## Validation
 
 JavaScript syntax, all 26 catalogue entries, shop section links, and local image references were checked. All 13 original caps, 17 merchandise photographs, the two book images, and all 13 new full-hat context images are included. Existing gallery image assets were preserved byte for byte. Existing curatorial data is unchanged apart from adding the `hatContextImage` field. All thirteen study routes and their matching context images were checked. The available preview service was unavailable, so live desktop/mobile layout and native-dialog interaction checks remain unverified.
+
+
+## 11 November 2026 Curatorial & Catalogue Refresh (Proposed PR)
+
+- Gallery III now includes **Consuming Patriotism**, and the separate fictional gift shop concludes with **A Purchase-Shaped Encounter**. The About page includes the artist's first-person motivation, AI disclosure, 1778 origin, and catalogue metadata.
+- Gallery II's thirteen research studies are aligned with the final exhibition catalogue's prose. Its **43 historical sources are numbered 1–43**, linked individually, and keyed to the same work-by-work sequence as the PDF. For source updates, modify `data.json` and mirror it to `data.js`.
+- Only the **completed 55-page digital PDF catalogue** is eligible for sale. All 25 other shop entries are explicitly labelled **Exhibition Only · Not for Sale**. The cap/insignia/packaging images remain as fictional, viewable digital art and are not physical stock.
+- The shop retains older **conceptual book-cover and interior mock-up images** as labelled visual studies; they are not presented as accurate final PDF page previews. Replace them with permitted raster previews of the finished catalogue when ready.
+- A real purchase requires a secure provider-hosted checkout and automatic digital fulfilment. Put its verified HTTPS checkout URL in `commerce-config.js` under `bookCheckoutUrl`. Until then, the book page truthfully says that its purchase link is not configured. Do **not** place the unprotected PDF on public GitHub or link to a publicly downloadable Drive file, which would bypass payment.
+- Verify the completed book’s actual preview files, provider terms, amount, tax handling, refunds, and downloadable-delivery flow before enabling checkout. Do not merge assuming payment exists.
