@@ -30,7 +30,7 @@
   }
   function renderCards() {
     const holder=document.getElementById('shop-checkout-container');
-    if (holder) { holder.replaceChildren();if(validCheckout)holder.append(purchaseLink());else holder.append(element('span','shop-purchase-pending','Purchase link will be available when secure checkout is configured.')); }
+    if (holder) { holder.replaceChildren();if(validCheckout)holder.append(purchaseLink());else holder.append(element('span','shop-purchase-pending','This publication is not currently offered for sale.')); }
     document.querySelectorAll('[data-shop-collection]').forEach(grid => {
       products.filter(product => product.collection === grid.dataset.shopCollection).forEach(product => {
         const card = element('article', 'shop-product-card');
@@ -106,7 +106,7 @@
     currentProduct = product;
     document.getElementById('shop-dialog-title').textContent = product.name;
     const dialogStatus=document.querySelector('.shop-dialog-status');if(dialogStatus)dialogStatus.textContent = product.id === 'exhibition-book' ? 'Digital Catalogue · Sole Purchasable Item' : 'Exhibition Only · Not for Sale';
-    const note=document.querySelector('.shop-dialog-stock-note');if(note)note.textContent=product.id==='exhibition-book' ? (validCheckout?'Secure digital checkout available below.':'Secure checkout link not yet configured.') : 'This object exists only as a digital exhibit and is not for sale.';
+    const note=document.querySelector('.shop-dialog-stock-note');if(note)note.textContent=product.id==='exhibition-book' ? (validCheckout?'Secure digital checkout available below.':'This publication is not currently offered for sale.') : 'This object exists only as a digital exhibit and is not for sale.';
     let buy=document.getElementById('shop-dialog-checkout');if(buy)buy.remove();if(product.id==='exhibition-book'&&validCheckout){buy=purchaseLink('shop-button shop-button-gold');buy.id='shop-dialog-checkout';document.getElementById('shop-dialog-related').before(buy);}
     document.getElementById('shop-dialog-type').textContent = product.type;
     const slogan = document.getElementById('shop-dialog-slogan');

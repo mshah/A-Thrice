@@ -122,7 +122,7 @@
   function tabMarkup(card, choice) {
     if (choice === 'story') {
       return '<div class="story"><p>' + esc(card.annotation) + '</p></div>' +
-        '<p class="cb-note">This is audience-facing draft text from ' + esc(data.artwork.packetVersion) + '; editorial approval is pending.</p>';
+        '<p class="cb-note">Interpretive text is grounded in the evidence and limitations described in the accompanying research notes.</p>';
     }
     if (choice === 'evidence') {
       return '<div class="evidence-box"><strong>Historical foundation / scope</strong><p>' + esc(card.evidence) + '</p></div>' +
@@ -152,7 +152,7 @@
     const visible = cards.filter(matches);
     const index = visible.indexOf(card);
     panel.innerHTML = `
-      <div class="cb-panel-overline"><span>${esc(card.id)} · ${esc(card.theme)}</span><span>Research annotation draft</span></div>
+      <div class="cb-panel-overline"><span>${esc(card.id)} · ${esc(card.theme)}</span><span>Research annotation</span></div>
       <h3 id="cbPanelTitle">${esc(displayName(card))}</h3>
       <p class="cb-question">${esc(card.question)}</p>
       <section class="image-evidence" aria-label="Chapter close-up"><div class="image-evidence-heading"><span class="eyebrow">Look closer · ${esc(card.id)}</span><span class="image-evidence-type">${esc(card.detailType)}</span></div><div class="image-evidence-grid"><figure class="image-close"><button class="detail-image-button" id="cbEnlarge" type="button" aria-label="Enlarge detail: ${esc(card.title)}"><img src="${esc(card.detail)}" alt="${esc(card.detailCaption)}"><span class="detail-enlarge">↗ Enlarge detail</span></button><figcaption>${esc(card.detailCaption)}</figcaption></figure><aside class="image-locator"><div class="locator-heading">Where this detail sits</div><img src="${esc(card.locator)}" alt="Panorama with this chapter’s crop outlined in gold"><p>A navigation anchor, not proof of an undocumented action’s location.</p><button class="btn sm" id="cbLocate" type="button">Find this in the panorama ↑</button></aside></div></section>
