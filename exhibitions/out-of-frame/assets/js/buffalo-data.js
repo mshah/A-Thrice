@@ -17,7 +17,7 @@ window.OOF_BUFFALO_DATA = {
       "evidence": "The Library of Congress identifies the five men (Cuninghame, Kermit Roosevelt, Theodore Roosevelt, Edmund Heller and Hugh Heatley) and three buffalo heads before a tent. The photograph appears in African Game Trails (1910) in the Kamiti chapter; its exact exposure date and camera operator are unknown. LOC’s 1919 date relates to a later print registration. Roosevelt’s February 1909 letter to Heatley contemplated buffalo skins for the US National Museum. [S01–S03]",
       "grades": "Photographed men, trophies and tent: A [S01]; Kamiti association: B [S02]; Surrounding camp position: D [S01]",
       "limits": "Do not assert who actually pressed the shutter or what flag is flying. Do not imply everyone in the colour field stood immediately beside this tent.",
-      "production": "Archival identity verified. Current display is a reduced embedded derivative; full-resolution TIFF is retained separately and as a hidden reference. Final source-crop placement for print remains pending.",
+      "production": "Archival identity verified. Current display is a reduced embedded derivative; full-resolution TIFF is retained separately and as a hidden reference. The display is an artistic reconstruction, not a replacement for the archival source.",
       "related": [
         "BC-02",
         "BC-03",
