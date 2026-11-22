@@ -1,0 +1,27 @@
+/* Shared portfolio navigation; separate from exhibition-specific menus. */
+.athrice-portfolio-bar {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 4px clamp(16px, 4vw, 64px);
+  background: #18202a;
+  color: #f5f2ec;
+  border-bottom: 1px solid rgba(255,255,255,.16);
+}
+.athrice-portfolio-bar a {
+  display: inline-flex;
+  align-items: center;
+  gap: .5em;
+  min-height: 44px;
+  color: #f5f2ec;
+  font-family: system-ui, sans-serif;
+  font-size: .82rem;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: .02em;
+  text-decoration: none;
+}
+.athrice-portfolio-bar a:hover { text-decoration: underline; }
+.athrice-portfolio-bar a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
