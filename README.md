@@ -24,5 +24,5 @@ The source ZIPs have not been included *as nested ZIPs*; the complete, uncompres
 - `Citizen of Empire` original 8-track concept plus optional bonus follows the concept draft; confirm against final distributor tracklists before going public.
 - The Experiment Continues Companion Guide currently links to an artist-controlled Drive PDF, and may require Google account permission. Check its sharing or replace with a public URL before launch.
 - Soft releases: **Controlled Burn** and **The Experiment Continues**. Three other albums widely distributed. **Company Town** is in production.
-- Return to Sender is a conceptual digital presentation of an artistic installation. Millinery is an expressly imagined museum exhibition, with no V&A affiliation; do not present either website as proof of a physical museum installation.
+- Return to Sender is a conceptual digital presentation of an artistic installation. Millinery is an expressly imagined museum exhibition, with no actual museum affiliation; do not present either website as proof of a physical museum installation.
 - This is a static site, so no checkout, database or analytics is installed.
