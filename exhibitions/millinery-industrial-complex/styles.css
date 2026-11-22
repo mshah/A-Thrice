@@ -59,3 +59,6 @@
 .catalogue-notes{list-style:none;margin:0;padding:0}
 .catalogue-notes li{margin:0 0 12px}
 .catalogue-notes .note-num{font-weight:700}
+
+/* Experimental film on the exhibition landing page */
+.exhibition-film{max-width:1120px;margin-inline:auto}.exhibition-film .film-intro{max-width:70ch;line-height:1.75;margin:1rem 0 1.5rem}.film-player{position:relative;width:100%;aspect-ratio:16/9;background:#151014;overflow:hidden;border:1px solid var(--gold)}.film-player iframe{display:block;width:100%;height:100%;border:0}.film-watch-link{margin-top:1rem}
